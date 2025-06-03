@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1748908987871,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1748919264780
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -309,7 +314,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
@@ -943,6 +948,13 @@
             "ap2Primary": false,
             "ap1ID": 1748919227471,
             "ap2ID": 1748919264780
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1748919264780,
+            "ap2ID": 1748908987871
         }
     ],
     "unitsKey": "MM",
