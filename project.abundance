@@ -327,7 +327,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1748909681305,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1748921438103
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -645,7 +650,7 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6978165938864629,
+                    "x": 0.6969432314410481,
                     "y": 0.4989154013015184,
                     "uniqueID": 1748921120604,
                     "ioValues": [
@@ -846,6 +851,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1748921282578,
                     "ap2ID": 1748921120604
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1748921438103,
+                    "ap2ID": 1748909681305
                 },
                 {
                     "ap1Name": "geometry",
