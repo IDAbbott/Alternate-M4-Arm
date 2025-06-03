@@ -380,7 +380,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 25
                         },
                         {
                             "name": "zDist",
