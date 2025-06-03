@@ -327,12 +327,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1748909681305,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1748910132807
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -435,9 +430,101 @@
                         {
                             "name": "Shape 2",
                             "ioValue": 1748909901353
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1748910356116
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1748910382668
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.6296943231441048,
+                    "y": 0.2993492407809111,
+                    "uniqueID": 1748910213322,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748910132807
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 5
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.16419213973799127,
+                    "y": 0.6377440347071583,
+                    "uniqueID": 1748910352303,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 30
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.28034934497816594,
+                    "y": 0.6681127982646421,
+                    "uniqueID": 1748910356116,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748910352303
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 130
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 15
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.28820960698689957,
+                    "y": 0.8611713665943601,
+                    "uniqueID": 1748910382668,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748910352303
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 140
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -15
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -478,10 +565,38 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1748910132807,
-                    "ap2ID": 1748909681305
+                    "ap2ID": 1748910213322
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1748910352303,
+                    "ap2ID": 1748910356116
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1748910352303,
+                    "ap2ID": 1748910382668
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1748910356116,
+                    "ap2ID": 1748910132807
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1748910382668,
+                    "ap2ID": 1748910132807
                 }
             ],
             "fileTypeVersion": 1,
