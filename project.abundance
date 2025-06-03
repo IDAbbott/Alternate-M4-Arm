@@ -562,7 +562,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6253275109170305,
+                    "x": 0.622707423580786,
                     "y": 0.2950108459869848,
                     "uniqueID": 1748911000075,
                     "ioValues": [
@@ -581,6 +581,10 @@
                         {
                             "name": "Shape 5",
                             "ioValue": 1748910643313
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": 1748919732210
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -598,7 +602,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 150
+                            "ioValue": 160
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -646,24 +650,6 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.6716157205240175,
-                    "y": 0.5704989154013015,
-                    "uniqueID": 1748919762736,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 1748919732210
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1748911000075
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -767,13 +753,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 1748911000075,
-                    "ap2ID": 1748919762736
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1748919510193,
@@ -788,10 +767,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "Shape 6",
                     "ap2Primary": false,
                     "ap1ID": 1748919732210,
-                    "ap2ID": 1748919762736
+                    "ap2ID": 1748911000075
                 }
             ],
             "fileTypeVersion": 1,
