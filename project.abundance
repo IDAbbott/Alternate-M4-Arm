@@ -1,13 +1,168 @@
 {
     "atomType": "Molecule",
-    "name": "Alternate M4 Arm",
+    "name": "Alternate-M4-Arm",
     "x": 0,
     "y": 0,
     "uniqueID": 1748908977602,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1748908987871,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Spool",
+            "x": 0.12052401746724889,
+            "y": 0.21691973969631234,
+            "uniqueID": 1748909055611,
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1748909055303,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11091703056768559,
+                    "y": 0.24295010845986983,
+                    "uniqueID": 1748909101462,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 100
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11528384279475982,
+                    "y": 0.41431670281995664,
+                    "uniqueID": 1748909104763,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11528384279475982,
+                    "y": 0.579175704989154,
+                    "uniqueID": 1748909207289,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11266375545851529,
+                    "y": 0.7462039045553146,
+                    "uniqueID": 1748909214869,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.21484716157205241,
+                    "y": 0.6290672451193059,
+                    "uniqueID": 1748909257922,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1748909207289
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1748909214869
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.21659388646288208,
+                    "y": 0.2950108459869848,
+                    "uniqueID": 1748909273465,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1748909101462
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1748909104763
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1748909101462,
+                    "ap2ID": 1748909273465
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1748909104763,
+                    "ap2ID": 1748909273465
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1748909207289,
+                    "ap2ID": 1748909257922
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1748909214869,
+                    "ap2ID": 1748909257922
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
