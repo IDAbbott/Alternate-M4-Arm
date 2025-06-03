@@ -327,12 +327,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1748909681305,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1748910213322
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -384,7 +379,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -420,24 +415,6 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.6296943231441048,
-                    "y": 0.2993492407809111,
-                    "uniqueID": 1748910213322,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748910589733
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 5
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Circle",
@@ -506,28 +483,6 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.45676855895196505,
-                    "y": 0.2798264642082429,
-                    "uniqueID": 1748910589733,
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1748910096433
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1748909901353
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": 1748910639595
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.37117903930131,
@@ -566,8 +521,8 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 0.15545851528384277,
-                    "y": 0.5249457700650759,
+                    "x": 0.1537117903930131,
+                    "y": 0.5227765726681127,
                     "uniqueID": 1748910717330,
                     "ioValues": [
                         {
@@ -576,7 +531,7 @@
                         },
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 70
                         }
                     ],
                     "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -594,7 +549,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
@@ -606,6 +561,86 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4043668122270742,
+                    "y": 0.1475054229934924,
+                    "uniqueID": 1748910969974,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748910096433
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.38951965065502187,
+                    "y": 0.3080260303687636,
+                    "uniqueID": 1748910973498,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748909901353
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.388646288209607,
+                    "y": 0.4360086767895879,
+                    "uniqueID": 1748910976099,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748910754892
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6192139737991267,
+                    "y": 0.3080260303687636,
+                    "uniqueID": 1748911000075,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1748910969974
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1748910973498
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1748910976099
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1748910639595
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
@@ -625,10 +660,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1748909901353,
-                    "ap2ID": 1748910589733
+                    "ap2ID": 1748910973498
                 },
                 {
                     "ap1Name": "geometry",
@@ -639,17 +674,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1748910096433,
-                    "ap2ID": 1748910589733
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1748910213322,
-                    "ap2ID": 1748909681305
+                    "ap2ID": 1748910969974
                 },
                 {
                     "ap1Name": "geometry",
@@ -681,17 +709,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1748910589733,
-                    "ap2ID": 1748910213322
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": 1748910639595,
-                    "ap2ID": 1748910589733
+                    "ap2ID": 1748911000075
                 },
                 {
                     "ap1Name": "geometry",
@@ -699,6 +720,34 @@
                     "ap2Primary": true,
                     "ap1ID": 1748910717330,
                     "ap2ID": 1748910754892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1748910754892,
+                    "ap2ID": 1748910976099
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1748910969974,
+                    "ap2ID": 1748911000075
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1748910973498,
+                    "ap2ID": 1748911000075
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1748910976099,
+                    "ap2ID": 1748911000075
                 }
             ],
             "fileTypeVersion": 1,
