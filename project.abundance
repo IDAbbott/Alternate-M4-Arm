@@ -198,8 +198,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5825327510917031,
-                    "y": 0.44251626898047725,
+                    "x": 0.708296943231441,
+                    "y": 0.4772234273318873,
                     "uniqueID": 1748909491453,
                     "ioValues": [
                         {
@@ -308,6 +308,58 @@
                     "ap2ID": 1748909406709
                 }
             ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Base",
+            "x": 0.12489082969432315,
+            "y": 0.5032537960954447,
+            "uniqueID": 1748909682071,
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1748909681305,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.16943231441048034,
+                    "y": 0.31019522776572667,
+                    "uniqueID": 1748909813154,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 150
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.16943231441048034,
+                    "y": 0.5054229934924078,
+                    "uniqueID": 1748909855056,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 40
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                }
+            ],
+            "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
