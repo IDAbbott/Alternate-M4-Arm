@@ -440,20 +440,6 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16340933767643864,
-                    "y": 0.28633405639913234,
-                    "uniqueID": 1748909855056,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 40
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
                     "x": 0.1930131004366812,
                     "y": 0.9088937093275488,
                     "uniqueID": 1748910075672,
@@ -482,8 +468,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.2899563318777293,
-                    "y": 0.509761388286334,
+                    "x": 0.32464712269272533,
+                    "y": 0.5835140997830802,
                     "uniqueID": 1748910356116,
                     "ioValues": [
                         {
@@ -534,8 +520,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.40786026200873365,
-                    "y": 0.45336225596529284,
+                    "x": 0.40825190010857765,
+                    "y": 0.6464208242950108,
                     "uniqueID": 1748910639595,
                     "ioValues": [
                         {
@@ -594,11 +580,11 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1749020692883
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -748,8 +734,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.21397379912663758,
-                    "y": 0.5509761388286334,
+                    "x": 0.22747014115092293,
+                    "y": 0.6355748373101952,
                     "uniqueID": 1748921512171,
                     "ioValues": [
                         {
@@ -759,6 +745,94 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 3
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.17209554831704668,
+                    "y": 0.2950108459869848,
+                    "uniqueID": 1749020621939,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 72
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.2687296416938111,
+                    "y": 0.25162689804772237,
+                    "uniqueID": 1749020692883,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749020621939
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.17046688382193267,
+                    "y": 0.45119305856832975,
+                    "uniqueID": 1749020786300,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 69
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.24972855591748103,
+                    "y": 0.42516268980477223,
+                    "uniqueID": 1749020861981,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749020786300
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 30
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -887,6 +961,27 @@
                     "ap2Primary": true,
                     "ap1ID": 1748921512171,
                     "ap2ID": 1748910356116
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749020621939,
+                    "ap2ID": 1749020692883
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749020692883,
+                    "ap2ID": 1748910973498
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749020786300,
+                    "ap2ID": 1749020861981
                 }
             ],
             "fileTypeVersion": 1,
