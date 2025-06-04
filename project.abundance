@@ -55,7 +55,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 82
                         }
                     ],
                     "description": "Creates a new circle."
