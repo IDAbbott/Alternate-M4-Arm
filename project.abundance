@@ -814,19 +814,24 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1749023267355,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1749023643246
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1216612377850163,
-                    "y": 0.5660520607375271,
+                    "x": 0.11129207383279044,
+                    "y": 0.579175704989154,
                     "uniqueID": 1749023273699,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 32
+                            "ioValue": 40
                         },
                         {
                             "name": "y length",
@@ -848,7 +853,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 92
+                            "ioValue": 98
                         },
                         {
                             "name": "yDist",
@@ -1056,7 +1061,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 22
+                            "ioValue": 12
                         },
                         {
                             "name": "y length",
@@ -1148,8 +1153,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6411509229098806,
-                    "y": 0.6594360086767895,
+                    "x": 0.6444082519001085,
+                    "y": 0.5531453362255965,
                     "uniqueID": 1749023643246,
                     "ioValues": [
                         {
@@ -1220,7 +1225,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -18
+                            "ioValue": -20.5
                         },
                         {
                             "name": "yDist",
@@ -1246,7 +1251,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         },
                         {
                             "name": "yDist",
@@ -1390,6 +1395,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1749023604161,
                     "ap2ID": 1749023643246
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1749023643246,
+                    "ap2ID": 1749023267355
                 },
                 {
                     "ap1Name": "geometry",
