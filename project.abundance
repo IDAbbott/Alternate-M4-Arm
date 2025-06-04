@@ -1254,16 +1254,93 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.5217155266015201,
-                    "y": 0.13449023861171366,
+                    "x": 0.6764386536373507,
+                    "y": 0.8373101952277657,
                     "uniqueID": 1749024148340,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 9
                         }
                     ],
                     "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.6628664495114007,
+                    "y": 0.09978308026030368,
+                    "uniqueID": 1749024288265,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 7
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.6639522258414766,
+                    "y": 0.2603036876355748,
+                    "uniqueID": 1749024318431,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 3.5
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.741585233441911,
+                    "y": 0.09327548806941433,
+                    "uniqueID": 1749024388849,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749024288265
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.744842562432139,
+                    "y": 0.25162689804772237,
+                    "uniqueID": 1749024455494,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749024318431
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 14
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8067318132464713,
+                    "y": 0.1366594360086768,
+                    "uniqueID": 1749024503794,
+                    "ioValues": [],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
@@ -1406,6 +1483,20 @@
                     "ap2Primary": true,
                     "ap1ID": 1749023932019,
                     "ap2ID": 1749023585762
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749024288265,
+                    "ap2ID": 1749024388849
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749024318431,
+                    "ap2ID": 1749024455494
                 }
             ],
             "fileTypeVersion": 1,
