@@ -1068,8 +1068,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.46742671009771986,
-                    "y": 0.8112798264642083,
+                    "x": 0.5694896851248643,
+                    "y": 0.7635574837310196,
                     "uniqueID": 1749023586444,
                     "ioValues": [
                         {
@@ -1094,13 +1094,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3968512486427796,
-                    "y": 0.772234273318872,
+                    "x": 0.4913137893593919,
+                    "y": 0.7440347071583514,
                     "uniqueID": 1749023585762,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1749023586603
+                            "ioValue": 1749023932019
                         },
                         {
                             "name": "height",
@@ -1148,8 +1148,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6259500542888166,
-                    "y": 0.5574837310195228,
+                    "x": 0.6264929424538545,
+                    "y": 0.5509761388286334,
                     "uniqueID": 1749023643246,
                     "ioValues": [
                         {
@@ -1210,17 +1210,17 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3322475570032573,
-                    "y": 0.8915401301518437,
+                    "x": 0.33170466883821936,
+                    "y": 0.8872017353579177,
                     "uniqueID": 1749023894553,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1749023846683
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -19
                         },
                         {
                             "name": "yDist",
@@ -1232,6 +1232,38 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.4185667752442997,
+                    "y": 0.9002169197396962,
+                    "uniqueID": 1749023932019,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1749023586603
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1749023894553
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5217155266015201,
+                    "y": 0.13449023861171366,
+                    "uniqueID": 1749024148340,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
@@ -1335,10 +1367,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
                     "ap1ID": 1749023586603,
-                    "ap2ID": 1749023585762
+                    "ap2ID": 1749023932019
                 },
                 {
                     "ap1Name": "geometry",
@@ -1353,6 +1385,27 @@
                     "ap2Primary": true,
                     "ap1ID": 1749023795936,
                     "ap2ID": 1749023846683
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749023846683,
+                    "ap2ID": 1749023894553
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1749023894553,
+                    "ap2ID": 1749023932019
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749023932019,
+                    "ap2ID": 1749023585762
                 }
             ],
             "fileTypeVersion": 1,
