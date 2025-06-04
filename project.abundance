@@ -455,7 +455,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 30
+                            "ioValue": 7
                         }
                     ],
                     "description": "Creates a new circle."
@@ -487,50 +487,6 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.3868995633187773,
-                    "y": 0.631236442516269,
-                    "uniqueID": 1748910382668,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748921512171
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 140
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -15
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 3
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.40825190010857765,
-                    "y": 0.6464208242950108,
-                    "uniqueID": 1748910639595,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748910356116
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.47947598253275103,
@@ -539,7 +495,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1748910382668
+                            "ioValue": ""
                         },
                         {
                             "name": "height",
@@ -798,7 +754,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 36
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
@@ -854,20 +810,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1748910356116,
-                    "ap2ID": 1748910639595
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1748910382668,
-                    "ap2ID": 1748910643313
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1748910969974,
@@ -886,13 +828,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1748919586849,
                     "ap2ID": 1748919732210
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1748921512171,
-                    "ap2ID": 1748910382668
                 },
                 {
                     "ap1Name": "geometry",
