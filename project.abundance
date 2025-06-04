@@ -415,7 +415,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1748909681305,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1749021906272
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -737,6 +742,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1749021042951,
                     "ap2ID": 1749021906272
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1749021906272,
+                    "ap2ID": 1748909681305
                 }
             ],
             "fileTypeVersion": 1,
