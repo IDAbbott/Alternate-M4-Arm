@@ -1604,8 +1604,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9724444444444444,
-                    "y": 0.4880694143167028,
+                    "x": 0.96,
+                    "y": 0.49240780911062904,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -1730,7 +1730,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 2
+                            "ioValue": 4
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1738,8 +1738,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3937777777777777,
-                    "y": 0.5336225596529284,
+                    "x": 0.3875555555555556,
+                    "y": 0.5206073752711496,
                     "uniqueID": 1749241405160,
                     "ioValues": [
                         {
@@ -1756,7 +1756,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1836,7 +1836,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 2
+                            "ioValue": 4
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1862,7 +1862,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
