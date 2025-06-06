@@ -1739,7 +1739,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8
+                            "ioValue": 9
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1845,7 +1845,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8
+                            "ioValue": 9
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2045,32 +2045,6 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6168888888888889,
-                    "y": 0.7592190889370932,
-                    "uniqueID": 1749244106012,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749243821933
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 86.4
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
                     "x": 0.6035555555555555,
                     "y": 0.8698481561822126,
                     "uniqueID": 1749244112564,
@@ -2123,17 +2097,13 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7715555555555556,
-                    "y": 0.5639913232104121,
+                    "x": 0.7733333333333333,
+                    "y": 0.5509761388286334,
                     "uniqueID": 1749244571603,
                     "ioValues": [
                         {
                             "name": "Shape 1",
                             "ioValue": 1749243913181
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1749244106012
                         },
                         {
                             "name": "Shape 3",
@@ -2229,8 +2199,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.8302222222222222,
-                    "y": 0.7483731019522777,
+                    "x": 0.8311111111111111,
+                    "y": 0.7527114967462039,
                     "uniqueID": 1749246060821,
                     "ioValues": [
                         {
@@ -2422,13 +2392,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1749243821933,
-                    "ap2ID": 1749244106012
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749243821933,
                     "ap2ID": 1749244112564
                 },
                 {
@@ -2451,13 +2414,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1749243930823,
                     "ap2ID": 1749243913181
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1749244106012,
-                    "ap2ID": 1749244571603
                 },
                 {
                     "ap1Name": "geometry",
