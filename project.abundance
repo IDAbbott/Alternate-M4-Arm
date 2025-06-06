@@ -1607,7 +1607,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1749241083956,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1749241494290
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1715,8 +1720,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2604444444444444,
-                    "y": 0.5466377440347072,
+                    "x": 0.26222222222222225,
+                    "y": 0.5379609544468547,
                     "uniqueID": 1749241404997,
                     "ioValues": [
                         {
@@ -1725,7 +1730,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1734,7 +1739,7 @@
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.3937777777777777,
-                    "y": 0.5379609544468547,
+                    "y": 0.5336225596529284,
                     "uniqueID": 1749241405160,
                     "ioValues": [
                         {
@@ -1751,7 +1756,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -2
+                            "ioValue": 10
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1759,8 +1764,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6133333333333334,
-                    "y": 0.44251626898047725,
+                    "x": 0.6222222222222222,
+                    "y": 0.058568329718004346,
                     "uniqueID": 1749241473894,
                     "ioValues": [
                         {
@@ -1777,7 +1782,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 2
+                            "ioValue": 1.8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1796,6 +1801,10 @@
                         {
                             "name": "Shape 2",
                             "ioValue": 1749241473894
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1749241405160
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1860,10 +1869,24 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1749241405160,
+                    "ap2ID": 1749241494290
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1749241473894,
                     "ap2ID": 1749241494290
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1749241494290,
+                    "ap2ID": 1749241083956
                 }
             ],
             "fileTypeVersion": 1,
