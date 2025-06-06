@@ -1593,7 +1593,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Arm",
+            "name": "ArmNew",
             "x": 0.13422222222222221,
             "y": 0.5835140997830802,
             "uniqueID": 1749241083253,
@@ -1950,8 +1950,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6266666666666667,
-                    "y": 0.5531453362255965,
+                    "x": 0.6702222222222223,
+                    "y": 0.46203904555314534,
                     "uniqueID": 1749242323430,
                     "ioValues": [
                         {
@@ -1964,36 +1964,6 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Export",
-                    "name": "Export",
-                    "x": 0.8106666666666666,
-                    "y": 0.7505422993492408,
-                    "uniqueID": 1749242801688,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749244571603
-                        },
-                        {
-                            "name": "Resolution (dpi)",
-                            "ioValue": 96
-                        },
-                        {
-                            "name": "Part Name",
-                            "ioValue": "ArmNew"
-                        },
-                        {
-                            "name": "File Type",
-                            "ioValue": "STEP"
-                        }
-                    ],
-                    "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STEP",
-                    "resolution": 96,
-                    "importIndex": 0,
-                    "partName": "ArmNew"
                 },
                 {
                     "atomType": "Circle",
@@ -2049,7 +2019,7 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.6266666666666667,
-                    "y": 0.702819956616052,
+                    "y": 0.6073752711496746,
                     "uniqueID": 1749243913181,
                     "ioValues": [
                         {
@@ -2092,8 +2062,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6471111111111111,
-                    "y": 0.7852494577006508,
+                    "x": 0.6168888888888889,
+                    "y": 0.7592190889370932,
                     "uniqueID": 1749244106012,
                     "ioValues": [
                         {
@@ -2118,8 +2088,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.648888888888889,
-                    "y": 0.9175704989154014,
+                    "x": 0.6035555555555555,
+                    "y": 0.8698481561822126,
                     "uniqueID": 1749244112564,
                     "ioValues": [
                         {
@@ -2144,8 +2114,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6960000000000001,
-                    "y": 0.9652928416485901,
+                    "x": 0.6622222222222223,
+                    "y": 0.9436008676789588,
                     "uniqueID": 1749244116193,
                     "ioValues": [
                         {
@@ -2170,8 +2140,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7733333333333333,
-                    "y": 0.5748373101952278,
+                    "x": 0.7706666666666667,
+                    "y": 0.5639913232104121,
                     "uniqueID": 1749244571603,
                     "ioValues": [
                         {
@@ -2272,6 +2242,36 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.8186666666666667,
+                    "y": 0.7483731019522777,
+                    "uniqueID": 1749245593644,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749244571603
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "ArmNew"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STL"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": "STL",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "ArmNew"
                 }
             ],
             "allConnectors": [
@@ -2497,7 +2497,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 1749244571603,
-                    "ap2ID": 1749242801688
+                    "ap2ID": 1749245593644
                 },
                 {
                     "ap1Name": "geometry",
