@@ -1542,6 +1542,54 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5031111111111112,
+            "y": 0.5531453362255965,
+            "uniqueID": 1749239988193,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1748909682071
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1749023266976
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.6177777777777778,
+            "y": 0.6334056399132321,
+            "uniqueID": 1749239999872,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1749239988193
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Alternate-M4-Arm"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STEP"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STEP",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Alternate-M4-Arm"
         }
     ],
     "allConnectors": [
@@ -1558,6 +1606,13 @@
             "ap2Primary": false,
             "ap1ID": 1748909682071,
             "ap2ID": 1748919264780
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1748909682071,
+            "ap2ID": 1749239988193
         },
         {
             "ap1Name": "geometry",
@@ -1579,6 +1634,20 @@
             "ap2Primary": false,
             "ap1ID": 1749023266976,
             "ap2ID": 1748919264780
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1749023266976,
+            "ap2ID": 1749239988193
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1749239988193,
+            "ap2ID": 1749239999872
         }
     ],
     "unitsKey": "MM",
