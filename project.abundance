@@ -1605,7 +1605,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1749243913181
+                            "ioValue": 1749241494290
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1713,7 +1713,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 6
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1739,7 +1739,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 9
+                            "ioValue": 8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1747,8 +1747,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6337777777777778,
-                    "y": 0.31670281995661603,
+                    "x": 0.6266666666666667,
+                    "y": 0.30585683297180044,
                     "uniqueID": 1749241494290,
                     "ioValues": [
                         {
@@ -1779,8 +1779,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.272,
-                    "y": 0.702819956616052,
+                    "x": 0.27022222222222225,
+                    "y": 0.6637744034707158,
                     "uniqueID": 1749242009787,
                     "ioValues": [
                         {
@@ -1789,7 +1789,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 6
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1815,7 +1815,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 9
+                            "ioValue": 8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1839,180 +1839,6 @@
                     "description": "Subtracts shape two from shape one."
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.14666666666666667,
-                    "y": 0.8329718004338396,
-                    "uniqueID": 1749242148738,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 200
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 130
-                        }
-                    ],
-                    "description": "Creates a new rectangle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.264,
-                    "y": 0.8134490238611713,
-                    "uniqueID": 1749242223461,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749242148738
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 8
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.3786666666666667,
-                    "y": 0.7310195227765727,
-                    "uniqueID": 1749242259105,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749242223461
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 35
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 12
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.672888888888889,
-                    "y": 0.4555314533622559,
-                    "uniqueID": 1749242323430,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 1749241494290
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1749242259105
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.14933333333333335,
-                    "y": 0.9436008676789588,
-                    "uniqueID": 1749243739741,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 14
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.43111111111111106,
-                    "y": 0.8242950108459869,
-                    "uniqueID": 1749243781530,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749243739741
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 5
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4613333333333333,
-                    "y": 0.9110629067245118,
-                    "uniqueID": 1749243821933,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749243739741
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 1.5
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.6835555555555556,
-                    "y": 0.6550976138828634,
-                    "uniqueID": 1749243913181,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 1749242323430
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1749243930823
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5235555555555556,
-                    "y": 0.7613882863340564,
-                    "uniqueID": 1749243930823,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749243781530
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 69.5
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 5
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
                     "atomType": "Export",
                     "name": "Export",
                     "x": 0.8311111111111111,
@@ -2021,7 +1847,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1749243913181
+                            "ioValue": 1749241494290
                         },
                         {
                             "name": "Resolution (dpi)",
@@ -2107,10 +1933,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 1749241494290,
-                    "ap2ID": 1749242323430
+                    "ap2ID": 1749241083956
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1749241494290,
+                    "ap2ID": 1749246060821
                 },
                 {
                     "ap1Name": "geometry",
@@ -2139,76 +1972,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1749242053243,
                     "ap2ID": 1749241494290
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749242148738,
-                    "ap2ID": 1749242223461
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749242223461,
-                    "ap2ID": 1749242259105
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 1749242259105,
-                    "ap2ID": 1749242323430
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 1749242323430,
-                    "ap2ID": 1749243913181
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749243739741,
-                    "ap2ID": 1749243781530
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749243739741,
-                    "ap2ID": 1749243821933
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749243781530,
-                    "ap2ID": 1749243930823
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1749243913181,
-                    "ap2ID": 1749246060821
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1749243913181,
-                    "ap2ID": 1749241083956
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 1749243930823,
-                    "ap2ID": 1749243913181
                 },
                 {
                     "ap1Name": "geometry",
