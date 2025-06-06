@@ -14,12 +14,7 @@
             "x": 0.9751111111111113,
             "y": 0.4945770065075921,
             "uniqueID": 1748908987871,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1748919264780
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1564,8 +1559,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6177777777777778,
-            "y": 0.6334056399132321,
+            "x": 0.7262222222222222,
+            "y": 0.2841648590021692,
             "uniqueID": 1749239999872,
             "ioValues": [
                 {
@@ -1594,7 +1589,7 @@
         {
             "atomType": "Molecule",
             "name": "ArmNew",
-            "x": 0.13422222222222221,
+            "x": 0.13244444444444445,
             "y": 0.5835140997830802,
             "uniqueID": 1749241083253,
             "ioValues": [],
@@ -1607,12 +1602,7 @@
                     "x": 0.9502222222222223,
                     "y": 0.4772234273318873,
                     "uniqueID": 1749241083956,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1749244571603
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2242,36 +2232,6 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Export",
-                    "name": "Export",
-                    "x": 0.8186666666666667,
-                    "y": 0.7483731019522777,
-                    "uniqueID": 1749245593644,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749244571603
-                        },
-                        {
-                            "name": "Resolution (dpi)",
-                            "ioValue": 96
-                        },
-                        {
-                            "name": "Part Name",
-                            "ioValue": "ArmNew"
-                        },
-                        {
-                            "name": "File Type",
-                            "ioValue": "STL"
-                        }
-                    ],
-                    "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STL",
-                    "resolution": 96,
-                    "importIndex": 0,
-                    "partName": "ArmNew"
                 }
             ],
             "allConnectors": [
@@ -2495,13 +2455,6 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1749244571603,
-                    "ap2ID": 1749245593644
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1749245085811,
                     "ap2ID": 1749245096791
@@ -2530,25 +2483,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
-        },
-        {
-            "atomType": "Equation",
-            "name": "x + y",
-            "x": 0.5,
-            "y": 0.5,
-            "uniqueID": 1749241105762,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
@@ -2581,13 +2515,6 @@
             "ap2ID": 1748919264780
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1748919264780,
-            "ap2ID": 1748908987871
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
@@ -2607,6 +2534,13 @@
             "ap2Primary": false,
             "ap1ID": 1749239988193,
             "ap2ID": 1749239999872
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1749241083253,
+            "ap2ID": 1748908987871
         }
     ],
     "unitsKey": "MM",
