@@ -1599,29 +1599,17 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9502222222222223,
-                    "y": 0.4772234273318873,
+                    "x": 0.9457777777777778,
+                    "y": 0.47288503253796094,
                     "uniqueID": 1749241083956,
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
-                    "atomType": "Import",
-                    "name": "Import",
-                    "x": 0.1608888888888889,
-                    "y": 0.1843817787418655,
-                    "uniqueID": 1749241113994,
-                    "ioValues": [],
-                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "arm.step",
-                    "type": "STEP",
-                    "SVGwidth": 10
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1608888888888889,
-                    "y": 0.30585683297180044,
+                    "x": 0.1262222222222222,
+                    "y": 0.403470715835141,
                     "uniqueID": 1749241162906,
                     "ioValues": [
                         {
@@ -1634,8 +1622,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.26222222222222225,
-                    "y": 0.31453362255965295,
+                    "x": 0.24622222222222223,
+                    "y": 0.386117136659436,
                     "uniqueID": 1749241209335,
                     "ioValues": [
                         {
@@ -1652,8 +1640,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3333333333333333,
-                    "y": 0.2993492407809111,
+                    "x": 0.33599999999999997,
+                    "y": 0.3644251626898048,
                     "uniqueID": 1749241230537,
                     "ioValues": [
                         {
@@ -1678,13 +1666,13 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.43466666666666665,
-                    "y": 0.16702819956616052,
+                    "x": 0.45599999999999996,
+                    "y": 0.2950108459869848,
                     "uniqueID": 1749241303093,
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": 1749241113994
+                            "ioValue": ""
                         },
                         {
                             "name": "geometry2",
@@ -2156,8 +2144,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.29244444444444445,
-                    "y": 0.08242950108459869,
+                    "x": 0.29333333333333333,
+                    "y": 0.07158351409978309,
                     "uniqueID": 1749245085811,
                     "ioValues": [
                         {
@@ -2175,7 +2163,7 @@
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.37777777777777777,
-                    "y": 0.0650759219088937,
+                    "y": 0.06073752711496746,
                     "uniqueID": 1749245096791,
                     "ioValues": [
                         {
@@ -2192,8 +2180,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4613333333333333,
-                    "y": 0.054229934924078085,
+                    "x": 0.46222222222222226,
+                    "y": 0.09761388286334058,
                     "uniqueID": 1749245100509,
                     "ioValues": [
                         {
@@ -2218,8 +2206,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5555555555555556,
-                    "y": 0.08459869848156182,
+                    "x": 0.5626666666666666,
+                    "y": 0.09761388286334058,
                     "uniqueID": 1749245169270,
                     "ioValues": [
                         {
@@ -2262,16 +2250,21 @@
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "ArmNew"
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.15644444444444444,
+                    "y": 0.20607375271149672,
+                    "uniqueID": 1749246965435,
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "arm.step",
+                    "type": "STEP",
+                    "SVGwidth": 10
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 1749241113994,
-                    "ap2ID": 1749241303093
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
