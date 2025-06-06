@@ -1602,7 +1602,12 @@
                     "x": 0.9457777777777778,
                     "y": 0.47288503253796094,
                     "uniqueID": 1749241083956,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1749244571603
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1672,7 +1677,7 @@
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": ""
+                            "ioValue": 1749246965435
                         },
                         {
                             "name": "geometry2",
@@ -2230,7 +2235,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1749244571603
                         },
                         {
                             "name": "Resolution (dpi)",
@@ -2242,11 +2247,11 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "STL"
+                            "ioValue": "STEP"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STL",
+                    "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "ArmNew"
@@ -2509,6 +2514,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1749245169270,
                     "ap2ID": 1749241473894
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1749246965435,
+                    "ap2ID": 1749241303093
                 }
             ],
             "fileTypeVersion": 1,
