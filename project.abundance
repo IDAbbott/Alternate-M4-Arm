@@ -1604,8 +1604,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.96,
-                    "y": 0.49240780911062904,
+                    "x": 0.9537777777777778,
+                    "y": 0.4837310195227766,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -1968,8 +1968,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.8115555555555555,
-                    "y": 0.7527114967462039,
+                    "x": 0.8106666666666666,
+                    "y": 0.7505422993492408,
                     "uniqueID": 1749242801688,
                     "ioValues": [
                         {
@@ -1982,7 +1982,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Arm"
+                            "ioValue": "ArmNew"
                         },
                         {
                             "name": "File Type",
@@ -1993,7 +1993,21 @@
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "Arm"
+                    "partName": "ArmNew"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.14844444444444443,
+                    "y": 0.9110629067245118,
+                    "uniqueID": 1749243739741,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
