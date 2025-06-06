@@ -1754,7 +1754,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6462222222222223,
+                    "x": 0.6506666666666667,
                     "y": 0.08893709327548807,
                     "uniqueID": 1749241473894,
                     "ioValues": [
@@ -1780,8 +1780,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6373333333333333,
-                    "y": 0.3188720173535792,
+                    "x": 0.6337777777777778,
+                    "y": 0.31670281995661603,
                     "uniqueID": 1749241494290,
                     "ioValues": [
                         {
@@ -1860,8 +1860,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5093333333333333,
-                    "y": 0.5878524945770065,
+                    "x": 0.49066666666666664,
+                    "y": 0.4989154013015184,
                     "uniqueID": 1749242053243,
                     "ioValues": [
                         {
@@ -1914,8 +1914,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3857777777777778,
-                    "y": 0.7440347071583514,
+                    "x": 0.3786666666666667,
+                    "y": 0.7310195227765727,
                     "uniqueID": 1749242259105,
                     "ioValues": [
                         {
@@ -1940,8 +1940,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6702222222222223,
-                    "y": 0.46203904555314534,
+                    "x": 0.672888888888889,
+                    "y": 0.4555314533622559,
                     "uniqueID": 1749242323430,
                     "ioValues": [
                         {
@@ -2166,7 +2166,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 6
+                            "ioValue": 10
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -2210,7 +2210,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 1
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2254,11 +2254,11 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "STEP"
+                            "ioValue": "STL"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STEP",
+                    "type": "STL",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "ArmNew"
