@@ -1607,12 +1607,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1749241083956,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1749241494290
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1764,8 +1759,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6222222222222222,
-                    "y": 0.058568329718004346,
+                    "x": 0.5768888888888889,
+                    "y": 0.06073752711496746,
                     "uniqueID": 1749241473894,
                     "ioValues": [
                         {
@@ -1790,8 +1785,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7164444444444444,
-                    "y": 0.21258134490238612,
+                    "x": 0.6373333333333333,
+                    "y": 0.3188720173535792,
                     "uniqueID": 1749241494290,
                     "ioValues": [
                         {
@@ -1803,11 +1798,123 @@
                             "ioValue": 1749241473894
                         },
                         {
-                            "name": "Shape 3",
-                            "ioValue": 1749241405160
+                            "name": "Shape 4",
+                            "ioValue": 1749242053243
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.14755555555555555,
+                    "y": 0.6919739696312364,
+                    "uniqueID": 1749241985040,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.272,
+                    "y": 0.702819956616052,
+                    "uniqueID": 1749242009787,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749241985040
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.39555555555555555,
+                    "y": 0.6702819956616053,
+                    "uniqueID": 1749242037385,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749242009787
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5093333333333333,
+                    "y": 0.5878524945770065,
+                    "uniqueID": 1749242053243,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1749241405160
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1749242037385
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.14666666666666667,
+                    "y": 0.8329718004338396,
+                    "uniqueID": 1749242148738,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 130
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.264,
+                    "y": 0.8134490238611713,
+                    "uniqueID": 1749242223461,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 4
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -1869,10 +1976,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 1749241405160,
-                    "ap2ID": 1749241494290
+                    "ap2ID": 1749242053243
                 },
                 {
                     "ap1Name": "geometry",
@@ -1883,11 +1990,33 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749241985040,
+                    "ap2ID": 1749242009787
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749242009787,
+                    "ap2ID": 1749242037385
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 1749241494290,
-                    "ap2ID": 1749241083956
-                }
+                    "ap1ID": 1749242037385,
+                    "ap2ID": 1749242053243
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1749242053243,
+                    "ap2ID": 1749241494290
+                },
+                null
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
