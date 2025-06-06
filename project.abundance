@@ -1607,12 +1607,7 @@
                     "x": 0.9537777777777778,
                     "y": 0.4837310195227766,
                     "uniqueID": 1749241083956,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1749242323430
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1974,7 +1969,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1749242323430
+                            "ioValue": ""
                         },
                         {
                             "name": "Resolution (dpi)",
@@ -2040,7 +2035,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2084,7 +2079,111 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 4
+                            "ioValue": 5
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7893333333333333,
+                    "y": 0.09978308026030368,
+                    "uniqueID": 1749244106012,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749243821933
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 87
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 9
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.784,
+                    "y": 0.3015184381778742,
+                    "uniqueID": 1749244112564,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.792,
+                    "y": 0.42733188720173537,
+                    "uniqueID": 1749244116193,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7893333333333333,
+                    "y": 0.5596529284164858,
+                    "uniqueID": 1749244126389,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2219,20 +2318,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1749242323430,
-                    "ap2ID": 1749241083956
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1749242323430,
-                    "ap2ID": 1749242801688
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 1749242323430,
@@ -2258,6 +2343,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1749243781530,
                     "ap2ID": 1749243930823
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749243821933,
+                    "ap2ID": 1749244106012
                 },
                 {
                     "ap1Name": "geometry",
