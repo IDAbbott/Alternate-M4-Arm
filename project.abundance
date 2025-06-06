@@ -2224,7 +2224,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2242,7 +2242,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 118
+                            "ioValue": 120
                         },
                         {
                             "name": "yDist",
