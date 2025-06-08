@@ -1752,8 +1752,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7786666666666667,
-                    "y": 0.14099783080260303,
+                    "x": 0.8577777777777779,
+                    "y": 0.16485900216919738,
                     "uniqueID": 1749241494290,
                     "ioValues": [
                         {
@@ -1767,6 +1767,10 @@
                         {
                             "name": "Shape 5",
                             "ioValue": 1749361714625
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": 1749363502842
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -2018,8 +2022,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6915555555555556,
-                    "y": 0.06941431670281996,
+                    "x": 0.7511111111111112,
+                    "y": 0.06073752711496746,
                     "uniqueID": 1749361714625,
                     "ioValues": [
                         {
@@ -2036,7 +2040,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3
+                            "ioValue": 4
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2164,6 +2168,32 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7726666666666667,
+                    "y": 0.26453362255965296,
+                    "uniqueID": 1749363502842,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749362115171
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -2376,6 +2406,20 @@
                     "ap2Primary": true,
                     "ap1ID": 1749362115171,
                     "ap2ID": 1749361714625
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749362115171,
+                    "ap2ID": 1749363502842
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 1749363502842,
+                    "ap2ID": 1749241494290
                 }
             ],
             "fileTypeVersion": 1,
