@@ -1876,8 +1876,8 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.15644444444444444,
-                    "y": 0.20607375271149672,
+                    "x": 0.16266666666666668,
+                    "y": 0.2668112798264642,
                     "uniqueID": 1749246965435,
                     "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -1960,6 +1960,20 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10133333333333333,
+                    "y": 0.16485900216919738,
+                    "uniqueID": 1749361497933,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 125
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
