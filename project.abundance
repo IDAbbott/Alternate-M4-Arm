@@ -1896,8 +1896,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7937777777777778,
-                    "y": 0.5704989154013015,
+                    "x": 0.7911111111111111,
+                    "y": 0.5596529284164858,
                     "uniqueID": 1749346078224,
                     "ioValues": [
                         {
@@ -2140,8 +2140,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.19555555555555557,
-                    "y": 0.8655097613882863,
+                    "x": 0.192,
+                    "y": 0.8611713665943601,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2332,8 +2332,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5217777777777778,
-                            "y": 0.27765726681127983,
+                            "x": 0.5191111111111111,
+                            "y": 0.2668112798264642,
                             "uniqueID": 1749502590124,
                             "ioValues": [
                                 {
@@ -2350,7 +2350,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 3
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2358,8 +2358,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7688888888888888,
-                            "y": 0.6681127982646421,
+                            "x": 0.8168888888888889,
+                            "y": 0.44468546637744033,
                             "uniqueID": 1749502589517,
                             "ioValues": [
                                 {
@@ -2496,7 +2496,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 6.3
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Creates a new circle."
