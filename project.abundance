@@ -2338,7 +2338,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749502589479
+                                    "ioValue": 1749503284552
                                 },
                                 {
                                     "name": "xDist",
@@ -2358,8 +2358,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7682222222222223,
-                            "y": 0.6658351409978308,
+                            "x": 0.7688888888888888,
+                            "y": 0.6681127982646421,
                             "uniqueID": 1749502589517,
                             "ioValues": [
                                 {
@@ -2496,7 +2496,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 6.3
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -2518,6 +2518,24 @@
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.34933333333333333,
+                            "y": 0.23210412147505424,
+                            "uniqueID": 1749503284552,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1749502589479
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1749503226723
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                         }
                     ],
                     "allConnectors": [
@@ -2530,10 +2548,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
                             "ap1ID": 1749502589479,
-                            "ap2ID": 1749502590124
+                            "ap2ID": 1749503284552
                         },
                         {
                             "ap1Name": "geometry",
@@ -2653,6 +2671,20 @@
                             "ap2Primary": true,
                             "ap1ID": 1749503216945,
                             "ap2ID": 1749503226723
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1749503226723,
+                            "ap2ID": 1749503284552
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749503284552,
+                            "ap2ID": 1749502590124
                         }
                     ],
                     "fileTypeVersion": 1,
