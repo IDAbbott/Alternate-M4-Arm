@@ -3832,8 +3832,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.26396917148362237,
-                    "y": 0.8915401301518437,
+                    "x": 0.2607578676942839,
+                    "y": 0.9023861171366595,
                     "uniqueID": 1749546144185,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4410,7 +4410,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 20
+                                    "ioValue": 24
                                 },
                                 {
                                     "name": "yDist",
