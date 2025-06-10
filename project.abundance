@@ -3281,8 +3281,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.2535966602440591,
-                            "y": 0.5899132321041214,
+                            "x": 0.25626204238921,
+                            "y": 0.5878524945770065,
                             "uniqueID": 1749543906342,
                             "ioValues": [
                                 {
@@ -3299,8 +3299,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.38407193320488114,
-                            "y": 0.5271149674620391,
+                            "x": 0.3789338471419397,
+                            "y": 0.5227765726681127,
                             "uniqueID": 1749543905965,
                             "ioValues": [
                                 {
@@ -3577,8 +3577,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3325947334617855,
-                            "y": 0.5899132321041214,
+                            "x": 0.3275529865125241,
+                            "y": 0.6073752711496746,
                             "uniqueID": 1749545480659,
                             "ioValues": [
                                 {
@@ -3587,7 +3587,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 20
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3619,7 +3619,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 20
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3779,12 +3779,12 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7212588310854207,
+                    "x": 0.7263969171483623,
                     "y": 0.509761388286334,
                     "uniqueID": 1749545744291,
                     "ioValues": [
@@ -3820,7 +3820,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12
+                            "ioValue": 10
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
