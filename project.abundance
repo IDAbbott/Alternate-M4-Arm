@@ -3832,8 +3832,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.279383429672447,
-                    "y": 0.89587852494577,
+                    "x": 0.27745664739884396,
+                    "y": 0.8915401301518437,
                     "uniqueID": 1749546144185,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4006,7 +4006,7 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7694283879254978,
+                            "x": 0.7739242132305716,
                             "y": 0.3492407809110629,
                             "uniqueID": 1749546224560,
                             "ioValues": [
@@ -4140,7 +4140,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 100
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "y length",
@@ -4152,13 +4152,13 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.32048811817597944,
-                            "y": 0.774403470715835,
+                            "x": 0.6050096339113681,
+                            "y": 0.7570498915401301,
                             "uniqueID": 1749546432591,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749546413298
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "height",
@@ -4170,17 +4170,17 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5028901734104047,
-                            "y": 0.7982646420824294,
+                            "x": 0.33397559409120103,
+                            "y": 0.7331887201735358,
                             "uniqueID": 1749546433285,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749546432591
+                                    "ioValue": 1749546413298
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -10
+                                    "ioValue": 30
                                 },
                                 {
                                     "name": "yDist",
@@ -4276,8 +4276,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.8053949903660886,
-                            "y": 0.5856832971800433,
+                            "x": 0.8073217726396916,
+                            "y": 0.5726681127982647,
                             "uniqueID": 1749548012850,
                             "ioValues": [
                                 {
@@ -4286,10 +4286,54 @@
                                 },
                                 {
                                     "name": "geometry2",
-                                    "ioValue": 1749546433285
+                                    "ioValue": ""
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.18432883750802828,
+                            "y": 0.9132321041214749,
+                            "uniqueID": 1749548831321,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 50
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.29865125240847784,
+                            "y": 0.876355748373102,
+                            "uniqueID": 1749548869066,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749548831321
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 85
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -4396,21 +4440,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 1749546413298,
-                            "ap2ID": 1749546432591
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749546432591,
                             "ap2ID": 1749546433285
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 1749546433285,
-                            "ap2ID": 1749548012850
                         },
                         {
                             "ap1Name": "geometry",
@@ -4446,6 +4476,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749548012850,
                             "ap2ID": 1749546144533
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749548831321,
+                            "ap2ID": 1749548869066
                         }
                     ],
                     "fileTypeVersion": 1,
