@@ -1611,92 +1611,12 @@
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.12266666666666666,
-                    "y": 0.39479392624728854,
-                    "uniqueID": 1749241162906,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 126
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.24622222222222223,
-                    "y": 0.386117136659436,
-                    "uniqueID": 1749241209335,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749241162906
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.33599999999999997,
-                    "y": 0.3644251626898048,
-                    "uniqueID": 1749241230537,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1749241209335
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -2
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.45599999999999996,
-                    "y": 0.2950108459869848,
-                    "uniqueID": 1749241303093,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": 1749246965435
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1749241230537
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7096981374438022,
-                    "y": 0.3405639913232104,
+                    "x": 0.6345536287732819,
+                    "y": 0.420824295010846,
                     "uniqueID": 1749241494290,
                     "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1749241303093
-                        },
                         {
                             "name": "Shape 5",
                             "ioValue": 1749361714625
@@ -1749,8 +1669,8 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.16266666666666668,
-                    "y": 0.2668112798264642,
+                    "x": 0.13037893384714194,
+                    "y": 0.34490238611713664,
                     "uniqueID": 1749246965435,
                     "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -1761,7 +1681,7 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.8,
+                    "x": 0.7976878612716762,
                     "y": 0.5488069414316703,
                     "uniqueID": 1749346078224,
                     "ioValues": [
@@ -1779,8 +1699,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.10133333333333333,
-                    "y": 0.16485900216919738,
+                    "x": 0.10083493898522801,
+                    "y": 0.1540130151843818,
                     "uniqueID": 1749361497933,
                     "ioValues": [
                         {
@@ -1811,8 +1731,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.36533333333333334,
-                    "y": 0.0737527114967462,
+                    "x": 0.3699421965317919,
+                    "y": 0.10845986984815617,
                     "uniqueID": 1749361589290,
                     "ioValues": [
                         {
@@ -1855,8 +1775,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.34044444444444444,
-                    "y": 0.210412147505423,
+                    "x": 0.3198458574181118,
+                    "y": 0.2993492407809111,
                     "uniqueID": 1749361801460,
                     "ioValues": [
                         {
@@ -1873,8 +1793,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.504,
-                    "y": 0.16702819956616052,
+                    "x": 0.5016056518946692,
+                    "y": 0.25379609544468545,
                     "uniqueID": 1749361822951,
                     "ioValues": [
                         {
@@ -1899,8 +1819,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.41600000000000004,
-                    "y": 0.1475054229934924,
+                    "x": 0.41040462427745666,
+                    "y": 0.28199566160520606,
                     "uniqueID": 1749361832882,
                     "ioValues": [
                         {
@@ -1979,8 +1899,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7688888888888888,
-                    "y": 0.2668112798264642,
+                    "x": 0.8375080282594733,
+                    "y": 0.25813449023861174,
                     "uniqueID": 1749363502842,
                     "ioValues": [
                         {
@@ -2029,8 +1949,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.11022222222222222,
-                            "y": 0.17136659436008678,
+                            "x": 0.10725754656390495,
+                            "y": 0.13882863340563992,
                             "uniqueID": 1749502590102,
                             "ioValues": [
                                 {
@@ -2558,8 +2478,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3644444444444444,
-                    "y": 0.7483731019522777,
+                    "x": 0.37957610789980734,
+                    "y": 0.683297180043384,
                     "uniqueID": 1749503726432,
                     "ioValues": [
                         {
@@ -2672,8 +2592,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.09955555555555555,
-                    "y": 0.5986984815618221,
+                    "x": 0.14193962748876043,
+                    "y": 0.5162689804772235,
                     "uniqueID": 1749504410589,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2886,45 +2806,10 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749241162906,
-                    "ap2ID": 1749241209335
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749241209335,
-                    "ap2ID": 1749241230537
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 1749241230537,
-                    "ap2ID": 1749241303093
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1749241303093,
-                    "ap2ID": 1749241494290
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 1749241494290,
                     "ap2ID": 1749346078224
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 1749246965435,
-                    "ap2ID": 1749241303093
                 },
                 {
                     "ap1Name": "geometry",
