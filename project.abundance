@@ -1805,7 +1805,7 @@
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.10725754656390495,
-                            "y": 0.13882863340563992,
+                            "y": 0.1366594360086768,
                             "uniqueID": 1749502590102,
                             "ioValues": [
                                 {
@@ -2024,8 +2024,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7289659601798331,
-                            "y": 0.5032537960954447,
+                            "x": 0.7225433526011561,
+                            "y": 0.5010845986984815,
                             "uniqueID": 1749502687943,
                             "ioValues": [
                                 {
@@ -2660,8 +2660,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.1027617212588311,
-                    "y": 0.683297180043384,
+                    "x": 0.5369299935773924,
+                    "y": 0.3904555314533623,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2726,7 +2726,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 90
+                                    "ioValue": 111
                                 },
                                 {
                                     "name": "yDist",
