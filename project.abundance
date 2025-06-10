@@ -2635,7 +2635,7 @@
                     "atomType": "Molecule",
                     "name": "GuideHoles",
                     "x": 0.5330764290301863,
-                    "y": 0.3904555314533623,
+                    "y": 0.8546637744034707,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2650,7 +2650,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1749532984372
+                                    "ioValue": 1749533617125
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -2792,8 +2792,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5953757225433526,
-                            "y": 0.44468546637744033,
+                            "x": 0.5863840719332049,
+                            "y": 0.40563991323210413,
                             "uniqueID": 1749533265497,
                             "ioValues": [
                                 {
@@ -2818,8 +2818,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5973025048169557,
-                            "y": 0.6203904555314533,
+                            "x": 0.5921644187540142,
+                            "y": 0.5466377440347072,
                             "uniqueID": 1749533265336,
                             "ioValues": [
                                 {
@@ -2920,8 +2920,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6011560693641618,
-                            "y": 0.7852494577006508,
+                            "x": 0.5889531149646757,
+                            "y": 0.6854663774403471,
                             "uniqueID": 1749533416139,
                             "ioValues": [
                                 {
@@ -2930,11 +2930,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 76.4
+                                    "ioValue": 120.4
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": 7.5
                                 },
                                 {
                                     "name": "zDist",
@@ -2946,8 +2946,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6050096339113681,
-                            "y": 0.9327548806941433,
+                            "x": 0.5863840719332049,
+                            "y": 0.8286334056399133,
                             "uniqueID": 1749533421942,
                             "ioValues": [
                                 {
@@ -2956,11 +2956,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 76.4
+                                    "ioValue": 120.4
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": -7.5
                                 },
                                 {
                                     "name": "zDist",
@@ -2968,6 +2968,36 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.7154784842646115,
+                            "y": 0.3731019522776573,
+                            "uniqueID": 1749533617125,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1749533265497
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1749533265336
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": 1749533421942
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": 1749532984372
+                                },
+                                {
+                                    "name": "Shape 5",
+                                    "ioValue": 1749533416139
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                         }
                     ],
                     "allConnectors": [
@@ -3001,10 +3031,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
+                            "ap2Name": "Shape 4",
                             "ap2Primary": false,
                             "ap1ID": 1749532984372,
-                            "ap2ID": 1749532065056
+                            "ap2ID": 1749533617125
                         },
                         {
                             "ap1Name": "geometry",
@@ -3026,6 +3056,20 @@
                             "ap2Primary": false,
                             "ap1ID": 1749533265518,
                             "ap2ID": 1749533265243
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533265497,
+                            "ap2ID": 1749533617125
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533265336,
+                            "ap2ID": 1749533617125
                         },
                         {
                             "ap1Name": "geometry",
@@ -3061,6 +3105,41 @@
                             "ap2Primary": true,
                             "ap1ID": 1749533265243,
                             "ap2ID": 1749533265497
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": 1749533421942
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": 1749533416139
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 5",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533416139,
+                            "ap2ID": 1749533617125
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533421942,
+                            "ap2ID": 1749533617125
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533617125,
+                            "ap2ID": 1749532065056
                         }
                     ],
                     "fileTypeVersion": 1,
