@@ -2303,8 +2303,8 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 0.20166987797045602,
-                    "y": 0.5314533622559653,
+                    "x": 0.19910083493898523,
+                    "y": 0.46203904555314534,
                     "uniqueID": 1749503831992,
                     "ioValues": [
                         {
@@ -2321,8 +2321,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3384714193962749,
-                    "y": 0.5227765726681127,
+                    "x": 0.3391136801541426,
+                    "y": 0.420824295010846,
                     "uniqueID": 1749503886365,
                     "ioValues": [
                         {
@@ -2339,8 +2339,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4457289659601798,
-                    "y": 0.5162689804772235,
+                    "x": 0.45536287732819525,
+                    "y": 0.3817787418655098,
                     "uniqueID": 1749503959261,
                     "ioValues": [
                         {
@@ -3162,8 +3162,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7411689145793192,
-                    "y": 0.1475054229934924,
+                    "x": 0.7463070006422607,
+                    "y": 0.20390455531453364,
                     "uniqueID": 1749533996201,
                     "ioValues": [
                         {
@@ -3188,13 +3188,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5549132947976879,
-                    "y": 0.5683297180043384,
+                    "x": 0.45022479126525367,
+                    "y": 0.5813449023861171,
                     "uniqueID": 1749534982962,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1749503959261
+                            "ioValue": 1749535074588
                         },
                         {
                             "name": "xDist",
@@ -3210,6 +3210,42 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.2035966602440591,
+                    "y": 0.6399132321041214,
+                    "uniqueID": 1749535057741,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 25
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 70
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3333333333333333,
+                    "y": 0.579175704989154,
+                    "uniqueID": 1749535074588,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1749535057741
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 6
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -3278,13 +3314,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1749503959261,
-                    "ap2ID": 1749534982962
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1749504028498,
@@ -3338,6 +3367,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1749534982962,
                     "ap2ID": 1749533996201
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749535057741,
+                    "ap2ID": 1749535074588
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1749535074588,
+                    "ap2ID": 1749534982962
                 }
             ],
             "fileTypeVersion": 1,
