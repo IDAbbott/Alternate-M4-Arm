@@ -1618,8 +1618,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7341040462427746,
-                    "y": 0.4360086767895879,
+                    "x": 0.7630057803468209,
+                    "y": 0.25813449023861174,
                     "uniqueID": 1749241494290,
                     "ioValues": [
                         {
@@ -1682,8 +1682,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.8143866409762364,
-                    "y": 0.8199566160520607,
+                    "x": 0.8529222864482979,
+                    "y": 0.42733188720173537,
                     "uniqueID": 1749346078224,
                     "ioValues": [
                         {
@@ -1776,8 +1776,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.17533718689788053,
-                    "y": 0.8308026030368765,
+                    "x": 0.37443802183686575,
+                    "y": 0.6767895878524945,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2329,8 +2329,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3808606294155427,
-                    "y": 0.8286334056399133,
+                    "x": 0.5549132947976879,
+                    "y": 0.683297180043384,
                     "uniqueID": 1749503726432,
                     "ioValues": [
                         {
@@ -2355,8 +2355,8 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 0.2228644829800899,
-                    "y": 0.6355748373101952,
+                    "x": 0.20166987797045602,
+                    "y": 0.5314533622559653,
                     "uniqueID": 1749503831992,
                     "ioValues": [
                         {
@@ -2373,8 +2373,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3243416827231856,
-                    "y": 0.6399132321041214,
+                    "x": 0.3384714193962749,
+                    "y": 0.5227765726681127,
                     "uniqueID": 1749503886365,
                     "ioValues": [
                         {
@@ -2391,8 +2391,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.43609505459216447,
-                    "y": 0.6594360086767895,
+                    "x": 0.4457289659601798,
+                    "y": 0.5162689804772235,
                     "uniqueID": 1749503959261,
                     "ioValues": [
                         {
@@ -2417,8 +2417,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5170199100834939,
-                    "y": 0.665943600867679,
+                    "x": 0.590237636480411,
+                    "y": 0.5032537960954447,
                     "uniqueID": 1749504028498,
                     "ioValues": [
                         {
@@ -2443,8 +2443,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.14193962748876043,
-                    "y": 0.5162689804772235,
+                    "x": 0.26011560693641617,
+                    "y": 0.3405639913232104,
                     "uniqueID": 1749504410589,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2652,6 +2652,103 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "GuideHoles",
+                    "x": 0.10019267822736032,
+                    "y": 0.7006507592190889,
+                    "uniqueID": 1749532065692,
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1749532065056,
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.14964675658317275,
+                            "y": 0.22559652928416488,
+                            "uniqueID": 1749532112544,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 14.2
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.2491971740526654,
+                            "y": 0.210412147505423,
+                            "uniqueID": 1749532120314,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749532112544
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 20
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.35067437379576105,
+                            "y": 0.19522776572668116,
+                            "uniqueID": 1749532124739,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749532120314
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749532112544,
+                            "ap2ID": 1749532120314
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749532120314,
+                            "ap2ID": 1749532124739
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
