@@ -30,10 +30,6 @@
             "uniqueID": 1748909055611,
             "ioValues": [
                 {
-                    "name": "SpoolHt",
-                    "ioValue": 15
-                },
-                {
                     "name": "BearingHt",
                     "ioValue": 6
                 }
@@ -145,8 +141,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.4914965986394558,
-                    "y": 0.11713665943600869,
+                    "x": 0.5306122448979592,
+                    "y": 0.0911062906724512,
                     "uniqueID": 1748909353315,
                     "ioValues": [
                         {
@@ -155,7 +151,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 15
+                            "ioValue": 10
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -181,8 +177,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5340136054421769,
-                    "y": 0.6008676789587852,
+                    "x": 0.5314625850340137,
+                    "y": 0.6073752711496746,
                     "uniqueID": 1748909406709,
                     "ioValues": [
                         {
@@ -199,20 +195,10 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -3
+                            "ioValue": 3
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Input",
-                    "name": "SpoolHt",
-                    "x": 0.04,
-                    "y": 0.5661605206073753,
-                    "uniqueID": 1749019784444,
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
                 },
                 {
                     "atomType": "Input",
@@ -223,25 +209,6 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "x/2 - y/2",
-                    "x": 0.2465986394557823,
-                    "y": 0.5553145336225597,
-                    "uniqueID": 1749020060901,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 15
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 6
-                        }
-                    ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x/2 - y/2"
                 },
                 {
                     "atomType": "Circle",
@@ -293,7 +260,7 @@
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.4608843537414966,
-                    "y": 0.3383947939262473,
+                    "y": 0.33405639913232105,
                     "uniqueID": "06a36a90-9046-4895-8e5c-f9c565ab49a3",
                     "ioValues": [
                         {
@@ -302,7 +269,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 15
+                            "ioValue": 20
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -310,20 +277,12 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6062925170068028,
-                    "y": 0.25379609544468545,
-                    "uniqueID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7",
+                    "x": 0.6760204081632654,
+                    "y": 0.3383947939262473,
+                    "uniqueID": "d1c672a2-bab9-4223-8d9d-cfdfe890556e",
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": 1748909406709
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1748909353315
-                        },
-                        {
-                            "name": "Shape 3",
                             "ioValue": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
                         }
                     ],
@@ -375,52 +334,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1748909353315,
-                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1748909372171,
                     "ap2ID": 1748909406709
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1748909406709,
-                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": 1749019784444,
-                    "ap2ID": 1748909353315
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 1749019784444,
-                    "ap2ID": 1749020060901
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": 1749019784444,
-                    "ap2ID": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap2Primary": false,
-                    "ap1ID": 1749019936912,
-                    "ap2ID": 1749020060901
                 },
                 {
                     "ap1Name": "geometry",
@@ -445,10 +362,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
+                    "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": "06a36a90-9046-4895-8e5c-f9c565ab49a3",
-                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
+                    "ap2ID": "d1c672a2-bab9-4223-8d9d-cfdfe890556e"
                 }
             ],
             "fileTypeVersion": 1,
