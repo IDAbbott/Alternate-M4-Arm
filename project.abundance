@@ -64,7 +64,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 82
+                            "ioValue": 28.1
                         }
                     ],
                     "description": "Creates a new circle."
@@ -72,8 +72,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11834961997828447,
-                    "y": 0.35357917570498915,
+                    "x": 0.10459183673469388,
+                    "y": 0.20390455531453364,
                     "uniqueID": 1748909104763,
                     "ioValues": [
                         {
@@ -132,8 +132,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.26547231270358307,
-                    "y": 0.17136659436008678,
+                    "x": 0.27125850340136054,
+                    "y": 0.17787418655097614,
                     "uniqueID": 1748909273465,
                     "ioValues": [
                         {
@@ -150,8 +150,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3811074918566775,
-                    "y": 0.30585683297180044,
+                    "x": 0.4931972789115646,
+                    "y": 0.1475054229934924,
                     "uniqueID": 1748909353315,
                     "ioValues": [
                         {
@@ -228,7 +228,7 @@
                     "atomType": "Input",
                     "name": "SpoolHt",
                     "x": 0.04,
-                    "y": 0.44251626898047725,
+                    "y": 0.5878524945770065,
                     "uniqueID": 1749019784444,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -238,7 +238,7 @@
                     "atomType": "Input",
                     "name": "BearingHt",
                     "x": 0.04,
-                    "y": 0.5336225596529284,
+                    "y": 0.665943600867679,
                     "uniqueID": 1749019936912,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -262,6 +262,70 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x/2 - y/2"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11479591836734696,
+                    "y": 0.2993492407809111,
+                    "uniqueID": "e6236224-565b-4700-a757-daa7bcd10c32",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 82.1
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11394557823129252,
+                    "y": 0.40563991323210413,
+                    "uniqueID": "efc794a2-0473-4b6c-91f3-38ba17959c79",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 78
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.2687074829931973,
+                    "y": 0.31670281995661603,
+                    "uniqueID": "f7f6e622-2fd1-4e78-865e-41d863a33815",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "e6236224-565b-4700-a757-daa7bcd10c32"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": "efc794a2-0473-4b6c-91f3-38ba17959c79"
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4608843537414966,
+                    "y": 0.3383947939262473,
+                    "uniqueID": "06a36a90-9046-4895-8e5c-f9c565ab49a3",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "f7f6e622-2fd1-4e78-865e-41d863a33815"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 15
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -346,6 +410,13 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
+                    "ap1ID": 1749019784444,
+                    "ap2ID": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 1749019936912,
                     "ap2ID": 1748909372171
                 },
@@ -362,6 +433,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1749020060901,
                     "ap2ID": 1748909406709
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": "e6236224-565b-4700-a757-daa7bcd10c32",
+                    "ap2ID": "f7f6e622-2fd1-4e78-865e-41d863a33815"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": "efc794a2-0473-4b6c-91f3-38ba17959c79",
+                    "ap2ID": "f7f6e622-2fd1-4e78-865e-41d863a33815"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "f7f6e622-2fd1-4e78-865e-41d863a33815",
+                    "ap2ID": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
                 }
             ],
             "fileTypeVersion": 1,
