@@ -163,8 +163,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.33418367346938777,
-                    "y": 0.6117136659436009,
+                    "x": 0.32227891156462585,
+                    "y": 0.7136659436008677,
                     "uniqueID": 1748909372171,
                     "ioValues": [
                         {
@@ -187,7 +187,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1748909520715
+                            "ioValue": 1748909372171
                         },
                         {
                             "name": "xDist",
@@ -199,25 +199,10 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 4.5
+                            "ioValue": -3
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.4124149659863946,
-                    "y": 0.720173535791757,
-                    "uniqueID": 1748909520715,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748909372171
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 3
                 },
                 {
                     "atomType": "Input",
@@ -261,8 +246,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11479591836734696,
-                    "y": 0.2993492407809111,
+                    "x": 0.12414965986394558,
+                    "y": 0.28199566160520606,
                     "uniqueID": "e6236224-565b-4700-a757-daa7bcd10c32",
                     "ioValues": [
                         {
@@ -325,21 +310,21 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6275510204081632,
-                    "y": 0.2668112798264642,
-                    "uniqueID": "7fb97733-1f7b-471c-b754-d750f0e66d10",
+                    "x": 0.6062925170068028,
+                    "y": 0.25379609544468545,
+                    "uniqueID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7",
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": 1748909353315
+                            "ioValue": 1748909406709
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
+                            "ioValue": 1748909353315
                         },
                         {
                             "name": "Shape 3",
-                            "ioValue": 1748909406709
+                            "ioValue": "06a36a90-9046-4895-8e5c-f9c565ab49a3"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -390,31 +375,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
+                    "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1748909353315,
-                    "ap2ID": "7fb97733-1f7b-471c-b754-d750f0e66d10"
+                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1748909372171,
-                    "ap2ID": 1748909520715
+                    "ap2ID": 1748909406709
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
+                    "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1748909406709,
-                    "ap2ID": "7fb97733-1f7b-471c-b754-d750f0e66d10"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1748909520715,
-                    "ap2ID": 1748909406709
+                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -445,13 +423,6 @@
                     "ap2ID": 1749020060901
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1749020060901,
-                    "ap2ID": 1748909406709
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
@@ -474,10 +445,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
+                    "ap2Name": "Shape 3",
                     "ap2Primary": false,
                     "ap1ID": "06a36a90-9046-4895-8e5c-f9c565ab49a3",
-                    "ap2ID": "7fb97733-1f7b-471c-b754-d750f0e66d10"
+                    "ap2ID": "60144e3a-8525-4925-a0eb-f4f8cebd0ca7"
                 }
             ],
             "fileTypeVersion": 1,
