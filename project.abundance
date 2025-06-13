@@ -511,6 +511,36 @@
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.8256802721088435,
+                            "y": 0.7006507592190889,
+                            "uniqueID": "8e925b9f-fc46-40a2-962e-0eb38c6febbd",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749502589517
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "MotorHoles"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "MotorHoles"
                         }
                     ],
                     "allConnectors": [
@@ -583,6 +613,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749502589517,
                             "ap2ID": 1749502519707
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749502589517,
+                            "ap2ID": "8e925b9f-fc46-40a2-962e-0eb38c6febbd"
                         },
                         {
                             "ap1Name": "geometry",
@@ -1118,6 +1155,36 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.8103741496598639,
+                            "y": 0.7288503253796096,
+                            "uniqueID": "3c7d4035-0727-4d83-b77d-92c4669cb0ab",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749504455453
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "BottomDisk"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "BottomDisk"
                         }
                     ],
                     "allConnectors": [
@@ -1169,6 +1236,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749504455453,
                             "ap2ID": 1749504411079
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749504455453,
+                            "ap2ID": "3c7d4035-0727-4d83-b77d-92c4669cb0ab"
                         },
                         {
                             "ap1Name": "geometry",
@@ -1282,8 +1356,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.1130378933847142,
-                    "y": 0.7114967462039046,
+                    "x": 0.11054421768707483,
+                    "y": 0.7006507592190889,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1628,8 +1702,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7129094412331406,
-                            "y": 0.37093275488069416,
+                            "x": 0.7287414965986395,
+                            "y": 0.3774403470715835,
                             "uniqueID": 1749533617125,
                             "ioValues": [
                                 {
@@ -1738,6 +1812,36 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.7959183673469388,
+                            "y": 0.683297180043384,
+                            "uniqueID": "aed70154-3be3-47c7-ad5e-ac7e5cb47699",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749533617125
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "GuideHoles"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "GuideHoles"
                         }
                     ],
                     "allConnectors": [
@@ -1880,6 +1984,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749533617125,
                             "ap2ID": 1749532065056
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749533617125,
+                            "ap2ID": "aed70154-3be3-47c7-ad5e-ac7e5cb47699"
                         },
                         {
                             "ap1Name": "geometry",
@@ -2155,6 +2266,36 @@
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.7976190476190476,
+                            "y": 0.6529284164859003,
+                            "uniqueID": "665b5c21-1748-494a-9fdc-e2f1815d3abd",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749544134993
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "M4Hex"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "M4Hex"
                         }
                     ],
                     "allConnectors": [
@@ -2220,6 +2361,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749544134993,
                             "ap2ID": 1749543856194
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749544134993,
+                            "ap2ID": "665b5c21-1748-494a-9fdc-e2f1815d3abd"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2310,6 +2458,36 @@
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.7372448979591837,
+                            "y": 0.7527114967462039,
+                            "uniqueID": "e13b1bf3-f09d-48a7-a3a0-6bdd31e6b77a",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749544086664
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "M4Link"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "M4Link"
                         }
                     ],
                     "allConnectors": [
@@ -2319,6 +2497,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1749544086664,
                             "ap2ID": 1749544035909
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1749544086664,
+                            "ap2ID": "e13b1bf3-f09d-48a7-a3a0-6bdd31e6b77a"
                         },
                         {
                             "ap1Name": "geometry",
