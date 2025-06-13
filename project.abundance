@@ -2898,8 +2898,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.25305073859987154,
-                            "y": 0.21258134490238612,
+                            "x": 0.2568027210884354,
+                            "y": 0.1735357917570499,
                             "uniqueID": 1749546224703,
                             "ioValues": [
                                 {
@@ -3524,13 +3524,13 @@
                         {
                             "atomType": "Export",
                             "name": "Export",
-                            "x": 0.8316326530612246,
-                            "y": 0.7006507592190889,
+                            "x": 0.9540816326530612,
+                            "y": 0.8156182212581345,
                             "uniqueID": "7489e4fc-1b6e-4e10-803d-71aa0d0866fa",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749548012850
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "Resolution (dpi)",
@@ -3550,6 +3550,78 @@
                             "resolution": 96,
                             "importIndex": 0,
                             "partName": "M4HexWalls"
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.636904761904762,
+                            "y": 0.6941431670281996,
+                            "uniqueID": "fb7e5969-1a18-4a81-9b01-faa326160757",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749546225225
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.5629251700680272,
+                            "y": 0.7418655097613883,
+                            "uniqueID": "12f24e50-89e0-43de-9145-29988a15e456",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749546845480
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.5629251700680272,
+                            "y": 0.7396963123644252,
+                            "uniqueID": "d66e8f17-64c1-43a6-9b02-83191cab3d1b",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.5714285714285714,
+                            "y": 0.8720173535791758,
+                            "uniqueID": "3cde92e6-c8f9-4d36-8ddd-097eee60924f",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1749546413298
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         }
                     ],
                     "allConnectors": [
@@ -3559,6 +3631,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1749546225225,
                             "ap2ID": 1749546224703
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749546225225,
+                            "ap2ID": "fb7e5969-1a18-4a81-9b01-faa326160757"
                         },
                         {
                             "ap1Name": "geometry",
@@ -3660,6 +3739,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749546413298,
+                            "ap2ID": "3cde92e6-c8f9-4d36-8ddd-097eee60924f"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 1749546432591,
@@ -3678,6 +3764,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1749546845480,
                             "ap2ID": 1749546845180
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749546845480,
+                            "ap2ID": "12f24e50-89e0-43de-9145-29988a15e456"
                         },
                         {
                             "ap1Name": "geometry",
@@ -3706,13 +3799,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1749548012850,
                             "ap2ID": 1749546144533
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1749548012850,
-                            "ap2ID": "7489e4fc-1b6e-4e10-803d-71aa0d0866fa"
                         },
                         {
                             "ap1Name": "geometry",
