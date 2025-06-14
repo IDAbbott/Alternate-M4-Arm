@@ -2029,8 +2029,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6509433962264152,
-                    "y": 0.2871287128712871,
+                    "x": 0.655188679245283,
+                    "y": 0.28910891089108914,
                     "uniqueID": 1749533746075,
                     "ioValues": [
                         {
@@ -2825,8 +2825,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4882075471698113,
-                    "y": 0.8673267326732673,
+                    "x": 0.4971698113207548,
+                    "y": 0.8316831683168318,
                     "uniqueID": 1749545748508,
                     "ioValues": [
                         {
@@ -4070,8 +4070,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5806603773584906,
-                    "y": 0.5227722772277228,
+                    "x": 0.5792452830188679,
+                    "y": 0.5108910891089109,
                     "uniqueID": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b",
                     "ioValues": [
                         {
@@ -4080,7 +4080,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -4088,7 +4088,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 2
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4096,8 +4096,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.775,
-                    "y": 0.4653465346534653,
+                    "x": 0.7778301886792452,
+                    "y": 0.44752475247524753,
                     "uniqueID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ioValues": [
                         {
@@ -4109,7 +4109,7 @@
                             "ioValue": 1749545748508
                         },
                         {
-                            "name": "Shape 5",
+                            "name": "Shape 6",
                             "ioValue": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b"
                         }
                     ],
@@ -4222,7 +4222,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 5",
+                    "ap2Name": "Shape 6",
                     "ap2Primary": false,
                     "ap1ID": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b",
                     "ap2ID": "1ef58d36-abbb-4638-981f-23132f6b172f"
