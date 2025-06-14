@@ -36,7 +36,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d"
+                            "ioValue": "1ef58d36-abbb-4638-981f-23132f6b172f"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -50,7 +50,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d"
+                            "ioValue": "1ef58d36-abbb-4638-981f-23132f6b172f"
                         },
                         {
                             "name": "Resolution (dpi)",
@@ -92,8 +92,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.11564625850340136,
-                    "y": 0.5336225596529284,
+                    "x": 0.11037735849056604,
+                    "y": 0.5326732673267327,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4088,7 +4088,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4096,21 +4096,21 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.7330188679245283,
-                    "y": 0.5584158415841584,
-                    "uniqueID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d",
+                    "x": 0.775,
+                    "y": 0.4653465346534653,
+                    "uniqueID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ioValues": [
                         {
                             "name": "Shape 1",
                             "ioValue": 1749533746075
                         },
                         {
-                            "name": "Shape 2",
-                            "ioValue": 1749545748508
-                        },
-                        {
                             "name": "Shape 3",
                             "ioValue": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b"
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1749545748508
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -4158,7 +4158,7 @@
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1749533746075,
-                    "ap2ID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d"
+                    "ap2ID": "1ef58d36-abbb-4638-981f-23132f6b172f"
                 },
                 {
                     "ap1Name": "Geometry",
@@ -4190,10 +4190,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
+                    "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": 1749545748508,
-                    "ap2ID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d"
+                    "ap2ID": "1ef58d36-abbb-4638-981f-23132f6b172f"
                 },
                 {
                     "ap1Name": "Geometry",
@@ -4207,20 +4207,20 @@
                     "ap2Name": "Shape 3",
                     "ap2Primary": false,
                     "ap1ID": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b",
-                    "ap2ID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d"
+                    "ap2ID": "1ef58d36-abbb-4638-981f-23132f6b172f"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d",
+                    "ap1ID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ap2ID": 1749241083956
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
-                    "ap1ID": "a37a76e6-8674-4e7d-a6a5-9f263ee18b3d",
+                    "ap1ID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ap2ID": 1749246060821
                 }
             ],
