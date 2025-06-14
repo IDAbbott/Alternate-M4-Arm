@@ -74,8 +74,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.4731132075471698,
-                    "y": 0.5544554455445544,
+                    "x": 0.47735849056603774,
+                    "y": 0.5524752475247524,
                     "uniqueID": 1749346078224,
                     "ioValues": [
                         {
@@ -92,8 +92,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.10943396226415095,
-                    "y": 0.5227722772277228,
+                    "x": 0.05047169811320755,
+                    "y": 0.6079207920792079,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -884,8 +884,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.06207482993197279,
-                            "y": 0.8221258134490239,
+                            "x": 0.0599056603773585,
+                            "y": 0.7524752475247525,
                             "uniqueID": "df4fc424-7204-4618-b8da-de3dec0e9b63",
                             "ioValues": [
                                 {
@@ -965,8 +965,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.08418367346938775,
-                            "y": 0.18872017353579176,
+                            "x": 0.08962264150943397,
+                            "y": 0.1405940594059406,
                             "uniqueID": "c6e61754-e7aa-448f-a436-a9895d76a404",
                             "ioValues": [
                                 {
@@ -1092,8 +1092,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.24404761904761904,
-                            "y": 0.44251626898047725,
+                            "x": 0.19481132075471697,
+                            "y": 0.45544554455445546,
                             "uniqueID": "0ceb3990-4836-438e-938c-bcfbd6fbc450",
                             "ioValues": [
                                 {
@@ -2029,8 +2029,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.655188679245283,
-                    "y": 0.28910891089108914,
+                    "x": 0.6084905660377359,
+                    "y": 0.18415841584158418,
                     "uniqueID": 1749533746075,
                     "ioValues": [
                         {
@@ -2371,8 +2371,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.1123956326268465,
-                    "y": 0.41865509761388287,
+                    "x": 0.02924528301886792,
+                    "y": 0.47128712871287126,
                     "uniqueID": 1749544035717,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2861,8 +2861,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9753401360544217,
-                            "y": 0.48590021691973967,
+                            "x": 0.9721698113207546,
+                            "y": 0.4871287128712872,
                             "uniqueID": 1749546144533,
                             "ioValues": [
                                 {
@@ -2893,8 +2893,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2568027210884354,
-                            "y": 0.1735357917570499,
+                            "x": 0.25754716981132075,
+                            "y": 0.10693069306930694,
                             "uniqueID": 1749546224703,
                             "ioValues": [
                                 {
@@ -3699,8 +3699,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.863095238095238,
-                            "y": 0.6399132321041214,
+                            "x": 0.8683962264150944,
+                            "y": 0.6415841584158416,
                             "uniqueID": "1a48e7e3-f657-4ef7-a48b-f9b44aa861d2",
                             "ioValues": [
                                 {
@@ -4119,8 +4119,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.3415094339622642,
-                    "y": 0.4198019801980198,
+                    "x": 0.3443396226415094,
+                    "y": 0.44554455445544555,
                     "uniqueID": "b45f36f7-a0e1-41c8-a73f-257a71e06426",
                     "ioValues": [
                         {
