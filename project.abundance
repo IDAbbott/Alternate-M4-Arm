@@ -534,7 +534,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2330,7 +2330,7 @@
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
                     "x": 0.3197278911564626,
-                    "y": 0.10195227765726682,
+                    "y": 0.0911062906724512,
                     "uniqueID": 1749546144185,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2339,8 +2339,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9721698113207546,
-                            "y": 0.4871287128712872,
+                            "x": 0.9659863945578232,
+                            "y": 0.4880694143167028,
                             "uniqueID": 1749546144533,
                             "ioValues": [
                                 {
@@ -2363,7 +2363,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 50
+                                    "ioValue": 52
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -2381,7 +2381,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2477,7 +2477,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 70
+                                    "ioValue": 72
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -2495,7 +2495,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2553,7 +2553,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2693,8 +2693,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.05266538214515093,
-                            "y": 0.4316702819956616,
+                            "x": 0.0510204081632653,
+                            "y": 0.49240780911062904,
                             "uniqueID": 1749546845480,
                             "ioValues": [
                                 {
@@ -2711,8 +2711,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.24234693877551017,
-                            "y": 0.4772234273318873,
+                            "x": 0.2602040816326531,
+                            "y": 0.5184381778741866,
                             "uniqueID": 1749546845180,
                             "ioValues": [
                                 {
@@ -2721,7 +2721,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2773,8 +2773,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.8035714285714286,
-                            "y": 0.509761388286334,
+                            "x": 0.8086734693877551,
+                            "y": 0.5054229934924078,
                             "uniqueID": 1749548012850,
                             "ioValues": [
                                 {
