@@ -74,8 +74,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.05697278911564626,
-                    "y": 0.4316702819956616,
+                    "x": 0.05357142857142857,
+                    "y": 0.5921908893709328,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -812,8 +812,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.24234693877551017,
-                    "y": 0.3731019522776573,
+                    "x": 0.24064625850340135,
+                    "y": 0.5336225596529284,
                     "uniqueID": 1749503726432,
                     "ioValues": [
                         {
@@ -1165,8 +1165,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.06122448979591837,
-                    "y": 0.5661605206073753,
+                    "x": 0.05952380952380952,
+                    "y": 0.7331887201735358,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2317,8 +2317,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.49404761904761907,
-                    "y": 0.2754880694143167,
+                    "x": 0.46343537414965985,
+                    "y": 0.2668112798264642,
                     "uniqueID": 1749544177380,
                     "ioValues": [
                         {
@@ -2336,6 +2336,10 @@
                         {
                             "name": "Shape 4",
                             "ioValue": 1749546144185
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1749545748508
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -2343,8 +2347,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.10141509433962265,
-                    "y": 0.9207920792079208,
+                    "x": 0.06802721088435375,
+                    "y": 0.4403470715835141,
                     "uniqueID": 1749545474991,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2381,8 +2385,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3275529865125241,
-                            "y": 0.6073752711496746,
+                            "x": 0.32568027210884354,
+                            "y": 0.5921908893709328,
                             "uniqueID": 1749545480659,
                             "ioValues": [
                                 {
@@ -2431,13 +2435,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.636480411046885,
-                            "y": 0.579175704989154,
+                            "x": 0.6071428571428572,
+                            "y": 0.25379609544468545,
                             "uniqueID": 1749545480546,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749545612730
+                                    "ioValue": 1749545481152
                                 },
                                 {
                                     "name": "xDist",
@@ -2457,13 +2461,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6332691072575466,
-                            "y": 0.8568329718004338,
+                            "x": 0.5909863945578231,
+                            "y": 0.40997830802603036,
                             "uniqueID": 1749545481045,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749545612730
+                                    "ioValue": 1749545481152
                                 },
                                 {
                                     "name": "xDist",
@@ -2479,24 +2483,6 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.4816955684007707,
-                            "y": 0.6377440347071583,
-                            "uniqueID": 1749545612730,
-                            "ioValues": [
-                                {
-                                    "name": "geometry1",
-                                    "ioValue": 1749545481152
-                                },
-                                {
-                                    "name": "geometry2",
-                                    "ioValue": 1749545480659
-                                }
-                            ],
-                            "description": "Subtracts shape two from shape one."
                         },
                         {
                             "atomType": "Assembly",
@@ -2515,36 +2501,6 @@
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                        },
-                        {
-                            "atomType": "Export",
-                            "name": "Export",
-                            "x": 0.8027210884353742,
-                            "y": 0.8004338394793926,
-                            "uniqueID": "65d0b90f-7a79-4a80-aa3c-cb5c44674efb",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1749545684506
-                                },
-                                {
-                                    "name": "Resolution (dpi)",
-                                    "ioValue": 96
-                                },
-                                {
-                                    "name": "Part Name",
-                                    "ioValue": "m4GuidePosts"
-                                },
-                                {
-                                    "name": "File Type",
-                                    "ioValue": "STEP"
-                                }
-                            ],
-                            "description": "Export Atom, let's you choose a type of file to Export.",
-                            "type": "STEP",
-                            "resolution": 96,
-                            "importIndex": 0,
-                            "partName": "m4GuidePosts"
                         }
                     ],
                     "allConnectors": [
@@ -2557,13 +2513,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 1749545480659,
-                            "ap2ID": 1749545612730
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 1749545480375,
@@ -2571,10 +2520,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1749545481152,
-                            "ap2ID": 1749545612730
+                            "ap2ID": 1749545480546
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749545481152,
+                            "ap2ID": 1749545481045
                         },
                         {
                             "ap1Name": "geometry",
@@ -2592,31 +2548,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749545612730,
-                            "ap2ID": 1749545480546
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749545612730,
-                            "ap2ID": 1749545481045
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 1749545684506,
                             "ap2ID": 1749545474613
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1749545684506,
-                            "ap2ID": "65d0b90f-7a79-4a80-aa3c-cb5c44674efb"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2625,8 +2560,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4971698113207548,
-                    "y": 0.8316831683168318,
+                    "x": 0.24914965986394558,
+                    "y": 0.40563991323210413,
                     "uniqueID": 1749545748508,
                     "ioValues": [
                         {
@@ -2651,8 +2586,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.39540816326530615,
-                    "y": 0.10845986984815617,
+                    "x": 0.3197278911564626,
+                    "y": 0.10195227765726682,
                     "uniqueID": 1749546144185,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2693,8 +2628,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.25754716981132075,
-                            "y": 0.10693069306930694,
+                            "x": 0.2619047619047619,
+                            "y": 0.16919739696312364,
                             "uniqueID": 1749546224703,
                             "ioValues": [
                                 {
@@ -3573,10 +3508,6 @@
                     "uniqueID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ioValues": [
                         {
-                            "name": "Shape 4",
-                            "ioValue": 1749545748508
-                        },
-                        {
                             "name": "Shape 6",
                             "ioValue": "1c9662bf-7b9e-457e-9016-e9ce6b3ab66b"
                         }
@@ -3587,8 +3518,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.3443396226415094,
-                    "y": 0.44554455445544555,
+                    "x": 0.35034013605442177,
+                    "y": 0.6637744034707158,
                     "uniqueID": "b45f36f7-a0e1-41c8-a73f-257a71e06426",
                     "ioValues": [
                         {
@@ -3601,38 +3532,6 @@
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.24524727039177907,
-                    "y": 0.633297180043384,
-                    "uniqueID": "01685ed0-69d7-487e-bb9d-78beeb26c6d6",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.37048811817597943,
-                    "y": 0.633297180043384,
-                    "uniqueID": "a2beb33e-2bc5-41f6-a206-270474a9ecac",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "01685ed0-69d7-487e-bb9d-78beeb26c6d6"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Move",
@@ -3661,91 +3560,10 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 0.10697278911564626,
-                    "y": 0.6853579175704989,
-                    "uniqueID": "07f33d65-6887-4a63-b8c4-a7bb25d314c2",
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 14
-                        }
-                    ],
-                    "description": "Creates a new regular polygon. Corners are on the diameter."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4064625850340136,
-                    "y": 0.7613882863340564,
-                    "uniqueID": "e68196f9-9acb-4735-a697-85c9005eddb5",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "91e0b5e8-2af8-4245-adca-149fee29bd99"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.5153061224489796,
-                    "y": 0.5639913232104121,
-                    "uniqueID": "662a121b-3fe2-45ec-af31-0d8e3f4c80e0",
-                    "ioValues": [
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "a2beb33e-2bc5-41f6-a206-270474a9ecac"
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": "e68196f9-9acb-4735-a697-85c9005eddb5"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.28656462585034015,
-                    "y": 0.7852494577006508,
-                    "uniqueID": "91e0b5e8-2af8-4245-adca-149fee29bd99",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "07f33d65-6887-4a63-b8c4-a7bb25d314c2"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Bottom",
-                    "x": 0.7346938775510203,
-                    "y": 0.06941431670281996,
+                    "x": 0.7312925170068028,
+                    "y": 0.09978308026030368,
                     "uniqueID": "debb799c-e483-40c9-8c1f-2eea95913bce",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4653,10 +4471,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
+                    "ap2Name": "Shape 5",
                     "ap2Primary": false,
                     "ap1ID": 1749545748508,
-                    "ap2ID": "1ef58d36-abbb-4638-981f-23132f6b172f"
+                    "ap2ID": 1749544177380
                 },
                 {
                     "ap1Name": "Geometry",
@@ -4685,41 +4503,6 @@
                     "ap2Primary": false,
                     "ap1ID": "1ef58d36-abbb-4638-981f-23132f6b172f",
                     "ap2ID": 1749246060821
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "01685ed0-69d7-487e-bb9d-78beeb26c6d6",
-                    "ap2ID": "a2beb33e-2bc5-41f6-a206-270474a9ecac"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "a2beb33e-2bc5-41f6-a206-270474a9ecac",
-                    "ap2ID": "662a121b-3fe2-45ec-af31-0d8e3f4c80e0"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "07f33d65-6887-4a63-b8c4-a7bb25d314c2",
-                    "ap2ID": "91e0b5e8-2af8-4245-adca-149fee29bd99"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": "e68196f9-9acb-4735-a697-85c9005eddb5",
-                    "ap2ID": "662a121b-3fe2-45ec-af31-0d8e3f4c80e0"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "91e0b5e8-2af8-4245-adca-149fee29bd99",
-                    "ap2ID": "e68196f9-9acb-4735-a697-85c9005eddb5"
                 }
             ],
             "fileTypeVersion": 1,
