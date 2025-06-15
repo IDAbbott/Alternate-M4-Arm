@@ -2357,8 +2357,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9743095696852924,
-                            "y": 0.4945770065075921,
+                            "x": 0.9676870748299319,
+                            "y": 0.4880694143167028,
                             "uniqueID": 1749545474613,
                             "ioValues": [
                                 {
@@ -2404,7 +2404,7 @@
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.6062925170068028,
-                            "y": 0.26247288503253796,
+                            "y": 0.23861171366594364,
                             "uniqueID": 1749545480546,
                             "ioValues": [
                                 {
@@ -2539,7 +2539,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4381,7 +4381,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4407,7 +4407,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4492,7 +4492,7 @@
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": ""
+                            "ioValue": "c8bdaa16-598e-4950-aca6-400b276749ed"
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -4500,8 +4500,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.3818027210884354,
-                    "y": 0.7071583514099783,
+                    "x": 0.37585034013605445,
+                    "y": 0.7158351409978309,
                     "uniqueID": "c8bdaa16-598e-4950-aca6-400b276749ed",
                     "ioValues": [
                         {
@@ -4613,7 +4613,13 @@
                     "ap1ID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ap2ID": "c8bdaa16-598e-4950-aca6-400b276749ed"
                 },
-                null
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": "c8bdaa16-598e-4950-aca6-400b276749ed",
+                    "ap2ID": "09e9a65e-614f-4996-a7c4-e02c6a800323"
+                }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
