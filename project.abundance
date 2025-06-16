@@ -14,12 +14,7 @@
             "x": 0.9642857142857143,
             "y": 0.47071583514099785,
             "uniqueID": 1748908987871,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1749241083253
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -2003,8 +1998,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.06207482993197279,
-                    "y": 0.29718004338394793,
+                    "x": 0.05782312925170068,
+                    "y": 0.2950108459869848,
                     "uniqueID": 1749544035717,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2116,8 +2111,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.06547619047619048,
-                    "y": 0.403470715835141,
+                    "x": 0.06377551020408163,
+                    "y": 0.40997830802603036,
                     "uniqueID": 1749545474991,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2126,8 +2121,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9600340136054422,
-                            "y": 0.4772234273318873,
+                            "x": 0.9625850340136054,
+                            "y": 0.42950108459869846,
                             "uniqueID": 1749545474613,
                             "ioValues": [
                                 {
@@ -2140,8 +2135,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.16441875401412973,
-                            "y": 0.25379609544468545,
+                            "x": 0.14710884353741496,
+                            "y": 0.44251626898047725,
                             "uniqueID": 1749545480375,
                             "ioValues": [
                                 {
@@ -2180,8 +2175,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5841836734693877,
-                            "y": 0.40563991323210413,
+                            "x": 0.5909863945578231,
+                            "y": 0.3383947939262473,
                             "uniqueID": 1749545481045,
                             "ioValues": [
                                 {
@@ -2206,8 +2201,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6003401360544217,
-                            "y": 0.5314533622559653,
+                            "x": 0.5527210884353742,
+                            "y": 0.44685466377440347,
                             "uniqueID": "98bc7f4c-c504-40fd-9819-b8a8696af54b",
                             "ioValues": [
                                 {
@@ -2216,7 +2211,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 63
+                                    "ioValue": 66
                                 },
                                 {
                                     "name": "yDist",
@@ -2232,8 +2227,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5994897959183674,
-                            "y": 0.6724511930585684,
+                            "x": 0.5569727891156463,
+                            "y": 0.5574837310195228,
                             "uniqueID": "9fa1e8d4-eb94-4d87-8605-2ec92888b250",
                             "ioValues": [
                                 {
@@ -2242,7 +2237,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 63.4
+                                    "ioValue": 66.4
                                 },
                                 {
                                     "name": "yDist",
@@ -2258,8 +2253,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.27721088435374147,
-                            "y": 0.2668112798264642,
+                            "x": 0.26700680272108845,
+                            "y": 0.44468546637744033,
                             "uniqueID": "37c92f4e-530a-4900-b749-4405f61bd8bf",
                             "ioValues": [
                                 {
@@ -2311,8 +2306,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5884353741496599,
-                            "y": 0.7678958785249458,
+                            "x": 0.5986394557823129,
+                            "y": 0.7396963123644252,
                             "uniqueID": "5e9d239f-28db-4705-902a-f8d3f47418ca",
                             "ioValues": [
                                 {
@@ -2321,7 +2316,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -63
+                                    "ioValue": -66
                                 },
                                 {
                                     "name": "yDist",
@@ -2337,8 +2332,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5901360544217688,
-                            "y": 0.9132321041214749,
+                            "x": 0.596938775510204,
+                            "y": 0.8546637744034707,
                             "uniqueID": "451d3e15-d838-4b4c-a2fc-0ac10021d6c1",
                             "ioValues": [
                                 {
@@ -2347,7 +2342,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -63
+                                    "ioValue": -66
                                 },
                                 {
                                     "name": "yDist",
@@ -3556,7 +3551,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 63
+                                    "ioValue": 66
                                 },
                                 {
                                     "name": "yDist",
@@ -3582,7 +3577,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 63.4
+                                    "ioValue": 66.4
                                 },
                                 {
                                     "name": "yDist",
@@ -3608,7 +3603,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -63
+                                    "ioValue": -66
                                 },
                                 {
                                     "name": "yDist",
@@ -3634,7 +3629,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -63
+                                    "ioValue": -66
                                 },
                                 {
                                     "name": "yDist",
@@ -3650,8 +3645,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7610544217687075,
-                            "y": 0.5379609544468547,
+                            "x": 0.7670068027210885,
+                            "y": 0.5357917570498916,
                             "uniqueID": "acac5f43-dc0d-4727-806b-3364844bd840",
                             "ioValues": [
                                 {
