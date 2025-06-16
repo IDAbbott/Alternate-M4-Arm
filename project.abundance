@@ -14,7 +14,12 @@
             "x": 0.9642857142857143,
             "y": 0.47071583514099785,
             "uniqueID": 1748908987871,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1749241083253
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
