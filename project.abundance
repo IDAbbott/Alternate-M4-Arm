@@ -74,8 +74,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.045068027210884355,
-                    "y": 0.5835140997830802,
+                    "x": 0.04081632653061224,
+                    "y": 0.5553145336225597,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -875,8 +875,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.18367346938775508,
-                    "y": 0.15835140997830802,
+                    "x": 0.18792517006802723,
+                    "y": 0.1366594360086768,
                     "uniqueID": 1749504410589,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -905,7 +905,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 125
+                                    "ioValue": 128
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1762,68 +1762,6 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.6242774566473989,
-                            "y": 0.6377440347071583,
-                            "uniqueID": 1749543906112,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1749543905965
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 68
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "RegularPolygon",
-                            "name": "RegularPolygon",
-                            "x": 0.25626204238921,
-                            "y": 0.5878524945770065,
-                            "uniqueID": 1749543906342,
-                            "ioValues": [
-                                {
-                                    "name": "number of sides",
-                                    "ioValue": 25
-                                },
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 70
-                                }
-                            ],
-                            "description": "Creates a new regular polygon. Corners are on the diameter."
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.375,
-                            "y": 0.5075921908893709,
-                            "uniqueID": 1749543905965,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1749543906342
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.7347463070006423,
@@ -1917,20 +1855,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749543906342,
-                            "ap2ID": 1749543905965
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749543905965,
-                            "ap2ID": 1749543906112
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 1749544134993,
@@ -1950,8 +1874,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.027358490566037737,
-                    "y": 0.3564356435643565,
+                    "x": 0.022108843537414966,
+                    "y": 0.34490238611713664,
                     "uniqueID": 1749544035717,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1992,7 +1916,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2018,8 +1942,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.43407193320488113,
-                            "y": 0.47711496746203913,
+                            "x": 0.43707482993197283,
+                            "y": 0.4663774403470716,
                             "uniqueID": 1749544086624,
                             "ioValues": [
                                 {
@@ -2028,40 +1952,10 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 4
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
-                            "atomType": "Export",
-                            "name": "Export",
-                            "x": 0.7372448979591837,
-                            "y": 0.7527114967462039,
-                            "uniqueID": "e13b1bf3-f09d-48a7-a3a0-6bdd31e6b77a",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1749544086664
-                                },
-                                {
-                                    "name": "Resolution (dpi)",
-                                    "ioValue": 96
-                                },
-                                {
-                                    "name": "Part Name",
-                                    "ioValue": "M4Link"
-                                },
-                                {
-                                    "name": "File Type",
-                                    "ioValue": "STEP"
-                                }
-                            ],
-                            "description": "Export Atom, let's you choose a type of file to Export.",
-                            "type": "STEP",
-                            "resolution": 96,
-                            "importIndex": 0,
-                            "partName": "M4Link"
                         }
                     ],
                     "allConnectors": [
@@ -2071,13 +1965,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1749544086664,
                             "ap2ID": 1749544035909
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1749544086664,
-                            "ap2ID": "e13b1bf3-f09d-48a7-a3a0-6bdd31e6b77a"
                         },
                         {
                             "ap1Name": "geometry",
@@ -2100,8 +1987,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.46343537414965985,
-                    "y": 0.2668112798264642,
+                    "x": 0.4710884353741497,
+                    "y": 0.2754880694143167,
                     "uniqueID": 1749544177380,
                     "ioValues": [
                         {
@@ -2382,7 +2269,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2434,7 +2321,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2496,7 +2383,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2544,8 +2431,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2228644829800899,
-                            "y": 0.3080260303687636,
+                            "x": 0.22363945578231292,
+                            "y": 0.29718004338394793,
                             "uniqueID": 1749546261255,
                             "ioValues": [
                                 {
@@ -2554,7 +2441,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2606,7 +2493,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2722,7 +2609,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
