@@ -318,13 +318,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.04811320754716981,
-                            "y": 0.904950495049505,
+                            "x": 0.04251700680272109,
+                            "y": 0.9045553145336226,
                             "uniqueID": 1749502715956,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 7
+                                    "ioValue": 7.5
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -480,8 +480,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2346938775510204,
-                            "y": 0.7657266811279826,
+                            "x": 0.2372448979591837,
+                            "y": 0.7483731019522777,
                             "uniqueID": "0fce5512-a643-4fd8-85c3-241df31893cc",
                             "ioValues": [
                                 {
@@ -606,6 +606,36 @@
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.5960884353741497,
+                            "y": 0.9023861171366595,
+                            "uniqueID": "e8b022c0-ec3c-47b6-8927-29cc1e8068a4",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "17d0c42a-5c4f-43ef-b241-6552d78540f2"
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "MotorHoles"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "MotorHoles"
                         }
                     ],
                     "allConnectors": [
@@ -790,6 +820,13 @@
                             "ap2Primary": false,
                             "ap1ID": "17d0c42a-5c4f-43ef-b241-6552d78540f2",
                             "ap2ID": "a0dcf1b9-b940-4046-87e1-2702177e44f4"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "17d0c42a-5c4f-43ef-b241-6552d78540f2",
+                            "ap2ID": "e8b022c0-ec3c-47b6-8927-29cc1e8068a4"
                         },
                         {
                             "ap1Name": "geometry",
