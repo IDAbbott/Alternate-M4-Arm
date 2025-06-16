@@ -1104,8 +1104,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.07312925170068027,
-                    "y": 0.6919739696312364,
+                    "x": 0.0663265306122449,
+                    "y": 0.6876355748373102,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3379,8 +3379,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.09098639455782313,
-                    "y": 0.8806941431670282,
+                    "x": 0.09013605442176871,
+                    "y": 0.876355748373102,
                     "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3389,8 +3389,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9744897959183674,
-                            "y": 0.4837310195227766,
+                            "x": 0.9668367346938777,
+                            "y": 0.4793926247288503,
                             "uniqueID": "3017c2ff-c3b1-4fc0-8374-6a38ad54d4cf",
                             "ioValues": [
                                 {
@@ -3493,7 +3493,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 120
+                                    "ioValue": 115
                                 }
                             ],
                             "description": "Creates a new circle."
