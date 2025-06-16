@@ -472,7 +472,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 14
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -963,7 +963,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                                    "ioValue": "40011eca-e993-49c1-b8fd-9dd180e80711"
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1119,7 +1119,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1749533265243
                                 },
                                 {
                                     "name": "xDist",
@@ -1145,7 +1145,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1749533265243
                                 },
                                 {
                                     "name": "xDist",
@@ -1331,7 +1331,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1749533265243
                                 },
                                 {
                                     "name": "xDist",
@@ -1357,7 +1357,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1749533265243
                                 },
                                 {
                                     "name": "xDist",
@@ -1375,11 +1375,11 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.7585034013605442,
-                            "y": 0.47288503253796094,
-                            "uniqueID": "f6c38d15-164c-49ac-b5f3-208a870334b6",
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.7644557823129251,
+                            "y": 0.4360086767895879,
+                            "uniqueID": "40011eca-e993-49c1-b8fd-9dd180e80711",
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
@@ -1402,7 +1402,8 @@
                                     "ioValue": "941129e0-436c-4945-87f4-c9d2e2ee884c"
                                 }
                             ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
                         }
                     ],
                     "allConnectors": [
@@ -1439,7 +1440,7 @@
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": 1749532984372,
-                            "ap2ID": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                            "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
                         },
                         {
                             "ap1Name": "geometry",
@@ -1467,14 +1468,14 @@
                             "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": 1749533265497,
-                            "ap2ID": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                            "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 3",
                             "ap2Primary": false,
                             "ap1ID": 1749533265336,
-                            "ap2ID": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                            "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
                         },
                         {
                             "ap1Name": "geometry",
@@ -1496,6 +1497,34 @@
                             "ap2Primary": false,
                             "ap1ID": 1749533264887,
                             "ap2ID": 1749533265243
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": 1749533265497
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": 1749533265336
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": "7114feb8-cc1a-4bc8-88e1-0d75cb3e238b"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1749533265243,
+                            "ap2ID": "941129e0-436c-4945-87f4-c9d2e2ee884c"
                         },
                         {
                             "ap1Name": "geometry",
@@ -1537,20 +1566,20 @@
                             "ap2Name": "Shape 4",
                             "ap2Primary": false,
                             "ap1ID": "7114feb8-cc1a-4bc8-88e1-0d75cb3e238b",
-                            "ap2ID": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                            "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 5",
                             "ap2Primary": false,
                             "ap1ID": "941129e0-436c-4945-87f4-c9d2e2ee884c",
-                            "ap2ID": "f6c38d15-164c-49ac-b5f3-208a870334b6"
+                            "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": "f6c38d15-164c-49ac-b5f3-208a870334b6",
+                            "ap1ID": "40011eca-e993-49c1-b8fd-9dd180e80711",
                             "ap2ID": 1749532065056
                         }
                     ],
