@@ -2841,8 +2841,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.1361592806679512,
-                            "y": 0.9088937093275488,
+                            "x": 0.13945578231292516,
+                            "y": 0.8872017353579177,
                             "uniqueID": 1749549580584,
                             "ioValues": [
                                 {
@@ -2877,7 +2877,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
