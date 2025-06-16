@@ -3922,8 +3922,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.4319727891156463,
-                    "y": 0.6507592190889371,
+                    "x": 0.4260204081632653,
+                    "y": 0.6334056399132321,
                     "uniqueID": "7aea1d3e-e6d3-405a-9336-7ea5da4bb4e3",
                     "ioValues": [
                         {
@@ -3959,6 +3959,36 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.7261904761904762,
+                    "y": 0.6268980477223427,
+                    "uniqueID": "ddcdd634-508e-41c1-b3cf-730e314d2460",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "ArmNew"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "ArmNew"
                 }
             ],
             "allConnectors": [
@@ -4052,6 +4082,13 @@
                     "ap2Primary": false,
                     "ap1ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0",
                     "ap2ID": 1749241083956
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0",
+                    "ap2ID": "ddcdd634-508e-41c1-b3cf-730e314d2460"
                 }
             ],
             "fileTypeVersion": 1,
