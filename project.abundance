@@ -44,8 +44,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.07908163265306123,
-                    "y": 0.5488069414316703,
+                    "x": 0.0782312925170068,
+                    "y": 0.5357917570498916,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1104,8 +1104,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.07993197278911565,
-                    "y": 0.7114967462039046,
+                    "x": 0.07312925170068027,
+                    "y": 0.6919739696312364,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1114,8 +1114,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9642857142857143,
-                            "y": 0.4837310195227766,
+                            "x": 0.9540816326530612,
+                            "y": 0.4663774403470716,
                             "uniqueID": 1749532065056,
                             "ioValues": [
                                 {
@@ -1561,7 +1561,7 @@
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 7
+                                    "ioValue": 7.7
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
