@@ -294,7 +294,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 7.7
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -430,24 +430,6 @@
                             "description": "Creates a new regular polygon. Corners are on the diameter."
                         },
                         {
-                            "atomType": "RegularPolygon",
-                            "name": "RegularPolygon",
-                            "x": 0.04081632653061224,
-                            "y": 0.6811279826464208,
-                            "uniqueID": "49f4f124-df8a-44ad-966f-3df9b6aba068",
-                            "ioValues": [
-                                {
-                                    "name": "number of sides",
-                                    "ioValue": 6
-                                },
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 15.2
-                                }
-                            ],
-                            "description": "Creates a new regular polygon. Corners are on the diameter."
-                        },
-                        {
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.2372448979591837,
@@ -468,8 +450,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.1913265306122449,
-                            "y": 0.9436008676789588,
+                            "x": 0.2372448979591837,
+                            "y": 0.9002169197396962,
                             "uniqueID": "9408d1b2-c646-4471-b74a-2e084da3de36",
                             "ioValues": [
                                 {
@@ -492,7 +474,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "49f4f124-df8a-44ad-966f-3df9b6aba068"
+                                    "ioValue": "4e9de34b-d189-4685-940c-2403fa716572"
                                 },
                                 {
                                     "name": "xDist",
@@ -606,6 +588,20 @@
                             "resolution": 96,
                             "importIndex": 0,
                             "partName": "MotorHoles"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.0391156462585034,
+                            "y": 0.7527114967462039,
+                            "uniqueID": "4e9de34b-d189-4685-940c-2403fa716572",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 20
+                                }
+                            ],
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [
@@ -758,13 +754,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "49f4f124-df8a-44ad-966f-3df9b6aba068",
-                            "ap2ID": "79dffdf0-14dd-4fdc-ab24-4cc3f9f52eeb"
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": "0fce5512-a643-4fd8-85c3-241df31893cc",
@@ -811,6 +800,13 @@
                             "ap2Primary": false,
                             "ap1ID": "a0dcf1b9-b940-4046-87e1-2702177e44f4",
                             "ap2ID": 1749502519707
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "4e9de34b-d189-4685-940c-2403fa716572",
+                            "ap2ID": "79dffdf0-14dd-4fdc-ab24-4cc3f9f52eeb"
                         }
                     ],
                     "fileTypeVersion": 1,
