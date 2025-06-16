@@ -62,11 +62,11 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "STEP"
+                            "ioValue": "STL"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STEP",
+                    "type": "STL",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "ArmNew"
@@ -2362,8 +2362,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5833333333333334,
-                            "y": 0.7852494577006508,
+                            "x": 0.5884353741496599,
+                            "y": 0.7678958785249458,
                             "uniqueID": "5e9d239f-28db-4705-902a-f8d3f47418ca",
                             "ioValues": [
                                 {
@@ -2380,7 +2380,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2406,7 +2406,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3628,7 +3628,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3706,7 +3706,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 4
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
