@@ -1238,7 +1238,7 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.1361592806679512,
+                            "x": 0.1403061224489796,
                             "y": 0.6334056399132321,
                             "uniqueID": 1749533265641,
                             "ioValues": [
@@ -1296,8 +1296,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5979447655748233,
-                            "y": 0.6334056399132321,
+                            "x": 0.6011904761904762,
+                            "y": 0.6377440347071583,
                             "uniqueID": 1749533265336,
                             "ioValues": [
                                 {
@@ -1320,20 +1320,6 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.1342324983943481,
-                            "y": 0.8394793926247288,
-                            "uniqueID": 1749533265019,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 7
-                                }
-                            ],
-                            "description": "Creates a new circle."
-                        },
-                        {
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.22736030828516376,
@@ -1342,7 +1328,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1749533265019
+                                    "ioValue": "74d1cbec-d86e-4a53-99cf-cbbaad7ec2a7"
                                 },
                                 {
                                     "name": "height",
@@ -1430,8 +1416,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.28901734104046245,
-                            "y": 0.36225596529284165,
+                            "x": 0.29081632653061223,
+                            "y": 0.3600867678958785,
                             "uniqueID": 1749544871438,
                             "ioValues": [
                                 {
@@ -1482,8 +1468,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.602891156462585,
-                            "y": 0.772234273318872,
+                            "x": 0.6079931972789115,
+                            "y": 0.774403470715835,
                             "uniqueID": "7114feb8-cc1a-4bc8-88e1-0d75cb3e238b",
                             "ioValues": [
                                 {
@@ -1508,8 +1494,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6147959183673469,
-                            "y": 0.9262472885032538,
+                            "x": 0.6096938775510203,
+                            "y": 0.9110629067245118,
                             "uniqueID": "941129e0-436c-4945-87f4-c9d2e2ee884c",
                             "ioValues": [
                                 {
@@ -1561,6 +1547,24 @@
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "RegularPolygon",
+                            "name": "RegularPolygon",
+                            "x": 0.12159863945578232,
+                            "y": 0.8156182212581345,
+                            "uniqueID": "74d1cbec-d86e-4a53-99cf-cbbaad7ec2a7",
+                            "ioValues": [
+                                {
+                                    "name": "number of sides",
+                                    "ioValue": 6
+                                },
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 7
+                                }
+                            ],
+                            "description": "Creates a new regular polygon. Corners are on the diameter."
                         }
                     ],
                     "allConnectors": [
@@ -1633,13 +1637,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1749533265336,
                             "ap2ID": "40011eca-e993-49c1-b8fd-9dd180e80711"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1749533265019,
-                            "ap2ID": 1749533264994
                         },
                         {
                             "ap1Name": "geometry",
@@ -1738,6 +1735,13 @@
                             "ap2Primary": false,
                             "ap1ID": "40011eca-e993-49c1-b8fd-9dd180e80711",
                             "ap2ID": 1749532065056
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "74d1cbec-d86e-4a53-99cf-cbbaad7ec2a7",
+                            "ap2ID": 1749533264994
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -3375,8 +3379,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.04421768707482993,
-                    "y": 0.9002169197396962,
+                    "x": 0.09098639455782313,
+                    "y": 0.8806941431670282,
                     "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3399,8 +3403,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.23615928066795117,
-                            "y": 0.533405639913232,
+                            "x": 0.17261904761904762,
+                            "y": 0.2668112798264642,
                             "uniqueID": "456d7820-48c5-46fc-950e-2b17dcbf4368",
                             "ioValues": [
                                 {
@@ -3413,8 +3417,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3681972789115646,
-                            "y": 0.5075921908893709,
+                            "x": 0.2806122448979592,
+                            "y": 0.2603036876355748,
                             "uniqueID": "288cd60b-8e5a-4061-afe2-d927ff650f4b",
                             "ioValues": [
                                 {
@@ -3742,6 +3746,61 @@
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "RegularPolygon",
+                            "name": "RegularPolygon",
+                            "x": 0.12755102040816327,
+                            "y": 0.42516268980477223,
+                            "uniqueID": "2dabebd1-aee2-416d-9c8c-5ad134316d09",
+                            "ioValues": [
+                                {
+                                    "name": "number of sides",
+                                    "ioValue": 6
+                                },
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 7
+                                }
+                            ],
+                            "description": "Creates a new regular polygon. Corners are on the diameter."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.266156462585034,
+                            "y": 0.4360086767895879,
+                            "uniqueID": "60ae3c1e-2e84-456a-8716-359a9a76eba8",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "2dabebd1-aee2-416d-9c8c-5ad134316d09"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.33503401360544216,
+                            "y": 0.4793926247288503,
+                            "uniqueID": "cc3807a7-054e-4122-8f59-98323314df85",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "288cd60b-8e5a-4061-afe2-d927ff650f4b"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "60ae3c1e-2e84-456a-8716-359a9a76eba8"
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
                         }
                     ],
                     "allConnectors": [
@@ -3793,6 +3852,13 @@
                             "ap2Primary": true,
                             "ap1ID": "288cd60b-8e5a-4061-afe2-d927ff650f4b",
                             "ap2ID": "f77afbd3-2581-4f49-92ae-cda51176da4c"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": "288cd60b-8e5a-4061-afe2-d927ff650f4b",
+                            "ap2ID": "cc3807a7-054e-4122-8f59-98323314df85"
                         },
                         {
                             "ap1Name": "geometry",
@@ -3884,6 +3950,20 @@
                             "ap2Primary": true,
                             "ap1ID": "0ffb05a2-c1c7-41e2-9bf0-07352ffcf125",
                             "ap2ID": "8f67200e-8941-4417-b6f2-90998b42b155"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "2dabebd1-aee2-416d-9c8c-5ad134316d09",
+                            "ap2ID": "60ae3c1e-2e84-456a-8716-359a9a76eba8"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "60ae3c1e-2e84-456a-8716-359a9a76eba8",
+                            "ap2ID": "cc3807a7-054e-4122-8f59-98323314df85"
                         }
                     ],
                     "fileTypeVersion": 1,
