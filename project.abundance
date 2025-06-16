@@ -30,8 +30,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.897108843537415,
-                    "y": 0.3644251626898048,
+                    "x": 0.8928571428571428,
+                    "y": 0.34490238611713664,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -2191,8 +2191,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.24914965986394558,
-                    "y": 0.40563991323210413,
+                    "x": 0.24404761904761904,
+                    "y": 0.3904555314533623,
                     "uniqueID": 1749545748508,
                     "ioValues": [
                         {
@@ -2209,7 +2209,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8
+                            "ioValue": 6
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2355,8 +2355,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.12973667308927425,
-                            "y": 0.3774403470715835,
+                            "x": 0.1292517006802721,
+                            "y": 0.37093275488069416,
                             "uniqueID": 1749546225204,
                             "ioValues": [
                                 {
@@ -2653,7 +2653,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2803,7 +2803,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
