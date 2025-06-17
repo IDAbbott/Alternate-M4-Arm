@@ -114,8 +114,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.224791265253693,
-                            "y": 0.4793926247288503,
+                            "x": 0.22448979591836737,
+                            "y": 0.403470715835141,
                             "uniqueID": 1749502589600,
                             "ioValues": [
                                 {
@@ -302,8 +302,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.27122641509433965,
-                            "y": 0.6554455445544555,
+                            "x": 0.20068027210884354,
+                            "y": 0.5835140997830802,
                             "uniqueID": 1749502724238,
                             "ioValues": [
                                 {
@@ -320,8 +320,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.32358490566037734,
-                            "y": 0.5742574257425742,
+                            "x": 0.27125850340136054,
+                            "y": 0.509761388286334,
                             "uniqueID": 1749502763753,
                             "ioValues": [
                                 {
@@ -414,8 +414,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.18773584905660376,
-                            "y": 0.6514851485148515,
+                            "x": 0.08078231292517007,
+                            "y": 0.5748373101952278,
                             "uniqueID": "03b1842d-932b-4a6f-bb14-922bc0e6760e",
                             "ioValues": [
                                 {
@@ -982,8 +982,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.22704081632653061,
-                    "y": 0.11930585683297182,
+                    "x": 0.26700680272108845,
+                    "y": 0.14533622559652928,
                     "uniqueID": 1749504410589,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2766,8 +2766,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.3197278911564626,
-                    "y": 0.0911062906724512,
+                    "x": 0.39965986394557823,
+                    "y": 0.08893709327548807,
                     "uniqueID": 1749546144185,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3687,7 +3687,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 3
+                                    "ioValue": 3.5
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -4064,8 +4064,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.37329931972789115,
-                            "y": 0.4229934924078091,
+                            "x": 0.3707482993197279,
+                            "y": 0.420824295010846,
                             "uniqueID": "cc3807a7-054e-4122-8f59-98323314df85",
                             "ioValues": [
                                 {
