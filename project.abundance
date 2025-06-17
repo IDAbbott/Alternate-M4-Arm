@@ -14,7 +14,12 @@
             "x": 0.9642857142857143,
             "y": 0.47071583514099785,
             "uniqueID": 1748908987871,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1749241083253
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -30,8 +35,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8477891156462585,
-                    "y": 0.27765726681127983,
+                    "x": 0.8460884353741497,
+                    "y": 0.25379609544468545,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -910,8 +915,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.26700680272108845,
-                    "y": 0.14533622559652928,
+                    "x": 0.2619047619047619,
+                    "y": 0.14099783080260303,
                     "uniqueID": 1749504410589,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -923,7 +928,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1749504411079,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "4b35fcea-b0e2-4e93-8618-d18c64103895"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1015,8 +1025,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2040816326530612,
-                            "y": 0.5054229934924078,
+                            "x": 0.19302721088435373,
+                            "y": 0.48590021691973967,
                             "uniqueID": "8440c0ad-b156-418b-9dcb-837262d125f3",
                             "ioValues": [
                                 {
@@ -1059,8 +1069,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.5340136054421769,
-                            "y": 0.42516268980477223,
+                            "x": 0.5467687074829932,
+                            "y": 0.420824295010846,
                             "uniqueID": "4b35fcea-b0e2-4e93-8618-d18c64103895",
                             "ioValues": [
                                 {
@@ -1118,6 +1128,13 @@
                             "ap2Primary": false,
                             "ap1ID": "e83112ba-0ad7-4589-96ef-0dff0271f48b",
                             "ap2ID": "4b35fcea-b0e2-4e93-8618-d18c64103895"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "4b35fcea-b0e2-4e93-8618-d18c64103895",
+                            "ap2ID": 1749504411079
                         }
                     ],
                     "fileTypeVersion": 1,
