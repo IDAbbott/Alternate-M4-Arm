@@ -64,8 +64,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
+                            "x": 0.9710884353741497,
+                            "y": 0.48590021691973967,
                             "uniqueID": 1749502519707,
                             "ioValues": [
                                 {
@@ -282,7 +282,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -16
+                                    "ioValue": -15.5
                                 },
                                 {
                                     "name": "yDist",
@@ -2417,8 +2417,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5467687074829932,
-                            "y": 0.32971800433839477,
+                            "x": 0.5450680272108844,
+                            "y": 0.33405639913232105,
                             "uniqueID": "9fa1e8d4-eb94-4d87-8605-2ec92888b250",
                             "ioValues": [
                                 {
@@ -3805,8 +3805,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.16921768707482993,
-                    "y": 0.8698481561822126,
+                    "x": 0.1717687074829932,
+                    "y": 0.8785249457700651,
                     "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3977,7 +3977,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 66
+                                    "ioValue": 80
                                 },
                                 {
                                     "name": "yDist",
@@ -4003,7 +4003,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 66.4
+                                    "ioValue": 80.4
                                 },
                                 {
                                     "name": "yDist",
@@ -4227,7 +4227,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -76
+                                    "ioValue": -80
                                 },
                                 {
                                     "name": "yDist",
@@ -4253,7 +4253,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -76
+                                    "ioValue": -80
                                 },
                                 {
                                     "name": "yDist",
