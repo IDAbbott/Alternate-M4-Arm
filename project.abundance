@@ -14,12 +14,7 @@
             "x": 0.9642857142857143,
             "y": 0.47071583514099785,
             "uniqueID": 1748908987871,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1749241083253
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -635,7 +630,7 @@
                             "type": "STEP",
                             "resolution": 96,
                             "importIndex": 0,
-                            "partName": "MotorHolestest2"
+                            "partName": "MotorHoles"
                         },
                         {
                             "atomType": "Move",
@@ -1633,7 +1628,7 @@
                             "type": "STEP",
                             "resolution": 96,
                             "importIndex": 0,
-                            "partName": "GuideHoles3"
+                            "partName": "GuideHoles"
                         },
                         {
                             "atomType": "Circle",
@@ -2443,7 +2438,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 18
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
