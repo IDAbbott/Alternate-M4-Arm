@@ -4376,11 +4376,11 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL"
+                    "ioValue": "STEP"
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
+            "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
             "partName": "Alternate-M4-Arm"
