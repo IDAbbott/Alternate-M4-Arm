@@ -82,8 +82,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.24711111111111111,
-                            "y": 0.1843817787418655,
+                            "x": 0.2465986394557823,
+                            "y": 0.17787418655097614,
                             "uniqueID": 1749502589479,
                             "ioValues": [
                                 {
@@ -602,6 +602,112 @@
                                 }
                             ],
                             "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.6301020408163265,
+                            "y": 0.06724511930585683,
+                            "uniqueID": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 40
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.7542517006802721,
+                            "y": 0.1475054229934924,
+                            "uniqueID": "3546d0e8-796b-4861-83c2-9cd42f944556",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.7848639455782314,
+                            "y": 0.29718004338394793,
+                            "uniqueID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05",
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": "3546d0e8-796b-4861-83c2-9cd42f944556"
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": "14f40c59-b0a1-49da-893b-685f2af08ba8"
+                                }
+                            ],
+                            "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.66921768707483,
+                            "y": 0.2017353579175705,
+                            "uniqueID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 86
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 2
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.8086734693877551,
+                            "y": 0.403470715835141,
+                            "uniqueID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "MotorHoles"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "MotorHoles"
                         }
                     ],
                     "allConnectors": [
@@ -796,6 +902,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": "14f40c59-b0a1-49da-893b-685f2af08ba8",
+                            "ap2ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": "a0dcf1b9-b940-4046-87e1-2702177e44f4",
@@ -807,6 +920,34 @@
                             "ap2Primary": true,
                             "ap1ID": "4e9de34b-d189-4685-940c-2403fa716572",
                             "ap2ID": "79dffdf0-14dd-4fdc-ab24-4cc3f9f52eeb"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef",
+                            "ap2ID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry1",
+                            "ap2Primary": false,
+                            "ap1ID": "3546d0e8-796b-4861-83c2-9cd42f944556",
+                            "ap2ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05",
+                            "ap2ID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3",
+                            "ap2ID": "3546d0e8-796b-4861-83c2-9cd42f944556"
                         }
                     ],
                     "fileTypeVersion": 1,
