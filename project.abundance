@@ -630,7 +630,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -696,7 +696,7 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "MotorHoles"
+                                    "ioValue": "MotorHolestest"
                                 },
                                 {
                                     "name": "File Type",
@@ -707,7 +707,7 @@
                             "type": "STEP",
                             "resolution": 96,
                             "importIndex": 0,
-                            "partName": "MotorHoles"
+                            "partName": "MotorHolestest"
                         }
                     ],
                     "allConnectors": [
@@ -1702,6 +1702,112 @@
                                 }
                             ],
                             "description": "Creates a new regular polygon. Corners are on the diameter."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.9107142857142856,
+                            "y": 0.6963123644251626,
+                            "uniqueID": "dbf4577d-3862-4ab9-8551-7cfe7b82c023",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "GuideHoles"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STEP"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STEP",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "GuideHoles"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.7423469387755102,
+                            "y": 0.5856832971800433,
+                            "uniqueID": "16ca3ae7-18f5-4b92-9b12-e2780b2bcc69",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 50
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.7210884353741497,
+                            "y": 0.7180043383947939,
+                            "uniqueID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "16ca3ae7-18f5-4b92-9b12-e2780b2bcc69"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.744047619047619,
+                            "y": 0.8720173535791758,
+                            "uniqueID": "a3409746-0792-414c-a496-04f8abc15755",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "2b26349c-3034-4aa3-bb90-fc4dd17dec70"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 86
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.8273809523809523,
+                            "y": 0.7288503253796096,
+                            "uniqueID": "202fcdc3-ef25-4ba8-899d-b907648b85ec",
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": "a3409746-0792-414c-a496-04f8abc15755"
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": "40011eca-e993-49c1-b8fd-9dd180e80711"
+                                }
+                            ],
+                            "description": "Subtracts shape two from shape one."
                         }
                     ],
                     "allConnectors": [
@@ -1875,10 +1981,38 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": "40011eca-e993-49c1-b8fd-9dd180e80711",
+                            "ap2ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "74d1cbec-d86e-4a53-99cf-cbbaad7ec2a7",
                             "ap2ID": 1749533264994
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "16ca3ae7-18f5-4b92-9b12-e2780b2bcc69",
+                            "ap2ID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70",
+                            "ap2ID": "a3409746-0792-414c-a496-04f8abc15755"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry1",
+                            "ap2Primary": false,
+                            "ap1ID": "a3409746-0792-414c-a496-04f8abc15755",
+                            "ap2ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
                         }
                     ],
                     "fileTypeVersion": 1,
