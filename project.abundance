@@ -1712,7 +1712,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
                                 },
                                 {
                                     "name": "Resolution (dpi)",
@@ -1742,7 +1742,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 50
+                                    "ioValue": 55
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1760,7 +1760,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1769,7 +1769,7 @@
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.744047619047619,
-                            "y": 0.8720173535791758,
+                            "y": 0.8633405639913232,
                             "uniqueID": "a3409746-0792-414c-a496-04f8abc15755",
                             "ioValues": [
                                 {
@@ -1778,7 +1778,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 86
+                                    "ioValue": 90
                                 },
                                 {
                                     "name": "yDist",
@@ -1786,7 +1786,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1794,8 +1794,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.8273809523809523,
-                            "y": 0.7288503253796096,
+                            "x": 0.8290816326530612,
+                            "y": 0.7245119305856833,
                             "uniqueID": "202fcdc3-ef25-4ba8-899d-b907648b85ec",
                             "ioValues": [
                                 {
@@ -2013,6 +2013,13 @@
                             "ap2Primary": false,
                             "ap1ID": "a3409746-0792-414c-a496-04f8abc15755",
                             "ap2ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec",
+                            "ap2ID": "dbf4577d-3862-4ab9-8551-7cfe7b82c023"
                         }
                     ],
                     "fileTypeVersion": 1,
