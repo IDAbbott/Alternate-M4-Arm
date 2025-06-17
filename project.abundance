@@ -146,7 +146,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -172,7 +172,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": -9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -198,7 +198,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": -9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -210,8 +210,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.46683673469387754,
-                            "y": 0.5206073752711496,
+                            "x": 0.4693877551020408,
+                            "y": 0.5162689804772235,
                             "uniqueID": 1749502589748,
                             "ioValues": [
                                 {
@@ -224,7 +224,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -246,7 +246,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 85.8
+                                    "ioValue": 86.8
                                 },
                                 {
                                     "name": "yDist",
@@ -370,7 +370,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 10.3
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1100,8 +1100,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.0663265306122449,
-                    "y": 0.6876355748373102,
+                    "x": 0.06972789115646258,
+                    "y": 0.6854663774403471,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
