@@ -28,7 +28,12 @@
             "x": 0.1284013605442177,
             "y": 0.3731019522776573,
             "uniqueID": 1749241083253,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "WallHeight",
+                    "ioValue": 10
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -49,8 +54,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.0782312925170068,
-                    "y": 0.5357917570498916,
+                    "x": 0.16666666666666666,
+                    "y": 0.5466377440347072,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1143,8 +1148,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.05952380952380952,
-                    "y": 0.665943600867679,
+                    "x": 0.16751700680272108,
+                    "y": 0.6984815618221258,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1930,8 +1935,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Hex",
-                    "x": 0.06037414965986395,
-                    "y": 0.17136659436008678,
+                    "x": 0.13435374149659865,
+                    "y": 0.16485900216919738,
                     "uniqueID": 1749543856507,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2178,8 +2183,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.05782312925170068,
-                    "y": 0.2950108459869848,
+                    "x": 0.1556122448979592,
+                    "y": 0.29718004338394793,
                     "uniqueID": 1749544035717,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2291,10 +2296,15 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.06377551020408163,
-                    "y": 0.40997830802603036,
+                    "x": 0.11819727891156462,
+                    "y": 0.42516268980477223,
                     "uniqueID": 1749545474991,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "WallHeight",
+                            "ioValue": 22
+                        }
+                    ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
@@ -2443,7 +2453,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 15
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2534,6 +2544,16 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "WallHeight",
+                            "x": 0.04,
+                            "y": 0.5856832971800433,
+                            "uniqueID": "d0068a54-98bb-4bd9-a5f2-cae2a7393309",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
                         }
                     ],
                     "allConnectors": [
@@ -2634,6 +2654,13 @@
                             "ap2Primary": false,
                             "ap1ID": "451d3e15-d838-4b4c-a2fc-0ac10021d6c1",
                             "ap2ID": "3b155ba2-da80-425b-8f7e-24c7ec0b70da"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": "d0068a54-98bb-4bd9-a5f2-cae2a7393309",
+                            "ap2ID": "37c92f4e-530a-4900-b749-4405f61bd8bf"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -3342,7 +3369,7 @@
                             "atomType": "Input",
                             "name": "WallHeight",
                             "x": 0.04,
-                            "y": 0.22776572668112796,
+                            "y": 0.22125813449023862,
                             "uniqueID": "160e3b9a-5fe5-4152-8e8e-90446dde399e",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -3602,8 +3629,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.09013605442176871,
-                    "y": 0.876355748373102,
+                    "x": 0.1717687074829932,
+                    "y": 0.8741865509761388,
                     "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4286,6 +4313,16 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "WallHeight",
+                    "x": 0.04,
+                    "y": 0.5249457700650759,
+                    "uniqueID": "0bb085aa-8f27-416d-be7a-d7f75cf1473e",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
                 }
             ],
             "allConnectors": [
