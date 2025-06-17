@@ -1276,11 +1276,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 96.8
+                                    "ioValue": 94
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -1302,11 +1302,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 96.8
+                                    "ioValue": 94
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": -9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -1464,8 +1464,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6079931972789115,
-                            "y": 0.774403470715835,
+                            "x": 0.608843537414966,
+                            "y": 0.7678958785249458,
                             "uniqueID": "7114feb8-cc1a-4bc8-88e1-0d75cb3e238b",
                             "ioValues": [
                                 {
@@ -1474,11 +1474,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 76.8
+                                    "ioValue": 74
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 9.3
                                 },
                                 {
                                     "name": "zDist",
@@ -1500,11 +1500,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 76.8
+                                    "ioValue": 74
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -9.5
+                                    "ioValue": -9.3
                                 },
                                 {
                                     "name": "zDist",
