@@ -1225,8 +1225,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.3622448979591837,
-                            "y": 0.12147505422993492,
+                            "x": 0.3630952380952381,
+                            "y": 0.11496746203904555,
                             "uniqueID": 1749532124739,
                             "ioValues": [
                                 {
@@ -1235,7 +1235,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 108
+                                    "ioValue": 106
                                 },
                                 {
                                     "name": "yDist",
@@ -1287,7 +1287,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 108
+                                    "ioValue": 106
                                 },
                                 {
                                     "name": "yDist",
@@ -1491,7 +1491,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 108
+                                    "ioValue": 106
                                 },
                                 {
                                     "name": "yDist",
@@ -1517,7 +1517,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 108
+                                    "ioValue": 106
                                 },
                                 {
                                     "name": "yDist",
@@ -1648,7 +1648,7 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "GuideHoles2"
+                                    "ioValue": "GuideHoles3"
                                 },
                                 {
                                     "name": "File Type",
@@ -1659,7 +1659,7 @@
                             "type": "STEP",
                             "resolution": 96,
                             "importIndex": 0,
-                            "partName": "GuideHoles2"
+                            "partName": "GuideHoles3"
                         },
                         {
                             "atomType": "Circle",
