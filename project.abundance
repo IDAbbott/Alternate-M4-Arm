@@ -8774,8 +8774,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "BottomDisk",
-                    "x": 0.26037735849056604,
-                    "y": 0.09702970297029703,
+                    "x": 0.26084905660377355,
+                    "y": 0.10495049504950495,
                     "uniqueID": "cc2c3461-67fc-4155-b44a-37fb765818d9",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -8812,8 +8812,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2542517006802721,
-                            "y": 0.31019522776572667,
+                            "x": 0.2509433962264151,
+                            "y": 0.30297029702970296,
                             "uniqueID": "f4530b76-dabd-4a4c-8e41-ee9a2ad43976",
                             "ioValues": [
                                 {
@@ -8822,7 +8822,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -8830,8 +8830,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.3852040816326531,
-                            "y": 0.3080260303687636,
+                            "x": 0.3905660377358491,
+                            "y": 0.30495049504950494,
                             "uniqueID": "7d2b1db0-8806-4faf-8db1-9ad9072703df",
                             "ioValues": [
                                 {
@@ -8848,7 +8848,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -8888,8 +8888,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.38095238095238093,
-                            "y": 0.5726681127982647,
+                            "x": 0.3792452830188679,
+                            "y": 0.5544554455445544,
                             "uniqueID": "e83112ba-0ad7-4589-96ef-0dff0271f48b",
                             "ioValues": [
                                 {
@@ -8906,7 +8906,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
