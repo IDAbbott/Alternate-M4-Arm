@@ -6999,8 +6999,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.38860544217687076,
-                    "y": 0.6767895878524945,
+                    "x": 0.3933962264150943,
+                    "y": 0.6693069306930693,
                     "uniqueID": "760df435-def6-4375-9009-0e40c62250f5",
                     "ioValues": [
                         {
@@ -7705,8 +7705,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9668367346938777,
-                            "y": 0.4793926247288503,
+                            "x": 0.9617924528301888,
+                            "y": 0.4871287128712872,
                             "uniqueID": "eed24e54-791f-40c9-95e4-d513c788cde4",
                             "ioValues": [
                                 {
@@ -7777,13 +7777,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5537735849056603,
-                            "y": 0.7306930693069307,
+                            "x": 0.5665094339622642,
+                            "y": 0.7346534653465346,
                             "uniqueID": "ae2a8705-ac4c-42f6-889b-4ab0858ec29b",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": "02d4b756-1f80-4147-a425-b557d5a6a2a6"
                                 },
                                 {
                                     "name": "xDist",
@@ -7849,7 +7849,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -8371,8 +8371,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.8382075471698114,
-                            "y": 0.3603960396039604,
+                            "x": 0.8405660377358491,
+                            "y": 0.3782178217821782,
                             "uniqueID": "9498e657-053e-477c-9310-900a10b5a40a",
                             "ioValues": [
                                 {
@@ -8626,6 +8626,13 @@
                             "ap2Primary": true,
                             "ap1ID": "02d4b756-1f80-4147-a425-b557d5a6a2a6",
                             "ap2ID": "94aac15e-9117-47e9-87ba-59ab386edb67"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "02d4b756-1f80-4147-a425-b557d5a6a2a6",
+                            "ap2ID": "ae2a8705-ac4c-42f6-889b-4ab0858ec29b"
                         },
                         {
                             "ap1Name": "geometry",
