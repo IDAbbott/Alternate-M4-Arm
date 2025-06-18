@@ -8548,7 +8548,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "ArmNew",
+            "name": "ArmNewCenterCap",
             "x": 0.1320754716981132,
             "y": 0.7386138613861386,
             "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
@@ -11250,7 +11250,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -11797,8 +11797,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.31887755102040816,
-                            "y": 0.7852494577006508,
+                            "x": 0.27122641509433965,
+                            "y": 0.7346534653465346,
                             "uniqueID": "d2d2f86e-7979-4f81-9cc7-a0e32203d721",
                             "ioValues": [
                                 {
@@ -11815,8 +11815,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.4166666666666667,
-                            "y": 0.8221258134490239,
+                            "x": 0.36556603773584906,
+                            "y": 0.7584158415841584,
                             "uniqueID": "0ffb05a2-c1c7-41e2-9bf0-07352ffcf125",
                             "ioValues": [
                                 {
