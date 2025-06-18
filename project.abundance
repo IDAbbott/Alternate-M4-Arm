@@ -8564,8 +8564,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8339622641509434,
-                    "y": 0.21188118811881188,
+                    "x": 0.8254716981132075,
+                    "y": 0.19207920792079208,
                     "uniqueID": "92833919-856d-412a-8ef6-c9a2196e3aaf",
                     "ioValues": [
                         {
@@ -8666,7 +8666,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -8684,7 +8684,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 8
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
