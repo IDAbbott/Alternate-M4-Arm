@@ -8760,8 +8760,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8089622641509434,
-                    "y": 0.1801980198019802,
+                    "x": 0.8037735849056604,
+                    "y": 0.1683168316831683,
                     "uniqueID": "92833919-856d-412a-8ef6-c9a2196e3aaf",
                     "ioValues": [
                         {
@@ -9318,7 +9318,7 @@
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 6
+                            "ioValue": 3
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9469,7 +9469,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -10000,11 +10000,11 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "SVG"
+                            "ioValue": "STEP"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": null,
+                    "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "ArmNew"
