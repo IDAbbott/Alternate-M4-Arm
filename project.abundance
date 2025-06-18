@@ -11472,8 +11472,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.16496598639455784,
-                    "y": 0.8806941431670282,
+                    "x": 0.16132075471698112,
+                    "y": 0.8851485148514852,
                     "uniqueID": "e4e6df93-7423-4485-9cf9-a9e27cbac56e",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11482,8 +11482,8 @@
                         {
                             "atomType": "Output",
                             "name": "Output",
-                            "x": 0.9668367346938777,
-                            "y": 0.4793926247288503,
+                            "x": 0.959433962264151,
+                            "y": 0.47326732673267324,
                             "uniqueID": "3017c2ff-c3b1-4fc0-8374-6a38ad54d4cf",
                             "ioValues": [
                                 {
@@ -11660,8 +11660,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5580188679245283,
-                            "y": 0.7801980198019802,
+                            "x": 0.5716981132075472,
+                            "y": 0.7346534653465346,
                             "uniqueID": "789f05a2-ea2d-4d47-88b7-1fb719b8f5e3",
                             "ioValues": [
                                 {
@@ -11686,13 +11686,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5778301886792453,
-                            "y": 0.12673267326732673,
+                            "x": 0.5495283018867925,
+                            "y": 0.44752475247524753,
                             "uniqueID": "b6f49cf5-90d6-4d66-b375-e90e076fba3b",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "00e18772-0608-4536-8221-a24a7e4cf121"
+                                    "ioValue": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2"
                                 },
                                 {
                                     "name": "xDist",
@@ -11888,8 +11888,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5481132075471699,
-                            "y": 0.4138613861386139,
+                            "x": 0.5155660377358491,
+                            "y": 0.5485148514851486,
                             "uniqueID": "4d515ce4-5b51-4cce-935f-a8461ac963da",
                             "ioValues": [
                                 {
@@ -11914,13 +11914,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5759433962264151,
-                            "y": 0.5544554455445544,
+                            "x": 0.683490566037736,
+                            "y": 0.23564356435643563,
                             "uniqueID": "621b305d-b6aa-48f9-bd48-3f2f260225f9",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2"
+                                    "ioValue": "00e18772-0608-4536-8221-a24a7e4cf121"
                                 },
                                 {
                                     "name": "xDist",
@@ -12036,7 +12036,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -12235,13 +12235,6 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "00e18772-0608-4536-8221-a24a7e4cf121",
-                            "ap2ID": "b6f49cf5-90d6-4d66-b375-e90e076fba3b"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "00e18772-0608-4536-8221-a24a7e4cf121",
                             "ap2ID": "f77afbd3-2581-4f49-92ae-cda51176da4c"
                         },
                         {
@@ -12276,15 +12269,15 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2",
-                            "ap2ID": "4d515ce4-5b51-4cce-935f-a8461ac963da"
+                            "ap1ID": "00e18772-0608-4536-8221-a24a7e4cf121",
+                            "ap2ID": "621b305d-b6aa-48f9-bd48-3f2f260225f9"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2",
-                            "ap2ID": "621b305d-b6aa-48f9-bd48-3f2f260225f9"
+                            "ap2ID": "4d515ce4-5b51-4cce-935f-a8461ac963da"
                         },
                         {
                             "ap1Name": "geometry",
@@ -12299,6 +12292,13 @@
                             "ap2Primary": true,
                             "ap1ID": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2",
                             "ap2ID": "789f05a2-ea2d-4d47-88b7-1fb719b8f5e3"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2",
+                            "ap2ID": "b6f49cf5-90d6-4d66-b375-e90e076fba3b"
                         }
                     ],
                     "fileTypeVersion": 1,
