@@ -4908,8 +4908,8 @@
         {
             "atomType": "Molecule",
             "name": "ArmNewCap",
-            "x": 0.13443396226415094,
-            "y": 0.46732673267326735,
+            "x": 0.1311320754716981,
+            "y": 0.4653465346534653,
             "uniqueID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
             "ioValues": [
                 {
@@ -8745,8 +8745,8 @@
         {
             "atomType": "Molecule",
             "name": "ArmNewCenterCap",
-            "x": 0.13679245283018868,
-            "y": 0.7405940594059406,
+            "x": 0.13632075471698113,
+            "y": 0.7683168316831683,
             "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
             "ioValues": [
                 {
@@ -9988,7 +9988,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "2562f79b-374f-4b1f-a7a4-724d34c40f78"
+                            "ioValue": "6f74f347-5c07-4b85-b947-814ac1ffa277"
                         },
                         {
                             "name": "Resolution (dpi)",
@@ -10049,8 +10049,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.13632075471698113,
-                    "y": 0.8732673267326732,
+                    "x": 0.12735849056603774,
+                    "y": 0.8277227722772278,
                     "uniqueID": "1c8eb2bb-2fca-471e-bd0e-4f32131dadef",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -10497,7 +10497,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -10505,13 +10505,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.44292452830188683,
-                            "y": 0.12277227722772278,
+                            "x": 0.5367924528301886,
+                            "y": 0.12475247524752475,
                             "uniqueID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "71dab0dc-9525-4278-a35f-72a532250354"
+                                    "ioValue": "cbcdaad4-de90-4d84-aaba-56a30b56e477"
                                 },
                                 {
                                     "name": "xDist",
@@ -10523,7 +10523,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -5
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -10585,6 +10585,32 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.41603773584905657,
+                            "y": 0.13267326732673268,
+                            "uniqueID": "cbcdaad4-de90-4d84-aaba-56a30b56e477",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "71dab0dc-9525-4278-a35f-72a532250354"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 180
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -10719,7 +10745,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
-                            "ap2ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d"
+                            "ap2ID": "cbcdaad4-de90-4d84-aaba-56a30b56e477"
                         },
                         {
                             "ap1Name": "geometry",
@@ -10804,6 +10830,13 @@
                             "ap2Primary": true,
                             "ap1ID": "a87525bb-b7b9-46f5-b47d-d7e2e197e973",
                             "ap2ID": "91b8b15d-f2e2-4620-ab5c-e728cccff359"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "cbcdaad4-de90-4d84-aaba-56a30b56e477",
+                            "ap2ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -10855,17 +10888,17 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "6f74f347-5c07-4b85-b947-814ac1ffa277",
+                    "ap2ID": "e9a63554-9a8c-4246-a22c-941fe3e4a774"
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "2562f79b-374f-4b1f-a7a4-724d34c40f78",
                     "ap2ID": "6f74f347-5c07-4b85-b947-814ac1ffa277"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "2562f79b-374f-4b1f-a7a4-724d34c40f78",
-                    "ap2ID": "e9a63554-9a8c-4246-a22c-941fe3e4a774"
                 },
                 {
                     "ap1Name": "Geometry",
