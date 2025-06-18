@@ -12018,8 +12018,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4457547169811321,
-                            "y": 0.16633663366336635,
+                            "x": 0.4424528301886792,
+                            "y": 0.15247524752475247,
                             "uniqueID": "00e18772-0608-4536-8221-a24a7e4cf121",
                             "ioValues": [
                                 {
@@ -12036,7 +12036,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -12045,7 +12045,7 @@
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.43820754716981136,
-                            "y": 0.6237623762376238,
+                            "y": 0.6198019801980198,
                             "uniqueID": "446e24ce-eebb-4f28-b8e5-6b0abae5bbf2",
                             "ioValues": [
                                 {
