@@ -2302,7 +2302,7 @@
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 22
+                            "ioValue": 24
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2453,7 +2453,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2792,7 +2792,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 11
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3035,13 +3035,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.3995283018867925,
-                    "y": 0.06336633663366337,
+                    "x": 0.3759433962264151,
+                    "y": 0.09900990099009901,
                     "uniqueID": 1749546144185,
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 22
+                            "ioValue": 24
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3092,7 +3092,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3152,8 +3152,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7074829931972789,
-                            "y": 0.06941431670281996,
+                            "x": 0.7259433962264151,
+                            "y": 0.12079207920792079,
                             "uniqueID": 1749546224353,
                             "ioValues": [
                                 {
@@ -3206,7 +3206,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3264,7 +3264,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3324,7 +3324,7 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.630188679245283,
+                            "x": 0.6311320754716981,
                             "y": 0.1801980198019802,
                             "uniqueID": 1749546339041,
                             "ioValues": [
@@ -3370,7 +3370,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3432,7 +3432,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 24
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3608,8 +3608,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.37670068027210885,
-                            "y": 0.5748373101952278,
+                            "x": 0.42075471698113204,
+                            "y": 0.5742574257425742,
                             "uniqueID": 1749549345401,
                             "ioValues": [
                                 {
@@ -3961,6 +3961,13 @@
                             "ap2Primary": false,
                             "ap1ID": "160e3b9a-5fe5-4152-8e8e-90446dde399e",
                             "ap2ID": 1749546225235
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": "160e3b9a-5fe5-4152-8e8e-90446dde399e",
+                            "ap2ID": 1749546432591
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -4105,8 +4112,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.479245283018868,
-                            "y": 0.8950495049504951,
+                            "x": 0.6476415094339623,
+                            "y": 0.8633663366336632,
                             "uniqueID": "8f67200e-8941-4417-b6f2-90998b42b155",
                             "ioValues": [
                                 {
@@ -4489,8 +4496,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5910377358490566,
-                            "y": 0.8772277227722773,
+                            "x": 0.5985849056603774,
+                            "y": 0.7643564356435644,
                             "uniqueID": "d0f88e9e-0926-4ab5-8f7e-94f9501e1960",
                             "ioValues": [
                                 {
