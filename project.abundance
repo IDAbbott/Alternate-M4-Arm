@@ -4908,8 +4908,8 @@
         {
             "atomType": "Molecule",
             "name": "ArmNewCap",
-            "x": 0.1320754716981132,
-            "y": 0.47128712871287126,
+            "x": 0.12783018867924528,
+            "y": 0.4514851485148515,
             "uniqueID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
             "ioValues": [
                 {
@@ -6022,13 +6022,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.2099056603773585,
-                    "y": 0.8574257425742573,
+                    "x": 0.205188679245283,
+                    "y": 0.8158415841584158,
                     "uniqueID": "75452bd6-67f4-4f8f-baaa-377870346ef8",
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 10
+                            "ioValue": 0
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6532,7 +6532,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -12
+                                    "ioValue": -18
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
