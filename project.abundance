@@ -4963,8 +4963,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Hex",
-                    "x": 0.2240566037735849,
-                    "y": 0.08910891089108912,
+                    "x": 0.22075471698113208,
+                    "y": 0.18217821782178217,
                     "uniqueID": "5ed3c0c8-013d-40c9-b2bf-0feb399d28c3",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5211,8 +5211,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.14056603773584905,
-                    "y": 0.18415841584158418,
+                    "x": 0.14481132075471698,
+                    "y": 0.300990099009901,
                     "uniqueID": "af98b71e-51f0-4f7b-a6e3-61c855a2616b",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5354,8 +5354,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.44622641509433963,
-                    "y": 0.23564356435643563,
+                    "x": 0.4179245283018868,
+                    "y": 0.3782178217821782,
                     "uniqueID": "0d0036b7-97ba-44ca-bc4b-b492215ff217",
                     "ioValues": [
                         {
@@ -5387,8 +5387,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.08867924528301888,
-                    "y": 0.35841584158415846,
+                    "x": 0.08773584905660377,
+                    "y": 0.4376237623762376,
                     "uniqueID": "e4075dc4-a648-4cc5-8869-89d26ae2a8a1",
                     "ioValues": [
                         {
@@ -8923,6 +8923,50 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.29952830188679247,
+                    "y": 0.11089108910891089,
+                    "uniqueID": "bcb57e56-d72a-4c1b-bdb9-506cd5d69a97",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3613207547169811,
+                    "y": 0.11287128712871287,
+                    "uniqueID": "ecfe90d0-6430-44d8-936c-de48a8f31760",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
