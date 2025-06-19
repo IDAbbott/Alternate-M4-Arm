@@ -958,8 +958,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2542517006802721,
-                            "y": 0.31019522776572667,
+                            "x": 0.2537735849056604,
+                            "y": 0.29504950495049503,
                             "uniqueID": "f4530b76-dabd-4a4c-8e41-ee9a2ad43976",
                             "ioValues": [
                                 {
@@ -968,7 +968,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -994,7 +994,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1048,8 +1048,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.38095238095238093,
-                            "y": 0.5726681127982647,
+                            "x": 0.3830188679245283,
+                            "y": 0.5663366336633663,
                             "uniqueID": "e83112ba-0ad7-4589-96ef-0dff0271f48b",
                             "ioValues": [
                                 {
@@ -1066,7 +1066,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3024,7 +3024,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
