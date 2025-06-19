@@ -5767,8 +5767,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.21320754716981133,
-                            "y": 0.5782178217821783,
+                            "x": 0.2179245283018868,
+                            "y": 0.5722772277227723,
                             "uniqueID": "441b3467-9871-4e39-90c7-4ed4215ddce0",
                             "ioValues": [
                                 {
@@ -5884,7 +5884,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
