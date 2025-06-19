@@ -10049,8 +10049,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.12735849056603774,
-                    "y": 0.8277227722772278,
+                    "x": 0.12877358490566038,
+                    "y": 0.8435643564356436,
                     "uniqueID": "1c8eb2bb-2fca-471e-bd0e-4f32131dadef",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -10555,7 +10555,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 13
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
