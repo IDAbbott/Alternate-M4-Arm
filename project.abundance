@@ -40,8 +40,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.83843537414966,
-                    "y": 0.23644251626898047,
+                    "x": 0.8320754716981131,
+                    "y": 0.2435643564356436,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -124,8 +124,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.22448979591836737,
-                            "y": 0.403470715835141,
+                            "x": 0.22216981132075472,
+                            "y": 0.39207920792079204,
                             "uniqueID": 1749502589600,
                             "ioValues": [
                                 {
@@ -330,8 +330,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.27125850340136054,
-                            "y": 0.509761388286334,
+                            "x": 0.2820754716981132,
+                            "y": 0.5603960396039603,
                             "uniqueID": 1749502763753,
                             "ioValues": [
                                 {
@@ -348,7 +348,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -424,8 +424,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.08078231292517007,
-                            "y": 0.5748373101952278,
+                            "x": 0.0778301886792453,
+                            "y": 0.6079207920792079,
                             "uniqueID": "03b1842d-932b-4a6f-bb14-922bc0e6760e",
                             "ioValues": [
                                 {
@@ -1296,8 +1296,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2825947334617855,
-                            "y": 0.6399132321041214,
+                            "x": 0.2839622641509434,
+                            "y": 0.6396039603960396,
                             "uniqueID": 1749533265518,
                             "ioValues": [
                                 {
@@ -1402,7 +1402,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 11
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4112,8 +4112,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6514150943396226,
-                            "y": 0.9148514851485149,
+                            "x": 0.6537735849056604,
+                            "y": 0.8910891089108911,
                             "uniqueID": "8f67200e-8941-4417-b6f2-90998b42b155",
                             "ioValues": [
                                 {
@@ -4130,7 +4130,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4242,8 +4242,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7698113207547169,
-                            "y": 0.5188118811881188,
+                            "x": 0.7702830188679245,
+                            "y": 0.5168316831683168,
                             "uniqueID": "acac5f43-dc0d-4727-806b-3364844bd840",
                             "ioValues": [
                                 {
@@ -4540,7 +4540,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4566,7 +4566,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -1
+                                    "ioValue": -4
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
