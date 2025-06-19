@@ -54,8 +54,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.1669811320754717,
-                    "y": 0.5227722772277228,
+                    "x": 0.16650943396226414,
+                    "y": 0.5089108910891089,
                     "uniqueID": 1749502519967,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2183,8 +2183,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Link",
-                    "x": 0.1556122448979592,
-                    "y": 0.29718004338394793,
+                    "x": 0.1561320754716981,
+                    "y": 0.297029702970297,
                     "uniqueID": 1749544035717,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3938,8 +3938,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5739795918367347,
-                            "y": 0.613882863340564,
+                            "x": 0.5825471698113207,
+                            "y": 0.6059405940594059,
                             "uniqueID": "7ef947e0-0e5f-4604-8568-d461a4f4eba6",
                             "ioValues": [
                                 {
@@ -3956,7 +3956,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3982,7 +3982,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4062,7 +4062,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4088,7 +4088,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4140,7 +4140,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4316,7 +4316,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4342,7 +4342,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4368,7 +4368,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4394,7 +4394,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4402,8 +4402,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.570578231292517,
-                            "y": 0.8112798264642083,
+                            "x": 0.5910377358490566,
+                            "y": 0.8772277227722773,
                             "uniqueID": "d0f88e9e-0926-4ab5-8f7e-94f9501e1960",
                             "ioValues": [
                                 {
@@ -4420,7 +4420,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4742,8 +4742,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.7312925170068028,
-                    "y": 0.613882863340564,
+                    "x": 0.7363207547169812,
+                    "y": 0.6079207920792079,
                     "uniqueID": "ddcdd634-508e-41c1-b3cf-730e314d2460",
                     "ioValues": [
                         {
