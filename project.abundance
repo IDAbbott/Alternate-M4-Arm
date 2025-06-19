@@ -1028,7 +1028,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 130
+                                    "ioValue": 132
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -3802,11 +3802,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 4
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 35
+                                    "ioValue": 37
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -3846,7 +3846,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 16
+                                    "ioValue": 17
                                 },
                                 {
                                     "name": "zDist",
@@ -3898,7 +3898,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -16
+                                    "ioValue": -17
                                 },
                                 {
                                     "name": "zDist",
