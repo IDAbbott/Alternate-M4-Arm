@@ -35,8 +35,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8292452830188679,
-                    "y": 0.24554455445544557,
+                    "x": 0.8240566037735849,
+                    "y": 0.2435643564356436,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -1300,7 +1300,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1352,7 +1352,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1556,7 +1556,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1582,7 +1582,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3962,8 +3962,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.5636792452830188,
-                            "y": 0.8772277227722773,
+                            "x": 0.5679245283018868,
+                            "y": 0.8851485148514852,
                             "uniqueID": "79d48c62-4e58-4e85-8a4a-536bddc080d2",
                             "ioValues": [
                                 {
@@ -3972,7 +3972,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 35
+                                    "ioValue": 48
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -4008,11 +4008,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 65
+                                    "ioValue": 93
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -16
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "zDist",
