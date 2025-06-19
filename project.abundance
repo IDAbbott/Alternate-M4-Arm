@@ -4937,8 +4937,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MotorHoles",
-                    "x": 0.16666666666666666,
-                    "y": 0.5466377440347072,
+                    "x": 0.14433962264150943,
+                    "y": 0.5168316831683168,
                     "uniqueID": "02ec3f77-91f6-47f3-8a21-1a31769cb8a8",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4961,8 +4961,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.10725754656390495,
-                            "y": 0.1366594360086768,
+                            "x": 0.1259433962264151,
+                            "y": 0.16435643564356436,
                             "uniqueID": 1749502590102,
                             "ioValues": [
                                 {
@@ -4975,8 +4975,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2465986394557823,
-                            "y": 0.17787418655097614,
+                            "x": 0.24339622641509434,
+                            "y": 0.13663366336633664,
                             "uniqueID": 1749502589479,
                             "ioValues": [
                                 {
@@ -4993,8 +4993,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.07993197278911565,
-                            "y": 0.46854663774403477,
+                            "x": 0.04811320754716981,
+                            "y": 0.4217821782178218,
                             "uniqueID": 1749502590137,
                             "ioValues": [
                                 {
@@ -5007,8 +5007,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.22448979591836737,
-                            "y": 0.403470715835141,
+                            "x": 0.2273584905660377,
+                            "y": 0.4198019801980198,
                             "uniqueID": 1749502589600,
                             "ioValues": [
                                 {
@@ -5195,8 +5195,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.20068027210884354,
-                            "y": 0.5835140997830802,
+                            "x": 0.1971698113207547,
+                            "y": 0.5900990099009901,
                             "uniqueID": 1749502724238,
                             "ioValues": [
                                 {
@@ -5289,8 +5289,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.3554421768707483,
-                            "y": 0.18004338394793926,
+                            "x": 0.355188679245283,
+                            "y": 0.16633663366336635,
                             "uniqueID": 1749503284552,
                             "ioValues": [
                                 {
@@ -5307,8 +5307,8 @@
                         {
                             "atomType": "RegularPolygon",
                             "name": "RegularPolygon",
-                            "x": 0.08078231292517007,
-                            "y": 0.5748373101952278,
+                            "x": 0.0509433962264151,
+                            "y": 0.6079207920792079,
                             "uniqueID": "03b1842d-932b-4a6f-bb14-922bc0e6760e",
                             "ioValues": [
                                 {
@@ -5343,8 +5343,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.6215986394557823,
-                            "y": 0.3752711496746204,
+                            "x": 0.6221698113207548,
+                            "y": 0.37425742574257426,
                             "uniqueID": "14f40c59-b0a1-49da-893b-685f2af08ba8",
                             "ioValues": [
                                 {
@@ -5407,112 +5407,6 @@
                                 {
                                     "name": "Part Name",
                                     "ioValue": "MotorHoles"
-                                },
-                                {
-                                    "name": "File Type",
-                                    "ioValue": "STEP"
-                                }
-                            ],
-                            "description": "Export Atom, let's you choose a type of file to Export.",
-                            "type": "STEP",
-                            "resolution": 96,
-                            "importIndex": 0,
-                            "partName": "MotorHoles"
-                        },
-                        {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.6301020408163265,
-                            "y": 0.06724511930585683,
-                            "uniqueID": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef",
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 40
-                                }
-                            ],
-                            "description": "Creates a new circle."
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.7542517006802721,
-                            "y": 0.1475054229934924,
-                            "uniqueID": "3546d0e8-796b-4861-83c2-9cd42f944556",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3"
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 2
-                                }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.7848639455782314,
-                            "y": 0.29718004338394793,
-                            "uniqueID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05",
-                            "ioValues": [
-                                {
-                                    "name": "geometry1",
-                                    "ioValue": "3546d0e8-796b-4861-83c2-9cd42f944556"
-                                },
-                                {
-                                    "name": "geometry2",
-                                    "ioValue": "14f40c59-b0a1-49da-893b-685f2af08ba8"
-                                }
-                            ],
-                            "description": "Subtracts shape two from shape one."
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.66921768707483,
-                            "y": 0.2017353579175705,
-                            "uniqueID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 86
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 2
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "Export",
-                            "name": "Export",
-                            "x": 0.8095238095238095,
-                            "y": 0.3969631236442516,
-                            "uniqueID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
-                                },
-                                {
-                                    "name": "Resolution (dpi)",
-                                    "ioValue": 96
-                                },
-                                {
-                                    "name": "Part Name",
-                                    "ioValue": "MotorHolestest2"
                                 },
                                 {
                                     "name": "File Type",
@@ -5723,45 +5617,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": "14f40c59-b0a1-49da-893b-685f2af08ba8",
-                            "ap2ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": "a0dcf1b9-b940-4046-87e1-2702177e44f4",
                             "ap2ID": 1749502519707
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "89a850c1-9d2e-4c42-b8a9-9cc30c82b9ef",
-                            "ap2ID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
-                            "ap2Primary": false,
-                            "ap1ID": "3546d0e8-796b-4861-83c2-9cd42f944556",
-                            "ap2ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05",
-                            "ap2ID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "424d7ec0-3c3a-4d3d-b15f-667fff38bbc3",
-                            "ap2ID": "3546d0e8-796b-4861-83c2-9cd42f944556"
                         },
                         {
                             "ap1Name": "geometry",
@@ -6591,7 +6450,7 @@
                     "atomType": "Molecule",
                     "name": "M4Hex",
                     "x": 0.2287735849056604,
-                    "y": 0.13267326732673268,
+                    "y": 0.11089108910891089,
                     "uniqueID": "5ed3c0c8-013d-40c9-b2bf-0feb399d28c3",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6880,7 +6739,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 3
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -6906,8 +6765,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.43707482993197283,
-                            "y": 0.4663774403470716,
+                            "x": 0.4466981132075472,
+                            "y": 0.46138613861386135,
                             "uniqueID": 1749544086624,
                             "ioValues": [
                                 {
@@ -7014,8 +6873,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.11462264150943396,
-                    "y": 0.4079207920792079,
+                    "x": 0.11650943396226415,
+                    "y": 0.35445544554455444,
                     "uniqueID": "e4075dc4-a648-4cc5-8869-89d26ae2a8a1",
                     "ioValues": [
                         {
@@ -7453,7 +7312,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
