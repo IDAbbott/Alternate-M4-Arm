@@ -8806,8 +8806,8 @@
         {
             "atomType": "Molecule",
             "name": "ArmNewCenterCap",
-            "x": 0.14952830188679245,
-            "y": 0.7643564356435644,
+            "x": 0.15283018867924528,
+            "y": 0.7683168316831683,
             "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
             "ioValues": [
                 {
@@ -9049,8 +9049,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Hex",
-                    "x": 0.13537735849056604,
-                    "y": 0.1683168316831683,
+                    "x": 0.1320754716981132,
+                    "y": 0.1702970297029703,
                     "uniqueID": "99d1c152-1499-4167-83ad-112c16fbb362",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9374,7 +9374,7 @@
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
                     "x": 0.10566037735849057,
-                    "y": 0.4871287128712872,
+                    "y": 0.502970297029703,
                     "uniqueID": "da574d6b-e967-4e1d-a742-5722eb4a2ecf",
                     "ioValues": [
                         {
@@ -10043,8 +10043,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.6258503401360545,
-                    "y": 0.18655097613882865,
+                    "x": 0.7084905660377359,
+                    "y": 0.6039603960396039,
                     "uniqueID": "e9a63554-9a8c-4246-a22c-941fe3e4a774",
                     "ioValues": [
                         {
@@ -10057,7 +10057,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "ArmNew"
+                            "ioValue": "ArmNewCenterCap"
                         },
                         {
                             "name": "File Type",
@@ -10068,7 +10068,7 @@
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "ArmNew"
+                    "partName": "ArmNewCenterCap"
                 },
                 {
                     "atomType": "Fusion",
