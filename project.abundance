@@ -1935,8 +1935,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Hex",
-                    "x": 0.13435374149659865,
-                    "y": 0.16485900216919738,
+                    "x": 0.13632075471698113,
+                    "y": 0.15841584158415842,
                     "uniqueID": 1749543856507,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2039,7 +2039,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2065,7 +2065,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 6
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2296,8 +2296,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.10518867924528301,
-                    "y": 0.45742574257425744,
+                    "x": 0.1089622641509434,
+                    "y": 0.4376237623762376,
                     "uniqueID": 1749545474991,
                     "ioValues": [
                         {
@@ -2417,8 +2417,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5450680272108844,
-                            "y": 0.33405639913232105,
+                            "x": 0.5429245283018868,
+                            "y": 0.3326732673267327,
                             "uniqueID": "9fa1e8d4-eb94-4d87-8605-2ec92888b250",
                             "ioValues": [
                                 {
@@ -2726,7 +2726,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -10
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2922,8 +2922,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.24404761904761904,
-                    "y": 0.3904555314533623,
+                    "x": 0.27783018867924525,
+                    "y": 0.3900990099009901,
                     "uniqueID": 1749545748508,
                     "ioValues": [
                         {
@@ -2940,7 +2940,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 6
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2948,13 +2948,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4HexWalls",
-                    "x": 0.39965986394557823,
-                    "y": 0.08893709327548807,
+                    "x": 0.3995283018867925,
+                    "y": 0.06336633663366337,
                     "uniqueID": 1749546144185,
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 12
+                            "ioValue": 22
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3005,7 +3005,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3119,7 +3119,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3177,7 +3177,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3345,7 +3345,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3622,7 +3622,7 @@
                             "atomType": "Input",
                             "name": "WallHeight",
                             "x": 0.025384615384615384,
-                            "y": 0.22125813449023862,
+                            "y": 0.1722772277227723,
                             "uniqueID": "160e3b9a-5fe5-4152-8e8e-90446dde399e",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -3907,7 +3907,7 @@
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.1320754716981132,
-                            "y": 0.2158415841584158,
+                            "y": 0.19801980198019803,
                             "uniqueID": "456d7820-48c5-46fc-950e-2b17dcbf4368",
                             "ioValues": [
                                 {
@@ -4454,8 +4454,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2037735849056604,
-                            "y": 0.23762376237623764,
+                            "x": 0.205188679245283,
+                            "y": 0.22970297029702968,
                             "uniqueID": "ab679827-4b4f-4395-9045-508600399f24",
                             "ioValues": [
                                 {
@@ -4724,8 +4724,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5433673469387755,
-                    "y": 0.47071583514099785,
+                    "x": 0.5410377358490567,
+                    "y": 0.45940594059405937,
                     "uniqueID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0",
                     "ioValues": [
                         {
