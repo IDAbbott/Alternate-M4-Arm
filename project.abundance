@@ -5408,7 +5408,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "f0a5156a-0801-41df-90d9-1fb9dd9c092e"
+                                    "ioValue": "93e8f36b-94dc-4497-b014-86045e70d07d"
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -5751,32 +5751,6 @@
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.8372641509433962,
-                            "y": 0.40198019801980195,
-                            "uniqueID": "f0a5156a-0801-41df-90d9-1fb9dd9c092e",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.125,
@@ -5785,7 +5759,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 14.2
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -5793,8 +5767,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2122641509433962,
-                            "y": 0.5821782178217821,
+                            "x": 0.21320754716981133,
+                            "y": 0.5782178217821783,
                             "uniqueID": "441b3467-9871-4e39-90c7-4ed4215ddce0",
                             "ioValues": [
                                 {
@@ -5811,7 +5785,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 6
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -5825,7 +5799,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 15.2
+                                    "ioValue": 14.2
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -5880,6 +5854,10 @@
                                 {
                                     "name": "Shape 11",
                                     "ioValue": "ab304913-c419-406f-9369-dbb1b6cb748e"
+                                },
+                                {
+                                    "name": "Shape 12",
+                                    "ioValue": "cd1be24f-246f-4538-b4c5-0632bebecc59"
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -6118,13 +6096,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "f0a5156a-0801-41df-90d9-1fb9dd9c092e",
-                            "ap2ID": "c1e77925-e7c5-49f6-8c42-1de08ab3652c"
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "6bc1ef60-e7ba-4d51-8bc8-a666687dc701",
@@ -6146,10 +6117,24 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "93e8f36b-94dc-4497-b014-86045e70d07d",
+                            "ap2ID": "c1e77925-e7c5-49f6-8c42-1de08ab3652c"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": "36df1dec-eede-48fb-8f80-071ccec1d0e9",
                             "ap2ID": "cd1be24f-246f-4538-b4c5-0632bebecc59"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 12",
+                            "ap2Primary": false,
+                            "ap1ID": "cd1be24f-246f-4538-b4c5-0632bebecc59",
+                            "ap2ID": "93e8f36b-94dc-4497-b014-86045e70d07d"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -7453,8 +7438,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.034013605442176874,
-                            "y": 0.8893709327548807,
+                            "x": 0.04575471698113207,
+                            "y": 0.8158415841584158,
                             "uniqueID": "713b0eae-5cdf-478e-9745-b85c224050eb",
                             "ioValues": [
                                 {
@@ -7597,8 +7582,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2372448979591837,
-                            "y": 0.9002169197396962,
+                            "x": 0.27547169811320754,
+                            "y": 0.8178217821782178,
                             "uniqueID": "6b5c19ff-538e-4d24-b376-a8e76af12cf8",
                             "ioValues": [
                                 {
@@ -7800,8 +7785,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.1360544217687075,
-                            "y": 0.9088937093275488,
+                            "x": 0.14952830188679245,
+                            "y": 0.8039603960396039,
                             "uniqueID": "41f669a1-5a65-44b5-8294-3313b735af58",
                             "ioValues": [
                                 {
@@ -7818,7 +7803,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 7
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
