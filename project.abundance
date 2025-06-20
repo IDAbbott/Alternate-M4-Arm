@@ -6938,11 +6938,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 4
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 40
+                                    "ioValue": 45
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -6960,7 +6960,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -66
+                                    "ioValue": -63
                                 },
                                 {
                                     "name": "yDist",
