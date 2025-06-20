@@ -6388,8 +6388,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.09575471698113207,
-                    "y": 0.4653465346534653,
+                    "x": 0.09150943396226414,
+                    "y": 0.4415841584158416,
                     "uniqueID": "e4075dc4-a648-4cc5-8869-89d26ae2a8a1",
                     "ioValues": [
                         {
@@ -6932,8 +6932,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.07924528301886792,
-                            "y": 0.22178217821782178,
+                            "x": 0.07452830188679245,
+                            "y": 0.22772277227722773,
                             "uniqueID": "abb1d03a-d729-427e-9dd4-5368477aeb28",
                             "ioValues": [
                                 {
@@ -6942,7 +6942,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 15
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -6964,7 +6964,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": -5
                                 },
                                 {
                                     "name": "zDist",
@@ -7123,7 +7123,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": -5
                                 },
                                 {
                                     "name": "zDist",
