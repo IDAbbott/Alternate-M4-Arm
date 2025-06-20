@@ -1092,20 +1092,6 @@
                             "description": "Creates a new circle."
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.07738095238095238,
-                            "y": 0.6767895878524945,
-                            "uniqueID": "71acdb38-bb4b-4ff0-b366-1d0b6de6eba8",
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 40
-                                }
-                            ],
-                            "description": "Creates a new circle."
-                        },
-                        {
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.19811320754716982,
@@ -1118,7 +1104,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2013,8 +1999,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "M4Hex",
-                    "x": 0.13066037735849056,
-                    "y": 0.13663366336633664,
+                    "x": 0.0900943396226415,
+                    "y": 0.17821782178217824,
                     "uniqueID": 1749543856507,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2065,7 +2051,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2099,8 +2085,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6376685934489403,
-                            "y": 0.23633405639913235,
+                            "x": 0.635377358490566,
+                            "y": 0.22178217821782178,
                             "uniqueID": 1749543906270,
                             "ioValues": [
                                 {
@@ -2380,7 +2366,7 @@
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 24
+                            "ioValue": 22
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2531,7 +2517,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3356,7 +3342,7 @@
                     "ioValues": [
                         {
                             "name": "WallHeight",
-                            "ioValue": 24
+                            "ioValue": 22
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3407,7 +3393,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3521,7 +3507,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3579,7 +3565,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3685,7 +3671,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3747,7 +3733,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 24
+                                    "ioValue": 22
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
