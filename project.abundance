@@ -8477,12 +8477,7 @@
                     "x": 0.10283018867924529,
                     "y": 0.6356435643564357,
                     "uniqueID": "96305451-7ef1-4926-b35e-78892b61e2fd",
-                    "ioValues": [
-                        {
-                            "name": "WallHeight",
-                            "ioValue": 8
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
@@ -8535,8 +8530,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5443396226415094,
-                            "y": 0.15445544554455445,
+                            "x": 0.5561320754716981,
+                            "y": 0.41188118811881186,
                             "uniqueID": "7c053648-c13d-4357-8dff-6c81840c3b9e",
                             "ioValues": [
                                 {
@@ -8561,8 +8556,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6712264150943397,
-                            "y": 0.5603960396039603,
+                            "x": 0.6839622641509434,
+                            "y": 0.46732673267326735,
                             "uniqueID": "b1cbbf7a-34b9-467e-bac1-86ca3b4ba39d",
                             "ioValues": [
                                 {
@@ -8593,7 +8588,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 8.3
+                                    "ioValue": 8.5
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -8601,8 +8596,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.04905660377358491,
-                            "y": 0.22574257425742575,
+                            "x": 0.07971698113207547,
+                            "y": 0.34851485148514855,
                             "uniqueID": "123397f7-f5c2-4d54-aeeb-e6c0d57ab4e3",
                             "ioValues": [
                                 {
@@ -8615,8 +8610,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2099056603773585,
-                            "y": 0.2396039603960396,
+                            "x": 0.21839622641509432,
+                            "y": 0.33069306930693065,
                             "uniqueID": "4e99eeb1-5280-44a4-87b4-ad7c82c5f4b6",
                             "ioValues": [
                                 {
@@ -8633,8 +8628,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.360377358490566,
-                            "y": 0.18217821782178217,
+                            "x": 0.41415094339622643,
+                            "y": 0.3089108910891089,
                             "uniqueID": "29e20090-b7e5-40f0-84a1-fde4a92c69ea",
                             "ioValues": [
                                 {
@@ -8655,8 +8650,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.27547169811320754,
-                            "y": 0.8178217821782178,
+                            "x": 0.310377358490566,
+                            "y": 0.6811881188118812,
                             "uniqueID": "6b5c19ff-538e-4d24-b376-a8e76af12cf8",
                             "ioValues": [
                                 {
@@ -8673,8 +8668,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7716981132075471,
-                            "y": 0.7306930693069307,
+                            "x": 0.7834905660377358,
+                            "y": 0.6574257425742575,
                             "uniqueID": "3d10412e-964b-41be-9105-30d1092ecfaa",
                             "ioValues": [
                                 {
@@ -8692,8 +8687,8 @@
                         {
                             "atomType": "Export",
                             "name": "Export",
-                            "x": 0.5960884353741497,
-                            "y": 0.9023861171366595,
+                            "x": 0.5981132075471698,
+                            "y": 0.8772277227722773,
                             "uniqueID": "20a75c45-1eea-45e4-be00-3acf91493e5c",
                             "ioValues": [
                                 {
@@ -8798,8 +8793,8 @@
                         {
                             "atomType": "Export",
                             "name": "Export",
-                            "x": 0.8095238095238095,
-                            "y": 0.3969631236442516,
+                            "x": 0.8867924528301887,
+                            "y": 0.24158415841584158,
                             "uniqueID": "66648f9a-f30b-4ec0-8a18-cf338a9af3f0",
                             "ioValues": [
                                 {
@@ -8852,19 +8847,10 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Input",
-                            "name": "WallHeight",
-                            "x": 0.025384615384615384,
-                            "y": 0.5249457700650759,
-                            "uniqueID": "214afbb7-fada-4fa7-a82e-014aaf589fef",
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
-                        },
-                        {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.02358490566037736,
-                            "y": 0.33861386138613864,
+                            "x": 0.09669811320754716,
+                            "y": 0.5306930693069307,
                             "uniqueID": "89c82b82-13f4-4f01-ae5e-45e80991f521",
                             "ioValues": [
                                 {
@@ -8877,8 +8863,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.1349056603773585,
-                            "y": 0.3445544554455446,
+                            "x": 0.1820754716981132,
+                            "y": 0.5188118811881188,
                             "uniqueID": "e07ad6d2-46fb-4ee2-867f-5c56aad3cf27",
                             "ioValues": [
                                 {
@@ -8895,8 +8881,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.28066037735849053,
-                            "y": 0.2811881188118812,
+                            "x": 0.31556603773584907,
+                            "y": 0.47128712871287126,
                             "uniqueID": "8b945581-fbd0-43a5-a84b-ee4a93c4ff23",
                             "ioValues": [
                                 {
