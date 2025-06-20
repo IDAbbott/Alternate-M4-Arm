@@ -6932,8 +6932,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2320754716981132,
-                            "y": 0.14455445544554457,
+                            "x": 0.08066037735849056,
+                            "y": 0.2158415841584158,
                             "uniqueID": "abb1d03a-d729-427e-9dd4-5368477aeb28",
                             "ioValues": [
                                 {
@@ -6942,7 +6942,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 45
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -6950,8 +6950,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2943396226415094,
-                            "y": 0.14455445544554457,
+                            "x": 0.155188679245283,
+                            "y": 0.1405940594059406,
                             "uniqueID": "a75ea588-89f7-4bbf-b26f-876c51e79cf6",
                             "ioValues": [
                                 {
@@ -6960,7 +6960,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -63
+                                    "ioValue": -66
                                 },
                                 {
                                     "name": "yDist",
@@ -7026,7 +7026,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry1",
-                                    "ioValue": "a75ea588-89f7-4bbf-b26f-876c51e79cf6"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "geometry2",
@@ -7034,6 +7034,58 @@
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.23537735849056604,
+                            "y": 0.11287128712871287,
+                            "uniqueID": "f9da2b52-244e-485f-8168-bf6d83b694ec",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "a75ea588-89f7-4bbf-b26f-876c51e79cf6"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": -10
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.2542452830188679,
+                            "y": 0.21782178217821782,
+                            "uniqueID": "94310aef-ff81-4523-bb5c-6d86d70e87f0",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -7263,10 +7315,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": "a75ea588-89f7-4bbf-b26f-876c51e79cf6",
-                            "ap2ID": "f397fa16-b9e2-4485-8324-98291516a0ce"
+                            "ap2ID": "f9da2b52-244e-485f-8168-bf6d83b694ec"
                         },
                         {
                             "ap1Name": "geometry",
