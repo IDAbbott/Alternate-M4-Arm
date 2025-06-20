@@ -73,8 +73,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.12452830188679244,
-                            "y": 0.1801980198019802,
+                            "x": 0.12735849056603774,
+                            "y": 0.1405940594059406,
                             "uniqueID": 1749502590102,
                             "ioValues": [
                                 {
@@ -401,8 +401,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.38490566037735846,
-                            "y": 0.15247524752475247,
+                            "x": 0.38443396226415094,
+                            "y": 0.15445544554455445,
                             "uniqueID": 1749503284552,
                             "ioValues": [
                                 {
@@ -694,7 +694,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -720,7 +720,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -5
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
