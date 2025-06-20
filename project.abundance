@@ -35,8 +35,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8108490566037736,
-                    "y": 0.22178217821782178,
+                    "x": 0.8056603773584905,
+                    "y": 0.2099009900990099,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -73,8 +73,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.12735849056603774,
-                            "y": 0.1405940594059406,
+                            "x": 0.12028301886792452,
+                            "y": 0.16435643564356436,
                             "uniqueID": 1749502590102,
                             "ioValues": [
                                 {
@@ -105,8 +105,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.13537735849056604,
-                            "y": 0.5643564356435644,
+                            "x": 0.13726415094339622,
+                            "y": 0.5623762376237624,
                             "uniqueID": 1749502590137,
                             "ioValues": [
                                 {
@@ -369,8 +369,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.07312925170068027,
-                            "y": 0.2646420824295011,
+                            "x": 0.06650943396226415,
+                            "y": 0.2673267326732673,
                             "uniqueID": 1749503216945,
                             "ioValues": [
                                 {
@@ -401,8 +401,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.38443396226415094,
-                            "y": 0.15445544554455445,
+                            "x": 0.38537735849056604,
+                            "y": 0.13465346534653466,
                             "uniqueID": 1749503284552,
                             "ioValues": [
                                 {
@@ -441,8 +441,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2372448979591837,
-                            "y": 0.9002169197396962,
+                            "x": 0.2429245283018868,
+                            "y": 0.9009900990099009,
                             "uniqueID": "9408d1b2-c646-4471-b74a-2e084da3de36",
                             "ioValues": [
                                 {
@@ -451,7 +451,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -489,8 +489,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7015306122448979,
-                            "y": 0.7331887201735358,
+                            "x": 0.7018867924528301,
+                            "y": 0.7267326732673267,
                             "uniqueID": "a0dcf1b9-b940-4046-87e1-2702177e44f4",
                             "ioValues": [
                                 {
@@ -662,7 +662,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -720,7 +720,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 3
+                                    "ioValue": -3
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
