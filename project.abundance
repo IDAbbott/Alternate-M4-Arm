@@ -5924,8 +5924,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.819811320754717,
-                    "y": 0.2316831683168317,
+                    "x": 0.8165094339622642,
+                    "y": 0.2158415841584158,
                     "uniqueID": "c8337e0a-c9da-4167-9e70-887261a8abf4",
                     "ioValues": [
                         {
@@ -6392,8 +6392,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.08773584905660377,
-                    "y": 0.4376237623762376,
+                    "x": 0.09245283018867925,
+                    "y": 0.4079207920792079,
                     "uniqueID": "e4075dc4-a648-4cc5-8869-89d26ae2a8a1",
                     "ioValues": [
                         {
@@ -6764,7 +6764,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 20
+                                    "ioValue": 20.3
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -6897,8 +6897,8 @@
                         {
                             "atomType": "Loft",
                             "name": "Loft",
-                            "x": 0.27405660377358493,
-                            "y": 0.6811881188118812,
+                            "x": 0.27688679245283015,
+                            "y": 0.6772277227722773,
                             "uniqueID": "cd1be24f-246f-4538-b4c5-0632bebecc59",
                             "ioValues": [
                                 {
@@ -9131,8 +9131,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.12311320754716983,
-                    "y": 0.794059405940594,
+                    "x": 0.12735849056603774,
+                    "y": 0.8039603960396039,
                     "uniqueID": "7d3d779e-565a-4c05-8d2a-e8d33ca9f8d1",
                     "ioValues": [
                         {
@@ -9938,7 +9938,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3
+                            "ioValue": 6
                         },
                         {
                             "name": "y length",
