@@ -6942,7 +6942,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 15
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -6982,7 +6982,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "f397fa16-b9e2-4485-8324-98291516a0ce"
+                                    "ioValue": "954acb3b-37ed-4ecf-ac40-37c2d3557d37"
                                 },
                                 {
                                     "name": "height",
@@ -7388,13 +7388,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "f397fa16-b9e2-4485-8324-98291516a0ce",
-                            "ap2ID": "8541beca-b20a-4f19-8e9d-46d33df68544"
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": "f9da2b52-244e-485f-8168-bf6d83b694ec",
@@ -7413,6 +7406,13 @@
                             "ap2Primary": false,
                             "ap1ID": "954acb3b-37ed-4ecf-ac40-37c2d3557d37",
                             "ap2ID": "f397fa16-b9e2-4485-8324-98291516a0ce"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "954acb3b-37ed-4ecf-ac40-37c2d3557d37",
+                            "ap2ID": "8541beca-b20a-4f19-8e9d-46d33df68544"
                         },
                         {
                             "ap1Name": "geometry",
