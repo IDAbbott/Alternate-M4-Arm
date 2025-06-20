@@ -35,8 +35,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.8056603773584905,
-                    "y": 0.2099009900990099,
+                    "x": 0.8009433962264151,
+                    "y": 0.20198019801980197,
                     "uniqueID": 1749241083956,
                     "ioValues": [
                         {
@@ -1212,8 +1212,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "GuideHoles",
-                    "x": 0.16751700680272108,
-                    "y": 0.6984815618221258,
+                    "x": 0.11933962264150944,
+                    "y": 0.699009900990099,
                     "uniqueID": 1749532065692,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4582,8 +4582,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.16509433962264153,
-                    "y": 0.8891089108910891,
+                    "x": 0.1787735849056604,
+                    "y": 0.8831683168316832,
                     "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
