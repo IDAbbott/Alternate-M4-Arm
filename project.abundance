@@ -10946,8 +10946,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.1627358490566038,
-                    "y": 0.8475247524752475,
+                    "x": 0.16132075471698112,
+                    "y": 0.8415841584158416,
                     "uniqueID": "679065cd-f9cc-440a-b160-7d8b24a76f00",
                     "ioValues": [
                         {
@@ -11152,7 +11152,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4339622641509434,
+                            "x": 0.43113207547169813,
                             "y": 0.1702970297029703,
                             "uniqueID": "3eaf148c-47e5-4323-b397-a204a2fb998c",
                             "ioValues": [
@@ -11298,7 +11298,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -11324,7 +11324,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -11332,8 +11332,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6523584905660378,
-                            "y": 0.6336633663366337,
+                            "x": 0.6528301886792452,
+                            "y": 0.6475247524752475,
                             "uniqueID": "028c611c-0689-40b2-99ad-0f385ae724cf",
                             "ioValues": [
                                 {
@@ -11350,7 +11350,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -11358,8 +11358,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6712264150943397,
-                            "y": 0.5148514851485149,
+                            "x": 0.6660377358490566,
+                            "y": 0.500990099009901,
                             "uniqueID": "8029d7fd-8907-4c3a-9c92-414d8a9bbd8e",
                             "ioValues": [
                                 {
@@ -11376,7 +11376,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
