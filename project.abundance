@@ -9489,8 +9489,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "m4GuidePosts",
-                    "x": 0.13066037735849056,
-                    "y": 0.6237623762376238,
+                    "x": 0.1320754716981132,
+                    "y": 0.6178217821782178,
                     "uniqueID": "88ba4c0e-fcc3-435d-91dd-ab5a0a5aa283",
                     "ioValues": [
                         {
@@ -10525,7 +10525,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "ArmNewCap"
+                            "ioValue": "ArmNewCapSensor"
                         },
                         {
                             "name": "File Type",
@@ -10946,8 +10946,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PostHoles",
-                    "x": 0.16132075471698112,
-                    "y": 0.8514851485148515,
+                    "x": 0.16226415094339622,
+                    "y": 0.8435643564356436,
                     "uniqueID": "679065cd-f9cc-440a-b160-7d8b24a76f00",
                     "ioValues": [
                         {
@@ -11228,8 +11228,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.8339622641509434,
-                            "y": 0.24554455445544557,
+                            "x": 0.8433962264150944,
+                            "y": 0.2792079207920792,
                             "uniqueID": "9498e657-053e-477c-9310-900a10b5a40a",
                             "ioValues": [
                                 {
@@ -11423,13 +11423,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.46273584905660375,
+                            "x": 0.5179245283018867,
                             "y": 0.5168316831683168,
                             "uniqueID": "8029d7fd-8907-4c3a-9c92-414d8a9bbd8e",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "3eaf148c-47e5-4323-b397-a204a2fb998c"
+                                    "ioValue": "02d4b756-1f80-4147-a425-b557d5a6a2a6"
                                 },
                                 {
                                     "name": "xDist",
@@ -11449,13 +11449,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5018867924528302,
-                            "y": 0.6673267326732674,
+                            "x": 0.46367924528301885,
+                            "y": 0.6653465346534654,
                             "uniqueID": "fd8cb663-fc99-433b-81b5-5ef8d7be676d",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "fc5477d5-fb88-42c9-bd68-207dc4cb9e29"
+                                    "ioValue": "3eaf148c-47e5-4323-b397-a204a2fb998c"
                                 },
                                 {
                                     "name": "xDist",
@@ -11610,14 +11610,21 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "3eaf148c-47e5-4323-b397-a204a2fb998c",
-                            "ap2ID": "8029d7fd-8907-4c3a-9c92-414d8a9bbd8e"
+                            "ap2ID": "028c611c-0689-40b2-99ad-0f385ae724cf"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "3eaf148c-47e5-4323-b397-a204a2fb998c",
-                            "ap2ID": "028c611c-0689-40b2-99ad-0f385ae724cf"
+                            "ap2ID": "fd8cb663-fc99-433b-81b5-5ef8d7be676d"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "02d4b756-1f80-4147-a425-b557d5a6a2a6",
+                            "ap2ID": "8029d7fd-8907-4c3a-9c92-414d8a9bbd8e"
                         },
                         {
                             "ap1Name": "geometry",
