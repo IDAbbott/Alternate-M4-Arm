@@ -6154,8 +6154,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.799056603773585,
-                    "y": 0.5306930693069307,
+                    "x": 0.7891509433962265,
+                    "y": 0.5326732673267327,
                     "uniqueID": "edb5a3e9-2815-4280-a75f-fc9abbe978ab",
                     "ioValues": [
                         {
@@ -10656,7 +10656,7 @@
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "ArmNewCap"
+                    "partName": "ArmNewCapSensor"
                 },
                 {
                     "atomType": "Fusion",
@@ -10697,7 +10697,12 @@
                     "x": 0.1632075471698113,
                     "y": 0.4297029702970297,
                     "uniqueID": "0c9aa96e-8f22-4a96-bfce-dad442ba73be",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "WallHeight",
+                            "ioValue": 10
+                        }
+                    ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
@@ -10832,7 +10837,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 3
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
