@@ -7336,6 +7336,33 @@
                 "color": "#aad7f2",
                 "dimension": "3D"
               }
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": {
+                "geometry": "extrude-cut-cut-cut-circle-65.5-circle-64.5-cut-rotate-move-rectangle-130-130-0-65-0-0-0--20-rotate-move-rectangle-130-130-0--65-0-0-0-20-rotate-move-rectangle-130-130-0--65-0-0-0-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
@@ -9656,8 +9683,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.127318718381113,
-          "y": 0.6113744075829384,
+          "x": 0.1281618887015177,
+          "y": 0.604265402843602,
           "uniqueID": "id-1702",
           "name": "MotorGuard",
           "topLevel": false,
@@ -9682,14 +9709,14 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 130
+                  "ioValue": 131
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.6821247892074199,
-              "y": 0.4052132701421801,
+              "x": 0.6998313659359191,
+              "y": 0.5521327014218009,
               "uniqueID": "id-1709",
               "ioValues": [
                 {
@@ -9698,14 +9725,14 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 10
+                  "ioValue": 6
                 }
               ]
             },
             {
               "atomType": "Circle",
               "x": 0.12310286677908938,
-              "y": 0.5545023696682464,
+              "y": 0.5450236966824644,
               "uniqueID": "id-1713",
               "ioValues": [
                 {
@@ -9790,7 +9817,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": -10
+                  "ioValue": -20
                 }
               ]
             },
@@ -9814,7 +9841,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 10
+                  "ioValue": 20
                 }
               ]
             },
@@ -9979,6 +10006,11 @@
         {
           "ap2Name": "Shape 7",
           "ap1ID": "88ba4c0e-fcc3-435d-91dd-ab5a0a5aa283",
+          "ap2ID": "2562f79b-374f-4b1f-a7a4-724d34c40f78"
+        },
+        {
+          "ap2Name": "Shape 8",
+          "ap1ID": "id-1702",
           "ap2ID": "2562f79b-374f-4b1f-a7a4-724d34c40f78"
         }
       ],
