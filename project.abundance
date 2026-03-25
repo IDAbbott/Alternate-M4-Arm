@@ -50,8 +50,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.13443396226415094,
-      "y": 0.2495049504950495,
+      "x": 0.1315345699831366,
+      "y": 0.4312796208530805,
       "uniqueID": 1749241083253,
       "name": "ArmNew",
       "topLevel": false,
@@ -7858,8 +7858,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15990566037735848,
-      "y": 0.4079207920792079,
+      "x": 0.13743676222596965,
+      "y": 0.5971563981042654,
       "uniqueID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
       "name": "ArmNewCapMotor",
       "ioValues": [
@@ -10368,8 +10368,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15235849056603773,
-      "y": 0.7663366336633664,
+      "x": 0.1391231028667791,
+      "y": 0.8909952606635071,
       "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
       "name": "ArmNewCenterCap",
       "ioValues": [
@@ -12966,8 +12966,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1627358490566038,
-      "y": 0.596039603960396,
+      "x": 0.1399662731871838,
+      "y": 0.7559241706161137,
       "uniqueID": "a934612a-d486-4981-bc97-f07a3f599941",
       "name": "ArmNewCapSensor",
       "ioValues": [
@@ -16202,28 +16202,93 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.24536256323777406,
+      "y": 0.3886255924170616,
+      "uniqueID": "id-1677",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 100
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.24114671163575044,
+      "y": 0.514218009478673,
+      "uniqueID": "id-1683",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -50,
+          "currentEquation": "-50"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2386172006745363,
+      "y": 0.6327014218009478,
+      "uniqueID": "id-1689",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
     {
       "ap2Name": "geometry",
       "ap1ID": 1749241083253,
-      "ap2ID": 1749552042495
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": 1749241083253,
-      "ap2ID": "id-1665"
+      "ap2ID": "id-1677"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
-      "ap2ID": "id-1650"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
-      "ap2ID": "id-1665"
+      "ap2ID": "id-1683"
     },
     {
       "ap2Name": "geometry",
@@ -16238,12 +16303,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "a934612a-d486-4981-bc97-f07a3f599941",
-      "ap2ID": "id-1655"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "a934612a-d486-4981-bc97-f07a3f599941",
-      "ap2ID": "id-1665"
+      "ap2ID": "id-1689"
     },
     {
       "ap2Name": "number or geometry",
@@ -16254,6 +16314,36 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1665",
       "ap2ID": "id-1672"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1677",
+      "ap2ID": 1749552042495
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1677",
+      "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1683",
+      "ap2ID": "id-1650"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1683",
+      "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1689",
+      "ap2ID": "id-1655"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-1689",
+      "ap2ID": "id-1665"
     }
   ],
   "unitsKey": "MM",
