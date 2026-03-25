@@ -10368,8 +10368,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1391231028667791,
-      "y": 0.8909952606635071,
+      "x": 0.14165261382799327,
+      "y": 0.8838862559241706,
       "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
       "name": "ArmNewCenterCap",
       "ioValues": [
@@ -16245,7 +16245,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -20
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
@@ -16266,11 +16267,37 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 70
         },
         {
           "name": "yDist",
+          "ioValue": -40
+        },
+        {
+          "name": "zDist",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22344013490725126,
+      "y": 0.881516587677725,
+      "uniqueID": "id-1695",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
@@ -16293,12 +16320,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
-      "ap2ID": "id-1660"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
-      "ap2ID": "id-1665"
+      "ap2ID": "id-1695"
     },
     {
       "ap2Name": "geometry",
@@ -16343,6 +16365,16 @@
     {
       "ap2Name": "Shape 3",
       "ap1ID": "id-1689",
+      "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1695",
+      "ap2ID": "id-1660"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-1695",
       "ap2ID": "id-1665"
     }
   ],
