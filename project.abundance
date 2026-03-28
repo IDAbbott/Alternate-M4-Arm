@@ -290,8 +290,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.13237774030354132,
-      "y": 0.28199052132701424,
+      "x": 0.12900505902192244,
+      "y": 0.2890995260663507,
       "uniqueID": 1749241083253,
       "name": "ArmNew",
       "topLevel": false,
@@ -358,8 +358,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5410377358490567,
-          "y": 0.45940594059405937,
+          "x": 0.5446880269814502,
+          "y": 0.4620853080568721,
           "uniqueID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0",
           "ioValues": [
             {
@@ -1093,7 +1093,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-68-0-6",
+                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-68-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -4321,8 +4321,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.10370994940978077,
-          "y": 0.37203791469194314,
+          "x": 0.10286677908937605,
+          "y": 0.32938388625592413,
           "uniqueID": 1749544035717,
           "name": "M4Link",
           "topLevel": false,
@@ -4355,11 +4355,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 6
+                  "ioValue": 0
                 }
               ]
             },
@@ -4381,8 +4382,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.43707482993197283,
-              "y": 0.4663774403470716,
+              "x": 0.43001686340640805,
+              "y": 0.518957345971564,
               "uniqueID": 1749544086624,
               "ioValues": [
                 {
@@ -4391,7 +4392,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 6
+                  "ioValue": 3
                 }
               ]
             }
