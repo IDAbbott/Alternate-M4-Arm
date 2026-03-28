@@ -11585,7 +11585,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--66-25-5",
+                    "geometry": "move-move-rotate-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-180-0-0-0-0-12--66-25-5",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -11612,7 +11612,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--66--25-5",
+                    "geometry": "move-move-rotate-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-180-0-0-0-0-12--66--25-5",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -11801,7 +11801,7 @@
                 {
                   "name": "Shape 10",
                   "ioValue": {
-                    "geometry": "move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4--30.5-0",
+                    "geometry": "move-move-rotate-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-180-0-0-0-0-12-66.4--30.5-5",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -11828,7 +11828,7 @@
                 {
                   "name": "Shape 11",
                   "ioValue": {
-                    "geometry": "move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66-30.5-0",
+                    "geometry": "move-move-rotate-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-polysides-3.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-180-0-0-0-0-12-66-30.5-5",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -12072,7 +12072,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 5
                 }
               ]
             },
@@ -12096,7 +12096,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 5
                 }
               ]
             },
@@ -12284,32 +12284,12 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
-              "ap2ID": "2e5561f0-ec21-4f23-a8b7-122a9923270b"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
-              "ap2ID": "1c5b9af3-49bd-4596-baa9-e94b070f306c"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
               "ap2ID": "606109f3-d988-4f23-bf55-18a54c0598cd"
             },
             {
               "ap2Name": "geometry",
               "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
               "ap2ID": "371bf935-d1b2-421d-9d96-da12c5c3aaaa"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
-              "ap2ID": "4442086b-4c66-4a16-81cf-7b0b14357ff3"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "71dab0dc-9525-4278-a35f-72a532250354",
-              "ap2ID": "758a93c0-64b3-4c99-be70-c45f72cc3462"
             },
             {
               "ap2Name": "geometry",
@@ -12365,6 +12345,26 @@
               "ap2Name": "geometry",
               "ap1ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
               "ap2ID": "3e11fd8e-c379-4c67-adb6-d28d7eea5ba7"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
+              "ap2ID": "1c5b9af3-49bd-4596-baa9-e94b070f306c"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
+              "ap2ID": "2e5561f0-ec21-4f23-a8b7-122a9923270b"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
+              "ap2ID": "4442086b-4c66-4a16-81cf-7b0b14357ff3"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "ada48479-f324-4bdc-b900-bc7da07f9f8d",
+              "ap2ID": "758a93c0-64b3-4c99-be70-c45f72cc3462"
             },
             {
               "ap2Name": "geometry",
