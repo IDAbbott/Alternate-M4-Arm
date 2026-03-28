@@ -10845,7 +10845,7 @@
             {
               "name": "Shape 8",
               "ioValue": {
-                "geometry": "extrude-intersect-cut-circle-64.5-circle-63.5-move-rectangle-130-130--10-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16",
+                "geometry": "extrude-intersect-cut-circle-64.5-circle-63.5-move-rectangle-130-130--10-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
@@ -13188,8 +13188,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.12225969645868466,
-          "y": 0.7037914691943128,
+          "x": 0.11642050390964379,
+          "y": 0.6919431279620853,
           "uniqueID": "id-1702",
           "name": "MotorGuard",
           "topLevel": false,
@@ -13230,7 +13230,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 16
+                  "ioValue": 12
                 }
               ]
             },
@@ -13360,7 +13360,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.13379669852302345,
+          "x": 0.12076455256298872,
           "y": 0.8483412322274881,
           "uniqueID": "id-6905",
           "name": "Molecule",
@@ -13386,7 +13386,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 200
+                  "ioValue": 270
                 }
               ]
             },
@@ -13398,7 +13398,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 135
+                  "ioValue": 160
                 }
               ]
             },
@@ -13853,8 +13853,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.40725126475548057,
-          "y": 0.7227488151658769,
+          "x": 0.3953084274543875,
+          "y": 0.5995260663507109,
           "uniqueID": "eab0b36d-aef3-4358-bbb1-b47f316cb09f",
           "ioValues": [
             {
@@ -14660,8 +14660,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.16132075471698112,
-          "y": 0.8415841584158416,
+          "x": 0.14856646394439618,
+          "y": 0.7061611374407583,
           "uniqueID": "679065cd-f9cc-440a-b160-7d8b24a76f00",
           "name": "PostHoles",
           "ioValues": [
@@ -15290,8 +15290,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1636792452830189,
-          "y": 0.6415841584158416,
+          "x": 0.1520417028670721,
+          "y": 0.5639810426540285,
           "uniqueID": "42e9dfbb-fd43-42cd-8170-9466cfbb2ffd",
           "name": "GuideHoles",
           "ioValues": [
