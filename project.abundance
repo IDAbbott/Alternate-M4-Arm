@@ -164,8 +164,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8288364249578415,
-      "y": 0.13270142180094788,
+      "x": 0.8210251954821894,
+      "y": 0.1255924170616114,
       "uniqueID": "id-1672",
       "ioValues": [
         {
@@ -228,11 +228,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -50
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": -40
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
@@ -252,11 +253,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 70
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": -40
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
@@ -280,7 +282,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
@@ -14311,7 +14314,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "fuse-fuse-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74--10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74--10-0-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74-10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74-10-0-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94--10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94--10-0-fuse-assemblyFuse-cut-move-extrude-circle-7.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-106--7.2-0.5-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106--7-0-cut-move-extrude-circle-7.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-106-7.2-0.5-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106-7-0-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106--7-0-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106-7-0-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94-10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94-10-0-move-extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4-30.5-0-move-extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4--30.5-0",
+                "geometry": "fuse-fuse-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74--10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74--10-0-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74-10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-74-10-0-fuse-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94--10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94--10-0-fuse-assemblyFuse-cut-move-extrude-circle-7.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-106--7.2-0.5-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106--7-0-cut-move-extrude-circle-7.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-106-7.2-0.5-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106-7-0-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106--7-0-move-extrude-circle-6.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-106-7-0-assemblyFuse-move-cut-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94-10-0-move-move-extrude-polysides-3.85-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0-94-10-0-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4-30.5-0-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4--30.5-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -16362,7 +16365,7 @@
                 {
                   "name": "Shape 6",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4-30.5-0",
+                    "geometry": "move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4-30.5-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -16389,7 +16392,7 @@
                 {
                   "name": "Shape 7",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4--30.5-0",
+                    "geometry": "move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-66.4--30.5-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -16545,7 +16548,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 16
+                  "ioValue": 12
                 }
               ]
             },
