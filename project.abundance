@@ -8098,8 +8098,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.13237774030354132,
-      "y": 0.4312796208530805,
+      "x": 0.1277150304083406,
+      "y": 0.42417061611374407,
       "uniqueID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
       "name": "ArmNewCapMotor",
       "ioValues": [
@@ -11482,8 +11482,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.794811320754717,
-              "y": 0.398019801980198,
+              "x": 0.7532580364900087,
+              "y": 0.3815165876777251,
               "uniqueID": "3e11fd8e-c379-4c67-adb6-d28d7eea5ba7",
               "ioValues": [
                 {
@@ -13361,8 +13361,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.12076455256298872,
-          "y": 0.8483412322274881,
+          "x": 0.10947002606429193,
+          "y": 0.8151658767772512,
           "uniqueID": "id-6905",
           "name": "Molecule",
           "topLevel": false,
@@ -13405,8 +13405,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.34317984361424847,
-              "y": 0.3815165876777251,
+              "x": 0.5039096437880104,
+              "y": 0.3791469194312796,
               "uniqueID": "id-6915",
               "ioValues": [
                 {
@@ -13421,8 +13421,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.520417028670721,
-              "y": 0.4052132701421801,
+              "x": 0.633362293657689,
+              "y": 0.4146919431279621,
               "uniqueID": "id-6924",
               "ioValues": [
                 {
@@ -13434,6 +13434,59 @@
                   "ioValue": 10
                 }
               ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.19721980886185927,
+              "y": 0.7725118483412322,
+              "uniqueID": "id-6928",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 41
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.2972198088618593,
+              "y": 0.7725118483412322,
+              "uniqueID": "id-6931",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": -71.3
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.3579496090356212,
+              "y": 0.6113744075829384,
+              "uniqueID": "id-6937",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -13443,9 +13496,9 @@
               "ap2ID": "id-6915"
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "Shape 1",
               "ap1ID": "id-6912",
-              "ap2ID": "id-6915"
+              "ap2ID": "id-6937"
             },
             {
               "ap2Name": "geometry",
@@ -13456,6 +13509,21 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-6924",
               "ap2ID": "id-6907"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-6928",
+              "ap2ID": "id-6931"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-6931",
+              "ap2ID": "id-6937"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-6937",
+              "ap2ID": "id-6915"
             }
           ],
           "fileTypeVersion": 1
