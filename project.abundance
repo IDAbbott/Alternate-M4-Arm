@@ -328,8 +328,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -337,14 +337,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
+          "ioValue": "SensorWasher",
+          "currentEquation": "SensorWasher"
         }
       ],
-      "type": null,
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
+      "partName": "SensorWasher"
     },
     {
       "atomType": "Molecule",
