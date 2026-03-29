@@ -232,8 +232,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40,
-          "currentEquation": "-40"
+          "ioValue": -40
         },
         {
           "name": "zDist",
@@ -257,8 +256,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40,
-          "currentEquation": "-40"
+          "ioValue": -40
         },
         {
           "name": "zDist",
@@ -282,20 +280,18 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40,
-          "currentEquation": "-40"
+          "ioValue": -40
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Molecule",
-      "x": 0.12900505902192244,
-      "y": 0.2890995260663507,
+      "x": 0.1259774109470026,
+      "y": 0.2725118483412322,
       "uniqueID": 1749241083253,
       "name": "ArmNew",
       "topLevel": false,
@@ -9631,8 +9627,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -10884,6 +10879,22 @@
           "uniqueID": "07663a26-5195-4728-ac1b-053cd3332574",
           "name": "WallHeight",
           "type": "number"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.3770634231103388,
+          "y": 0.6753554502369669,
+          "uniqueID": "id-6919",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         },
         {
           "atomType": "Molecule",
@@ -13467,8 +13478,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -13524,8 +13534,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -13541,8 +13550,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -66.4,
-                  "currentEquation": "-66.4"
+                  "ioValue": -66.4
                 },
                 {
                   "name": "yDist",
@@ -13598,8 +13606,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -13715,22 +13722,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.3770634231103388,
-          "y": 0.6753554502369669,
-          "uniqueID": "id-6919",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -13747,6 +13738,11 @@
         {
           "ap2Name": "geometry1",
           "ap1ID": "2562f79b-374f-4b1f-a7a4-724d34c40f78",
+          "ap2ID": "6f74f347-5c07-4b85-b947-814ac1ffa277"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-6919",
           "ap2ID": "6f74f347-5c07-4b85-b947-814ac1ffa277"
         },
         {
@@ -13783,11 +13779,6 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-6905",
           "ap2ID": "id-6919"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-6919",
-          "ap2ID": "6f74f347-5c07-4b85-b947-814ac1ffa277"
         }
       ],
       "fileTypeVersion": 1
@@ -15443,8 +15434,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 30.5,
-                  "currentEquation": "30.5"
+                  "ioValue": 30.5
                 },
                 {
                   "name": "zDist",
@@ -16665,8 +16655,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 30.5,
-                  "currentEquation": "30.5"
+                  "ioValue": 30.5
                 },
                 {
                   "name": "zDist",
