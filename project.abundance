@@ -208,8 +208,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -217,8 +216,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -13750,8 +13748,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 134,
-                  "currentEquation": "134"
+                  "ioValue": 134
                 }
               ]
             },
