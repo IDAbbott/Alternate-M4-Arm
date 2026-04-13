@@ -1628,6 +1628,33 @@
                 "color": "#aad7f2",
                 "dimension": "3D"
               }
+            },
+            {
+              "name": "Shape 7",
+              "ioValue": {
+                "geometry": "rotate-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11--100-0-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
@@ -8473,6 +8500,103 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.06124234470691163,
+          "y": 0.5565217391304348,
+          "uniqueID": "id-13115",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-13117",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.21084864391951005,
+              "y": 0.3782608695652174,
+              "uniqueID": "id-13119",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 100
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 100
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.31084864391951006,
+              "y": 0.3782608695652174,
+              "uniqueID": "id-13123",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 11
+                }
+              ]
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.41084864391951004,
+              "y": 0.3782608695652174,
+              "uniqueID": "id-13127",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": -100
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-13119",
+              "ap2ID": "id-13123"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-13123",
+              "ap2ID": "id-13127"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-13127",
+              "ap2ID": "id-13117"
+            }
+          ],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -8550,6 +8674,11 @@
           "ap2Name": "Shape 3",
           "ap1ID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
           "ap2ID": "f9a11159-9bd9-448b-b687-28eec69b2c9c"
+        },
+        {
+          "ap2Name": "Shape 7",
+          "ap1ID": "id-13115",
+          "ap2ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93"
         }
       ],
       "fileTypeVersion": 1
