@@ -1632,7 +1632,7 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-cut-extrude-rectangle-70-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-40-0-3--90-0-0",
+                "geometry": "move-cut-extrude-rectangle-70-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3--96-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -8566,7 +8566,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -90
+                  "ioValue": -96
                 },
                 {
                   "name": "yDist",
@@ -8587,7 +8587,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 60
+                  "ioValue": 55
                 }
               ]
             },
@@ -8619,7 +8619,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 40
+                  "ioValue": 30
                 },
                 {
                   "name": "yDist",
