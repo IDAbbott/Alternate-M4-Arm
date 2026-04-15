@@ -1874,7 +1874,7 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-cut-cut-cut-extrude-rectangle-70-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--26--17-0-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--26-17-0--96-0-0",
+                "geometry": "move-cut-cut-cut-extrude-rectangle-30-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--6--17-0-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--6-17-0--96-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -8702,11 +8702,12 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 70
+                  "ioValue": 30
                 },
                 {
                   "name": "y length",
-                  "ioValue": 60
+                  "ioValue": 60,
+                  "currentEquation": "60"
                 }
               ]
             },
@@ -8937,7 +8938,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -26
+                  "ioValue": -6
                 },
                 {
                   "name": "yDist",
@@ -9114,8 +9115,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.4488188976377953,
-              "y": 0.6724890829694322,
+              "x": 0.44356955380577423,
+              "y": 0.6768558951965065,
               "uniqueID": "id-15114",
               "ioValues": [
                 {
@@ -9124,11 +9125,12 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -26
+                  "ioValue": -6
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 17
+                  "ioValue": 17,
+                  "currentEquation": "17"
                 },
                 {
                   "name": "zDist",
