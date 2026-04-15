@@ -8175,8 +8175,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
@@ -8184,8 +8183,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2,
-                  "currentEquation": "2"
+                  "ioValue": 2
                 }
               ]
             },
@@ -8197,8 +8195,7 @@
               "ioValues": [
                 {
                   "name": "number of sides",
-                  "ioValue": 3,
-                  "currentEquation": "3"
+                  "ioValue": 3
                 },
                 {
                   "name": "diameter",
@@ -8238,8 +8235,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
@@ -8263,8 +8259,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
@@ -8312,8 +8307,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
@@ -8706,8 +8700,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 60,
-                  "currentEquation": "60"
+                  "ioValue": 60
                 }
               ]
             },
@@ -9125,13 +9118,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -10,
-                  "currentEquation": "-10"
+                  "ioValue": -10
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 17,
-                  "currentEquation": "17"
+                  "ioValue": 17
                 },
                 {
                   "name": "zDist",
