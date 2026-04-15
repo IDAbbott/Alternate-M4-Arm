@@ -1632,7 +1632,7 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-cut-extrude-rectangle-70-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3--96-0-0",
+                "geometry": "move-cut-cut-cut-extrude-rectangle-70-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--26--17-0-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--26-17-0--96-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -8529,11 +8529,12 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 70
+                  "ioValue": 70,
+                  "currentEquation": "70"
                 },
                 {
                   "name": "y length",
-                  "ioValue": 100
+                  "ioValue": 60
                 }
               ]
             },
