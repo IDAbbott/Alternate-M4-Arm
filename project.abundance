@@ -8770,8 +8770,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": -17
                 },
                 {
                   "name": "zDist",
@@ -8935,6 +8934,35 @@
                 {
                   "name": "Shape 2",
                   "ioValue": null
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.4488188976377953,
+              "y": 0.6724890829694322,
+              "uniqueID": "id-15114",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": -30,
+                  "currentEquation": "-30"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 17
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
                 }
               ]
             }
@@ -8996,6 +9024,11 @@
               "ap2ID": "id-15080"
             },
             {
+              "ap2Name": "geometry",
+              "ap1ID": "id-15071",
+              "ap2ID": "id-15114"
+            },
+            {
               "ap2Name": "Shape 2",
               "ap1ID": "id-15080",
               "ap2ID": "id-15109"
@@ -9024,6 +9057,11 @@
               "ap2Name": "geometry2",
               "ap1ID": "id-15109",
               "ap2ID": "id-13143"
+            },
+            {
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-15114",
+              "ap2ID": "id-15109"
             }
           ],
           "fileTypeVersion": 1
