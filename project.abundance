@@ -8766,7 +8766,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -30
+                  "ioValue": -26
                 },
                 {
                   "name": "yDist",
@@ -8923,8 +8923,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.5800524934383202,
-              "y": 0.5698689956331878,
+              "x": 0.5818022747156606,
+              "y": 0.5764192139737991,
               "uniqueID": "id-15109",
               "ioValues": [
                 {
@@ -8953,8 +8953,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -30,
-                  "currentEquation": "-30"
+                  "ioValue": -26
                 },
                 {
                   "name": "yDist",
