@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.342327150084317,
-      "y": 0.15165876777251186,
+      "x": 0.3377077865266842,
+      "y": 0.13537117903930132,
       "uniqueID": 1749552042495,
       "ioValues": [
         {
@@ -39,14 +39,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Base",
-          "currentEquation": "Base"
+          "ioValue": "AltBase",
+          "currentEquation": "AltBase"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Base"
+      "partName": "AltBase"
     },
     {
       "atomType": "Export",
@@ -1874,7 +1874,7 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-cut-cut-cut-extrude-rectangle-30-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--6--17-0-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--6-17-0--96-0-0",
+                "geometry": "move-cut-cut-cut-extrude-rectangle-34-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-move-extrude-circle-27.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-30-0-3-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--10--17-0-move-fuse-loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-4--10-17-0--96-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
