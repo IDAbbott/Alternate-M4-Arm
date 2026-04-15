@@ -2029,8 +2029,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.6215986394557823,
-              "y": 0.3752711496746204,
+              "x": 0.6246719160104987,
+              "y": 0.38209606986899564,
               "uniqueID": "14f40c59-b0a1-49da-893b-685f2af08ba8",
               "ioValues": [
                 {
@@ -7195,8 +7195,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.1320754716981132,
-              "y": 0.19801980198019803,
+              "x": 0.13648293963254593,
+              "y": 0.2074235807860262,
               "uniqueID": "456d7820-48c5-46fc-950e-2b17dcbf4368",
               "ioValues": [
                 {
@@ -7271,8 +7271,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.0820754716981132,
-              "y": 0.6673267326732674,
+              "x": 0.07174103237095363,
+              "y": 0.5218340611353712,
               "uniqueID": "ab819442-eb2f-4283-9e44-7ec02ff8fc0e",
               "ioValues": [
                 {
@@ -7283,8 +7283,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.06886792452830189,
-              "y": 0.502970297029703,
+              "x": 0.0752405949256343,
+              "y": 0.6506550218340612,
               "uniqueID": "916bf587-e1e4-4807-9128-1bab635bea58",
               "ioValues": [
                 {
@@ -7295,8 +7295,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6698113207547169,
-              "y": 0.7702970297029703,
+              "x": 0.6649168853893263,
+              "y": 0.908296943231441,
               "uniqueID": "8f67200e-8941-4417-b6f2-90998b42b155",
               "ioValues": [
                 {
@@ -7313,7 +7313,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 1
                 }
               ]
             },
@@ -7584,7 +7584,7 @@
                 {
                   "name": "Shape 7",
                   "ioValue": {
-                    "geometry": "move-extrude-cut-circle-57.5-circle-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-2",
+                    "geometry": "move-extrude-cut-circle-57.5-circle-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-1",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -8280,6 +8280,39 @@
                 }
               ],
               "unionType": "Fusion"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.0673665791776028,
+              "y": 0.7991266375545851,
+              "uniqueID": "id-15126",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 40,
+                  "currentEquation": "40"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 3
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.1673665791776028,
+              "y": 0.7991266375545851,
+              "uniqueID": "id-15130",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -8497,6 +8530,11 @@
               "ap2Name": "Shape 13",
               "ap1ID": "64a2df16-f35a-4399-b3bb-d17c1e11ac06",
               "ap2ID": "acac5f43-dc0d-4727-806b-3364844bd840"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-15126",
+              "ap2ID": "id-15130"
             }
           ],
           "fileTypeVersion": 1
