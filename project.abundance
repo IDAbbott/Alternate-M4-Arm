@@ -8978,8 +8978,8 @@
                 },
                 {
                   "name": "File Type",
-                  "ioValue": "STL",
-                  "currentEquation": "STL"
+                  "ioValue": "STEP",
+                  "currentEquation": "STEP"
                 },
                 {
                   "name": "Resolution (dpi)",
@@ -8987,14 +8987,14 @@
                 },
                 {
                   "name": "Part Name",
-                  "ioValue": "Connector",
-                  "currentEquation": "Connector"
+                  "ioValue": "ConnectorTest",
+                  "currentEquation": "ConnectorTest"
                 }
               ],
-              "type": null,
+              "type": "STEP",
               "resolution": 96,
               "importIndex": 0,
-              "partName": "Connector"
+              "partName": "ConnectorTest"
             }
           ],
           "allConnectors": [
