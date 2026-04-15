@@ -8555,8 +8555,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.8705161854768154,
-              "y": 0.482532751091703,
+              "x": 0.8285214348206474,
+              "y": 0.4737991266375546,
               "uniqueID": "id-13134",
               "ioValues": [
                 {
@@ -8965,6 +8965,36 @@
                   "ioValue": 0
                 }
               ]
+            },
+            {
+              "atomType": "Export",
+              "x": 0.8407699037620296,
+              "y": 0.6965065502183406,
+              "uniqueID": "id-15121",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STL",
+                  "currentEquation": "STL"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Connector",
+                  "currentEquation": "Connector"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Connector"
             }
           ],
           "allConnectors": [
@@ -8982,6 +9012,11 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-13134",
               "ap2ID": "id-13117"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-13134",
+              "ap2ID": "id-15121"
             },
             {
               "ap2Name": "geometry",
