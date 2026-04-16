@@ -12057,8 +12057,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1355343179843614,
-      "y": 0.7132701421800948,
+      "x": 0.13648293963254593,
+      "y": 0.7139737991266376,
       "uniqueID": "55e11a8e-beae-4ed9-887a-4054994c0b49",
       "name": "ArmNewCenterCap",
       "ioValues": [
@@ -12389,7 +12389,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3
+                  "ioValue": 1
                 }
               ]
             },
@@ -12478,7 +12478,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-67-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-0-0-0",
+                    "geometry": "move-extrude-circle-67-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -12531,6 +12531,63 @@
                 }
               ],
               "unionType": "Fusion"
+            },
+            {
+              "atomType": "RegularPolygon",
+              "x": 0.07961504811898514,
+              "y": 0.7641921397379913,
+              "uniqueID": "id-19209",
+              "ioValues": [
+                {
+                  "name": "number of sides",
+                  "ioValue": 3,
+                  "currentEquation": "3"
+                },
+                {
+                  "name": "diameter",
+                  "ioValue": 72
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.29658792650918636,
+              "y": 0.7794759825327511,
+              "uniqueID": "id-19213",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": -34
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.20559930008748908,
+              "y": 0.7685589519650655,
+              "uniqueID": "id-19219",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 2
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -12568,6 +12625,16 @@
               "ap2Name": "number or geometry",
               "ap1ID": "4b35fcea-b0e2-4e93-8618-d18c64103895",
               "ap2ID": 1749504411079
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-19209",
+              "ap2ID": "id-19219"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-19219",
+              "ap2ID": "id-19213"
             }
           ],
           "fileTypeVersion": 1
@@ -12850,8 +12917,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.24500434404865337,
-          "y": 0.6445497630331753,
+          "x": 0.24059492563429571,
+          "y": 0.6746724890829695,
           "uniqueID": "1c8eb2bb-2fca-471e-bd0e-4f32131dadef",
           "name": "PostHoles",
           "topLevel": false,
