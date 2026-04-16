@@ -212,7 +212,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40
+          "ioValue": 100
         },
         {
           "name": "zDist",
@@ -285,11 +285,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": -40
+          "ioValue": -40,
+          "currentEquation": "-40"
         },
         {
           "name": "zDist",
-          "ioValue": 44
+          "ioValue": 0
         }
       ]
     },
@@ -749,8 +750,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1277150304083406,
-      "y": 0.42417061611374407,
+      "x": 0.0778652668416448,
+      "y": 0.388646288209607,
       "uniqueID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
       "name": "ArmNewCapMotor",
       "ioValues": [
@@ -1309,8 +1310,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.4933962264150943,
-              "y": 0.21782178217821782,
+              "x": 0.5590551181102362,
+              "y": 0.21615720524017468,
               "uniqueID": "5ae7beb0-133d-4d91-9288-4c9aa5bcbb09",
               "ioValues": [
                 {
@@ -1333,8 +1334,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.4933962264150943,
-              "y": 0.3782178217821782,
+              "x": 0.5424321959755031,
+              "y": 0.38427947598253276,
               "uniqueID": "2e17f106-fe2f-475f-8812-9573ecc7b74b",
               "ioValues": [
                 {
@@ -1754,8 +1755,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.46132075471698114,
-              "y": 0.0905940594059406,
+              "x": 0.5511811023622047,
+              "y": 0.07860262008733625,
               "uniqueID": "8541beca-b20a-4f19-8e9d-46d33df68544",
               "ioValues": [
                 {
@@ -6821,8 +6822,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.13322091062394603,
-      "y": 0.566350710900474,
+      "x": 0.08048993875765528,
+      "y": 0.5458515283842794,
       "uniqueID": "a934612a-d486-4981-bc97-f07a3f599941",
       "name": "ArmNewCapSensor",
       "ioValues": [
@@ -19494,8 +19495,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.1714785651793526,
-      "y": 0.7379912663755458,
+      "x": 0.14610673665791776,
+      "y": 0.7510917030567686,
       "uniqueID": "id-25923",
       "ioValues": [
         {
@@ -19518,8 +19519,8 @@
     },
     {
       "atomType": "Color",
-      "x": 0.2537182852143482,
-      "y": 0.6965065502183406,
+      "x": 0.22309711286089237,
+      "y": 0.7161572052401747,
       "uniqueID": "id-25929",
       "ioValues": [
         {
@@ -19528,6 +19529,45 @@
         }
       ],
       "selectedColor": "Glass"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.18985126859142606,
+      "y": 0.2074235807860262,
+      "uniqueID": "id-25932",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Pink"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.16447944006999127,
+      "y": 0.5436681222707423,
+      "uniqueID": "id-25935",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Light Green"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.16360454943132108,
+      "y": 0.38427947598253276,
+      "uniqueID": "id-25938",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Lavender "
     }
   ],
   "allConnectors": [
@@ -19599,7 +19639,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "ec132fef-dfef-4f2a-9214-e864cce12db9",
-      "ap2ID": "id-1683"
+      "ap2ID": "id-25938"
     },
     {
       "ap2Name": "geometry",
@@ -19609,12 +19649,12 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "a934612a-d486-4981-bc97-f07a3f599941",
-      "ap2ID": "id-1689"
+      "ap2ID": "id-25935"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": 1749241083253,
-      "ap2ID": "id-1677"
+      "ap2ID": "id-25932"
     },
     {
       "ap2Name": "geometry",
@@ -19625,6 +19665,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-25929",
       "ap2ID": "id-1695"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-25932",
+      "ap2ID": "id-1677"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-25935",
+      "ap2ID": "id-1689"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-25938",
+      "ap2ID": "id-1683"
     }
   ],
   "unitsKey": "MM",
