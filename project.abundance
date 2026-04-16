@@ -19504,7 +19504,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 180
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
@@ -19515,6 +19515,19 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.2537182852143482,
+      "y": 0.6965065502183406,
+      "uniqueID": "id-25929",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Glass"
     }
   ],
   "allConnectors": [
@@ -19606,6 +19619,11 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-25923",
+      "ap2ID": "id-25929"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-25929",
       "ap2ID": "id-1695"
     }
   ],
