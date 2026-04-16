@@ -768,8 +768,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.2386172006745363,
-          "y": 0.6469194312796208,
+          "x": 0.23622047244094488,
+          "y": 0.6855895196506551,
           "uniqueID": 1749503726432,
           "ioValues": [
             {
@@ -2015,7 +2015,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "fuse-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-0-0-0-move-extrude-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-0",
+                "geometry": "fuse-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-0-0-0-move-extrude-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-0-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -2114,14 +2114,18 @@
                 "bom": [],
                 "nonReplicadSerialized": {}
               }
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
         },
         {
           "atomType": "Molecule",
-          "x": 0.0955690703735882,
-          "y": 0.6350710900473934,
+          "x": 0.09273840769903761,
+          "y": 0.7183406113537119,
           "uniqueID": 1749502519967,
           "name": "MotorHoles",
           "topLevel": false,
@@ -3586,7 +3590,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 6
+                  "ioValue": 4
                 }
               ]
             },
@@ -3675,7 +3679,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-0",
+                    "geometry": "move-extrude-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-0-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -8406,8 +8410,8 @@
             },
             {
               "atomType": "RegularPolygon",
-              "x": 0.06036745406824147,
-              "y": 0.8449781659388647,
+              "x": 0.05336832895888014,
+              "y": 0.8842794759825328,
               "uniqueID": "id-15189",
               "ioValues": [
                 {
@@ -8422,8 +8426,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.11898512685914261,
-              "y": 0.8318777292576419,
+              "x": 0.11723534558180226,
+              "y": 0.9170305676855895,
               "uniqueID": "id-15193",
               "ioValues": [
                 {
@@ -8914,8 +8918,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2484689413823272,
-          "y": 0.5043668122270742,
+          "x": 0.1373578302712161,
+          "y": 0.5240174672489083,
           "uniqueID": "id-13115",
           "name": "Connector",
           "topLevel": false,
@@ -9603,6 +9607,54 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.32808398950131235,
+          "y": 0.4737991266375546,
+          "uniqueID": "id-21301",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-21303",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.22134733158355205,
+              "y": 0.2925764192139738,
+              "uniqueID": "id-21305",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.2125984251968504,
+              "y": 0.482532751091703,
+              "uniqueID": "id-21308",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -9684,6 +9736,11 @@
         {
           "ap2Name": "Shape 7",
           "ap1ID": "id-13115",
+          "ap2ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93"
+        },
+        {
+          "ap2Name": "Shape 8",
+          "ap1ID": "id-21301",
           "ap2ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93"
         }
       ],
