@@ -213,12 +213,11 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": -40
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 20
         }
       ]
     },
@@ -266,7 +265,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -282,11 +282,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -40
         },
         {
           "name": "zDist",
