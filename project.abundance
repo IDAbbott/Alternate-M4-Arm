@@ -12083,8 +12083,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5471698113207547,
-          "y": 0.4653465346534653,
+          "x": 0.5520559930008749,
+          "y": 0.4716157205240175,
           "uniqueID": "6f74f347-5c07-4b85-b947-814ac1ffa277",
           "ioValues": [
             {
@@ -12099,8 +12099,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.709106239460371,
-          "y": 0.6184834123222749,
+          "x": 0.7147856517935258,
+          "y": 0.6397379912663755,
           "uniqueID": "e9a63554-9a8c-4246-a22c-941fe3e4a774",
           "ioValues": [
             {
@@ -12240,7 +12240,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "fuse-extrude-cut-circle-67-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-fuse-assemblyFuse-rotate-move-extrude-polysides-36-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-150-rotate-move-extrude-polysides-36-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-280-rotate-move-extrude-polysides-36-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-30-fuse-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-0-move-extrude-circle-67-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0-0-0",
+                "geometry": "fuse-extrude-cut-circle-67-circle-66-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-fuse-assemblyFuse-cut-cut-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-270-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-20-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-160-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-160-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-20-fuse-move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-0-move-extrude-circle-67-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -12534,7 +12534,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "cut-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-0-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-280",
+                        "geometry": "cut-cut-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-270-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-20-rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-160",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -12558,7 +12558,7 @@
                         "bom": []
                       },
                       {
-                        "geometry": "rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-280",
+                        "geometry": "rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-20",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -12582,7 +12582,7 @@
                         "bom": []
                       },
                       {
-                        "geometry": "rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-150",
+                        "geometry": "rotate-move-extrude-polysides-38-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0--40-1-0-0-160",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -12760,7 +12760,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 150
+                  "ioValue": 160
                 }
               ]
             },
@@ -12781,11 +12781,12 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 280
+                  "ioValue": 20
                 }
               ]
             },
@@ -12855,7 +12856,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 270
                 }
               ]
             }
