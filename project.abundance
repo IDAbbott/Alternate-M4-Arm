@@ -8993,8 +8993,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.22397200349956256,
-              "y": 0.42139737991266374,
+              "x": 0.22484689413823272,
+              "y": 0.40611353711790393,
               "uniqueID": "id-13153",
               "ioValues": [
                 {
@@ -9354,6 +9354,76 @@
               "resolution": 96,
               "importIndex": 0,
               "partName": "ConnectorTest"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.20822397200349957,
+              "y": 0.2663755458515284,
+              "uniqueID": "id-21282",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 40
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 40,
+                  "currentEquation": "40"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.3082239720034996,
+              "y": 0.2663755458515284,
+              "uniqueID": "id-21286",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 6
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.46281714785651795,
+              "y": 0.42139737991266374,
+              "uniqueID": "id-21290",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 20
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.5231846019247595,
+              "y": 0.24672489082969434,
+              "uniqueID": "id-21296",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -9363,9 +9433,9 @@
               "ap2ID": "id-13123"
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "Shape 1",
               "ap1ID": "id-13123",
-              "ap2ID": "id-13143"
+              "ap2ID": "id-21296"
             },
             {
               "ap2Name": "number or geometry",
@@ -9456,6 +9526,21 @@
               "ap2Name": "Shape 3",
               "ap1ID": "id-15114",
               "ap2ID": "id-15109"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-21282",
+              "ap2ID": "id-21286"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-21286",
+              "ap2ID": "id-21290"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-21290",
+              "ap2ID": "id-13143"
             }
           ],
           "fileTypeVersion": 1
