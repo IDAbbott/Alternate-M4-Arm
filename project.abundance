@@ -3573,7 +3573,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 12
                 }
               ]
             },
@@ -3589,7 +3589,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 7
+                  "ioValue": 9
                 }
               ]
             },
@@ -3653,7 +3653,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-0",
+                    "geometry": "move-extrude-circle-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-0-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -12668,8 +12668,7 @@
               "ioValues": [
                 {
                   "name": "number of sides",
-                  "ioValue": 3,
-                  "currentEquation": "3"
+                  "ioValue": 3
                 },
                 {
                   "name": "diameter",
@@ -12689,8 +12688,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
@@ -12698,8 +12696,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 1,
-                  "currentEquation": "1"
+                  "ioValue": 1
                 }
               ]
             },
@@ -12755,8 +12752,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
@@ -12776,13 +12772,11 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
@@ -12846,13 +12840,11 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
