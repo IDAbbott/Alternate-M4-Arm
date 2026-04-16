@@ -2117,7 +2117,30 @@
             },
             {
               "name": "Shape 8",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "extrude-cut-circle-66-circle-65.8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
@@ -9613,7 +9636,7 @@
           "x": 0.32808398950131235,
           "y": 0.4737991266375546,
           "uniqueID": "id-21301",
-          "name": "Molecule",
+          "name": "BaseWall",
           "topLevel": false,
           "allAtoms": [
             {
@@ -9630,30 +9653,100 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.22134733158355205,
-              "y": 0.2925764192139738,
+              "x": 0.12510936132983377,
+              "y": 0.20087336244541484,
               "uniqueID": "id-21305",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 132
                 }
               ]
             },
             {
               "atomType": "Circle",
-              "x": 0.2125984251968504,
-              "y": 0.482532751091703,
+              "x": 0.11986001749781279,
+              "y": 0.4563318777292576,
               "uniqueID": "id-21308",
               "ioValues": [
                 {
                   "name": "diameter",
+                  "ioValue": 131.6,
+                  "currentEquation": "131.6"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4610673665791776,
+              "y": 0.3187772925764192,
+              "uniqueID": "id-21311",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
                   "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.34820647419072615,
+              "y": 0.3406113537117904,
+              "uniqueID": "id-21315",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.12160979877515311,
+              "y": 0.6550218340611353,
+              "uniqueID": "id-21320",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 20
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 20
                 }
               ]
             }
           ],
-          "allConnectors": [],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-21305",
+              "ap2ID": "id-21315"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-21308",
+              "ap2ID": "id-21315"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-21311",
+              "ap2ID": "id-21303"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-21315",
+              "ap2ID": "id-21311"
+            }
+          ],
           "fileTypeVersion": 1
         }
       ],
