@@ -3102,13 +3102,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 71.3,
-                  "currentEquation": "71.3"
+                  "ioValue": 71.3
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
