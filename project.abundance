@@ -14558,7 +14558,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 128
+                  "ioValue": 127
                 }
               ]
             },
@@ -14574,7 +14574,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 12
+                  "ioValue": 14
                 }
               ]
             },
