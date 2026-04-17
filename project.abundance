@@ -921,8 +921,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.23443396226415092,
-          "y": 0.6277227722772277,
+          "x": 0.2563429571303587,
+          "y": 0.4934497816593887,
           "uniqueID": "cc8549b7-b3df-4576-95d5-3dd695c2945d",
           "ioValues": [
             {
@@ -942,36 +942,6 @@
               "ioValue": 180
             }
           ]
-        },
-        {
-          "atomType": "Export",
-          "x": 0.7891509433962265,
-          "y": 0.5326732673267327,
-          "uniqueID": "edb5a3e9-2815-4280-a75f-fc9abbe978ab",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STEP",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "ArmNewCapMotor",
-              "currentEquation": "ArmNewCapMotor"
-            }
-          ],
-          "type": "STEP",
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "ArmNewCapMotor"
         },
         {
           "atomType": "Fusion",
@@ -1088,8 +1058,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.39357080799304955,
-          "y": 0.6919431279620853,
+          "x": 0.41119860017497817,
+          "y": 0.4934497816593887,
           "uniqueID": "db5f5e7e-96a0-4e4f-a4ae-914ddde41ba7",
           "ioValues": [
             {
@@ -1223,157 +1193,6 @@
           "unionType": "Fusion"
         },
         {
-          "atomType": "Move",
-          "x": 0.35660377358490564,
-          "y": 0.7539603960396039,
-          "uniqueID": "id-25941",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": -71.3
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 9
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.1740566037735849,
-          "y": 0.7024752475247524,
-          "uniqueID": "id-25942",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 20.2
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.27311320754716983,
-          "y": 0.8707920792079208,
-          "uniqueID": "id-25943",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": -71.3
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 3
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.13632075471698113,
-          "y": 0.8509900990099009,
-          "uniqueID": "id-25944",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 25
-            }
-          ]
-        },
-        {
-          "atomType": "Loft",
-          "x": 0.6221784776902888,
-          "y": 0.8626637554585151,
-          "uniqueID": "id-25945",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-circle-12.5--71.3-0-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    3
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-circle-10.1--71.3-0-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    9
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": ""
-            }
-          ],
-          "closedSelection": 0
-        },
-        {
           "atomType": "Molecule",
           "x": 0.1433536055603823,
           "y": 0.1895734597156398,
@@ -1484,36 +1303,6 @@
                   "ioValue": null
                 }
               ]
-            },
-            {
-              "atomType": "Export",
-              "x": 0.7976190476190476,
-              "y": 0.6529284164859003,
-              "uniqueID": "665b5c21-1748-494a-9fdc-e2f1815d3abd",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "M4Hex",
-                  "currentEquation": "M4Hex"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "M4Hex"
             }
           ],
           "allConnectors": [
@@ -1541,11 +1330,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": 1749544134993,
               "ap2ID": 1749543856194
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": 1749544134993,
-              "ap2ID": "665b5c21-1748-494a-9fdc-e2f1815d3abd"
             }
           ],
           "fileTypeVersion": 1
@@ -2483,8 +2267,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1728931364031277,
-          "y": 0.8886255924170616,
+          "x": 0.08748906386701663,
+          "y": 0.6397379912663755,
           "uniqueID": "75452bd6-67f4-4f8f-baaa-377870346ef8",
           "name": "PostHoles",
           "ioValues": [
@@ -3284,8 +3068,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.09858490566037735,
-          "y": 0.6316831683168317,
+          "x": 0.07174103237095363,
+          "y": 0.49563318777292575,
           "uniqueID": "96305451-7ef1-4926-b35e-78892b61e2fd",
           "name": "MotorHoles",
           "topLevel": false,
@@ -3522,34 +3306,9 @@
           "ap2ID": "c8337e0a-c9da-4167-9e70-887261a8abf4"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "383a6334-e98b-44fb-86f6-aa157f26493d",
-          "ap2ID": "edb5a3e9-2815-4280-a75f-fc9abbe978ab"
-        },
-        {
           "ap2Name": "geometry2",
           "ap1ID": "db5f5e7e-96a0-4e4f-a4ae-914ddde41ba7",
           "ap2ID": "383a6334-e98b-44fb-86f6-aa157f26493d"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-25941",
-          "ap2ID": "id-25945"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-25942",
-          "ap2ID": "id-25941"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-25943",
-          "ap2ID": "id-25945"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-25944",
-          "ap2ID": "id-25943"
         },
         {
           "ap2Name": "Shape 3",
@@ -9704,8 +9463,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -10593,8 +10351,8 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.8009433962264151,
-          "y": 0.20198019801980197,
+          "x": 0.9300087489063866,
+          "y": 0.4716157205240175,
           "uniqueID": 1749241083956,
           "ioValues": [
             {
@@ -10666,36 +10424,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
-        },
-        {
-          "atomType": "Export",
-          "x": 0.7481132075471698,
-          "y": 0.6336633663366337,
-          "uniqueID": "ddcdd634-508e-41c1-b3cf-730e314d2460",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STEP",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "ArmNew",
-              "currentEquation": "ArmNew"
-            }
-          ],
-          "type": "STEP",
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "ArmNew"
         },
         {
           "atomType": "Fusion",
@@ -11295,36 +11023,6 @@
             }
           ],
           "unionType": "Fusion"
-        },
-        {
-          "atomType": "Export",
-          "x": 0.6258503401360545,
-          "y": 0.18655097613882865,
-          "uniqueID": "d5dd8db6-2243-4752-83e2-417f259b426f",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "SVG",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "ArmNew",
-              "currentEquation": "ArmNew"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "ArmNew"
         },
         {
           "atomType": "Fusion",
@@ -20025,11 +19723,6 @@
           "ap2ID": 1749241083956
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0",
-          "ap2ID": "ddcdd634-508e-41c1-b3cf-730e314d2460"
-        },
-        {
           "ap2Name": "geometry2",
           "ap1ID": "f9a11159-9bd9-448b-b687-28eec69b2c9c",
           "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
@@ -20038,11 +19731,6 @@
           "ap2Name": "geometry1",
           "ap1ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93",
           "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93",
-          "ap2ID": "d5dd8db6-2243-4752-83e2-417f259b426f"
         },
         {
           "ap2Name": "Shape 6",
