@@ -11680,7 +11680,7 @@
             {
               "name": "Shape 8",
               "ioValue": {
-                "geometry": "extrude-cut-cut-circle-66-cut-circle-64-move-rectangle-20-35--60-0-0-move-rectangle-20-35--60-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12",
+                "geometry": "extrude-cut-cut-circle-66-cut-circle-63.5-move-rectangle-20-35--60-0-0-move-rectangle-20-35--60-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
