@@ -1042,8 +1042,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5334905660377358,
-          "y": 0.45544554455445546,
+          "x": 0.5365507452093684,
+          "y": 0.4585152838427948,
           "uniqueID": "383a6334-e98b-44fb-86f6-aa157f26493d",
           "ioValues": [
             {
@@ -2243,8 +2243,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.08748906386701663,
-          "y": 0.6397379912663755,
+          "x": 0.0880056777856636,
+          "y": 0.6353711790393013,
           "uniqueID": "75452bd6-67f4-4f8f-baaa-377870346ef8",
           "name": "PostHoles",
           "ioValues": [
@@ -2331,11 +2331,12 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -71.3
+                  "ioValue": -88
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "zDist",
@@ -2798,7 +2799,7 @@
                 {
                   "name": "Shape 8",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-76-move-circle-20--71.3-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                    "geometry": "extrude-cut-circle-76-move-circle-20--88-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2827,8 +2828,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.8367924528301887,
-              "y": 0.36831683168316837,
+              "x": 0.8374733853797018,
+              "y": 0.3755458515283843,
               "uniqueID": "9498e657-053e-477c-9310-900a10b5a40a",
               "ioValues": [
                 {
@@ -2861,7 +2862,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "fuse-extrude-cut-circle-76-move-circle-20--71.3-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-fuse-fuse-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--66--25-5-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--66-25-5-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--95.4-0-5",
+                    "geometry": "fuse-extrude-cut-circle-76-move-circle-20--88-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-fuse-fuse-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--66--25-5-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--66-25-5-move-move-fuse-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-23-extrude-move-polysides-3.5-6-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--16--95.4-0-5",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -3250,6 +3251,18 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.08729595457771469,
+          "y": 0.8056768558951964,
+          "uniqueID": "id-39357",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
