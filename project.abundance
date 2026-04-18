@@ -11947,36 +11947,6 @@
                   "ioValue": null
                 }
               ]
-            },
-            {
-              "atomType": "Export",
-              "x": 0.7976190476190476,
-              "y": 0.6529284164859003,
-              "uniqueID": "665b5c21-1748-494a-9fdc-e2f1815d3abd",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "M4Hex",
-                  "currentEquation": "M4Hex"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "M4Hex"
             }
           ],
           "allConnectors": [
@@ -12014,11 +11984,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": 1749544134993,
               "ap2ID": 1749543856194
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": 1749544134993,
-              "ap2ID": "665b5c21-1748-494a-9fdc-e2f1815d3abd"
             }
           ],
           "fileTypeVersion": 1
