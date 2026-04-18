@@ -2530,8 +2530,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.7665094339622642,
-              "y": 0.45544554455445546,
+              "x": 0.7081128747795414,
+              "y": 0.4344978165938865,
               "uniqueID": "62581469-0c4a-494c-983d-7c71c08fe2bf",
               "ioValues": [
                 {
@@ -2647,8 +2647,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.8374733853797018,
-              "y": 0.3755458515283843,
+              "x": 0.8571428571428571,
+              "y": 0.46943231441048033,
               "uniqueID": "9498e657-053e-477c-9310-900a10b5a40a",
               "ioValues": [
                 {
@@ -3157,36 +3157,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
-        },
-        {
-          "atomType": "Export",
-          "x": 0.7147856517935258,
-          "y": 0.6397379912663755,
-          "uniqueID": "e9a63554-9a8c-4246-a22c-941fe3e4a774",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STEP",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "ArmNewCenterCap",
-              "currentEquation": "ArmNewCenterCap"
-            }
-          ],
-          "type": "STEP",
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "ArmNewCenterCap"
         },
         {
           "atomType": "Fusion",
@@ -4020,8 +3990,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.13237774030354132,
-          "y": 0.2890995260663507,
+          "x": 0.14109347442680775,
+          "y": 0.2663755458515284,
           "uniqueID": "99d1c152-1499-4167-83ad-112c16fbb362",
           "name": "M4Hex",
           "topLevel": false,
@@ -6678,11 +6648,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "6f74f347-5c07-4b85-b947-814ac1ffa277",
           "ap2ID": "92833919-856d-412a-8ef6-c9a2196e3aaf"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "6f74f347-5c07-4b85-b947-814ac1ffa277",
-          "ap2ID": "e9a63554-9a8c-4246-a22c-941fe3e4a774"
         },
         {
           "ap2Name": "geometry1",
@@ -10145,8 +10110,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.11461067366579178,
-      "y": 0.1834061135371179,
+      "x": 0.10670194003527338,
+      "y": 0.18777292576419216,
       "uniqueID": 1749241083253,
       "name": "ArmNew",
       "topLevel": false,
@@ -14913,7 +14878,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.05511811023622047,
+          "x": 0.05379188712522046,
           "y": 0.6375545851528384,
           "uniqueID": 1749502519967,
           "name": "MotorHoles",
@@ -15537,36 +15502,6 @@
               "unionType": "Fusion"
             },
             {
-              "atomType": "Export",
-              "x": 0.5960884353741497,
-              "y": 0.9023861171366595,
-              "uniqueID": "e8b022c0-ec3c-47b6-8927-29cc1e8068a4",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "MotorHoles",
-                  "currentEquation": "MotorHoles"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "MotorHoles"
-            },
-            {
               "atomType": "Circle",
               "x": 0.6301020408163265,
               "y": 0.06724511930585683,
@@ -15633,36 +15568,6 @@
                   "ioValue": 2
                 }
               ]
-            },
-            {
-              "atomType": "Export",
-              "x": 0.8036490008688097,
-              "y": 0.3981042654028436,
-              "uniqueID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "MotorHoles",
-                  "currentEquation": "MotorHoles"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "MotorHoles"
             },
             {
               "atomType": "Move",
@@ -16199,11 +16104,6 @@
               "ap2ID": 1749502724238
             },
             {
-              "ap2Name": "geometry",
-              "ap1ID": "9408d1b2-c646-4471-b74a-2e084da3de36",
-              "ap2ID": "e8b022c0-ec3c-47b6-8927-29cc1e8068a4"
-            },
-            {
               "ap2Name": "Shape 3",
               "ap1ID": "9408d1b2-c646-4471-b74a-2e084da3de36",
               "ap2ID": "a0dcf1b9-b940-4046-87e1-2702177e44f4"
@@ -16232,11 +16132,6 @@
               "ap2Name": "geometry1",
               "ap1ID": "3546d0e8-796b-4861-83c2-9cd42f944556",
               "ap2ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "b11394fe-82c1-4c14-83b1-2e0f852c6f05",
-              "ap2ID": "ff36bf9c-d754-48f6-a3e4-f3063cab0fa0"
             },
             {
               "ap2Name": "geometry",
@@ -16816,104 +16711,6 @@
               "unionType": "Fusion"
             },
             {
-              "atomType": "Export",
-              "x": 0.9217687074829932,
-              "y": 0.6919739696312364,
-              "uniqueID": "dbf4577d-3862-4ab9-8551-7cfe7b82c023",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "GuideHoles3",
-                  "currentEquation": "GuideHoles"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "GuideHoles"
-            },
-            {
-              "atomType": "Circle",
-              "x": 0.11129848229342328,
-              "y": 0.9597156398104264,
-              "uniqueID": "16ca3ae7-18f5-4b92-9b12-e2780b2bcc69",
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 55
-                }
-              ]
-            },
-            {
-              "atomType": "Extrude",
-              "x": 0.5328836424957841,
-              "y": 0.9549763033175357,
-              "uniqueID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 2
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.744047619047619,
-              "y": 0.8633405639913232,
-              "uniqueID": "a3409746-0792-414c-a496-04f8abc15755",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 90
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 6
-                }
-              ]
-            },
-            {
-              "atomType": "Difference",
-              "x": 0.8290816326530612,
-              "y": 0.7245119305856833,
-              "uniqueID": "202fcdc3-ef25-4ba8-899d-b907648b85ec",
-              "ioValues": [
-                {
-                  "name": "geometry1",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "geometry2",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
               "atomType": "Rotate",
               "x": 0.3543307086614173,
               "y": 0.6200873362445415,
@@ -17393,31 +17190,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "40011eca-e993-49c1-b8fd-9dd180e80711",
               "ap2ID": 1749532065056
-            },
-            {
-              "ap2Name": "geometry2",
-              "ap1ID": "40011eca-e993-49c1-b8fd-9dd180e80711",
-              "ap2ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "16ca3ae7-18f5-4b92-9b12-e2780b2bcc69",
-              "ap2ID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "2b26349c-3034-4aa3-bb90-fc4dd17dec70",
-              "ap2ID": "a3409746-0792-414c-a496-04f8abc15755"
-            },
-            {
-              "ap2Name": "geometry1",
-              "ap1ID": "a3409746-0792-414c-a496-04f8abc15755",
-              "ap2ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "202fcdc3-ef25-4ba8-899d-b907648b85ec",
-              "ap2ID": "dbf4577d-3862-4ab9-8551-7cfe7b82c023"
             },
             {
               "ap2Name": "geometry",
@@ -18907,36 +18679,6 @@
               ]
             },
             {
-              "atomType": "Export",
-              "x": 0.8407699037620296,
-              "y": 0.6965065502183406,
-              "uniqueID": "id-15121",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STEP"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "ConnectorTest",
-                  "currentEquation": "ConnectorTest"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "ConnectorTest"
-            },
-            {
               "atomType": "Rectangle",
               "x": 0.20822397200349957,
               "y": 0.2663755458515284,
@@ -19398,11 +19140,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-13134",
               "ap2ID": "id-13117"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-13134",
-              "ap2ID": "id-15121"
             },
             {
               "ap2Name": "geometry",
