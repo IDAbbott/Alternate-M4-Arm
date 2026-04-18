@@ -19293,6 +19293,186 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8800705467372135,
+      "y": 0.351528384279476,
+      "uniqueID": "id-39359",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.5590828924162258,
+      "y": 0.15502183406113537,
+      "uniqueID": "id-39364",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6225749559082893,
+      "y": 0.1812227074235808,
+      "uniqueID": "id-39369",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7072310405643739,
+      "y": 0.1703056768558952,
+      "uniqueID": "id-39374",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7954144620811286,
+      "y": 0.1834061135371179,
+      "uniqueID": "id-39379",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9003527336860669,
+      "y": 0.15065502183406113,
+      "uniqueID": "id-39384",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
     }
   ],
   "allConnectors": [
@@ -19302,9 +19482,19 @@
       "ap2ID": 1748908987871
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1665",
+      "ap2ID": "id-39359"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1677",
       "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1677",
+      "ap2ID": "id-39364"
     },
     {
       "ap2Name": "Shape 2",
@@ -19312,9 +19502,19 @@
       "ap2ID": "id-1665"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1683",
+      "ap2ID": "id-39369"
+    },
+    {
       "ap2Name": "Shape 3",
       "ap1ID": "id-1689",
       "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1689",
+      "ap2ID": "id-39374"
     },
     {
       "ap2Name": "Shape 4",
@@ -19322,9 +19522,19 @@
       "ap2ID": "id-1665"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1695",
+      "ap2ID": "id-39379"
+    },
+    {
       "ap2Name": "Shape 5",
       "ap1ID": "id-9274",
       "ap2ID": "id-1665"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-9274",
+      "ap2ID": "id-39384"
     },
     {
       "ap2Name": "geometry",
