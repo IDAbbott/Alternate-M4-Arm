@@ -19,126 +19,6 @@
       ]
     },
     {
-      "atomType": "Export",
-      "x": 0.3377077865266842,
-      "y": 0.13537117903930132,
-      "uniqueID": 1749552042495,
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "AltBase",
-          "currentEquation": "AltBase"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "AltBase"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.4846894138232721,
-      "y": 0.16521739130434784,
-      "uniqueID": "id-1650",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Cap_Motor",
-          "currentEquation": "Cap_Motor"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Cap_Motor"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.594925634295713,
-      "y": 0.15502183406113537,
-      "uniqueID": "id-1655",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Cap_sensor",
-          "currentEquation": "Cap_sensor"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Cap_sensor"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7006745362563238,
-      "y": 0.14928909952606634,
-      "uniqueID": "id-1660",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Centre_Cap",
-          "currentEquation": "Centre_Cap"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Centre_Cap"
-    },
-    {
       "atomType": "Assembly",
       "x": 0.6404199475065617,
       "y": 0.5521739130434783,
@@ -165,36 +45,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8783902012248468,
-      "y": 0.2,
-      "uniqueID": "id-1672",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
     },
     {
       "atomType": "Move",
@@ -315,36 +165,6 @@
           "ioValue": 0
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.48479582971329277,
-      "y": 0.8507109004739336,
-      "uniqueID": "id-9281",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "SensorWasher",
-          "currentEquation": "SensorWasher"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "SensorWasher"
     },
     {
       "atomType": "Rotate",
@@ -2315,8 +2135,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 40,
-                  "currentEquation": "40"
+                  "ioValue": 40
                 }
               ]
             },
@@ -2336,8 +2155,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -6555,8 +6373,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -6728,8 +6545,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 5,
-                  "currentEquation": "5"
+                  "ioValue": 5
                 },
                 {
                   "name": "y length",
@@ -19784,24 +19600,9 @@
       "ap2ID": 1748908987871
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1665",
-      "ap2ID": "id-1672"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1677",
-      "ap2ID": 1749552042495
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1677",
       "ap2ID": "id-1665"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1683",
-      "ap2ID": "id-1650"
     },
     {
       "ap2Name": "Shape 2",
@@ -19809,19 +19610,9 @@
       "ap2ID": "id-1665"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1689",
-      "ap2ID": "id-1655"
-    },
-    {
       "ap2Name": "Shape 3",
       "ap1ID": "id-1689",
       "ap2ID": "id-1665"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1695",
-      "ap2ID": "id-1660"
     },
     {
       "ap2Name": "Shape 4",
@@ -19832,11 +19623,6 @@
       "ap2Name": "Shape 5",
       "ap1ID": "id-9274",
       "ap2ID": "id-1665"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-9274",
-      "ap2ID": "id-9281"
     },
     {
       "ap2Name": "geometry",
