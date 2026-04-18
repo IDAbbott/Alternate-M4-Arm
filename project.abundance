@@ -6725,11 +6725,12 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 5
+                  "ioValue": 5,
+                  "currentEquation": "5"
                 },
                 {
                   "name": "y length",
-                  "ioValue": 30
+                  "ioValue": 32
                 }
               ]
             },
@@ -6749,12 +6750,11 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 3
                 }
               ]
             }
