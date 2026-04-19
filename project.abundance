@@ -243,6 +243,186 @@
       "selectedColor": "Lavender "
     },
     {
+      "atomType": "Export",
+      "x": 0.5097001763668431,
+      "y": 0.1593886462882096,
+      "uniqueID": "id-39364",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Base",
+          "currentEquation": "Base"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Base"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6296296296296297,
+      "y": 0.148471615720524,
+      "uniqueID": "id-39369",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Motor Cap",
+          "currentEquation": "Motor Cap"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Motor Cap"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7072310405643739,
+      "y": 0.1703056768558952,
+      "uniqueID": "id-39374",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Sensor Cap",
+          "currentEquation": "Sensor Cap"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Sensor Cap"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7971781305114639,
+      "y": 0.15065502183406113,
+      "uniqueID": "id-39379",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Spool Cap",
+          "currentEquation": "Spool Cap"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Spool Cap"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9003527336860669,
+      "y": 0.15065502183406113,
+      "uniqueID": "id-39384",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Motor/Sensor Washer",
+          "currentEquation": "Motor/Sensor Washer"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Motor/Sensor Washer"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8236331569664903,
+      "y": 0.7183406113537119,
+      "uniqueID": "id-39389",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Alternate-M4-Arm",
+          "currentEquation": "Alternate-M4-Arm"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Alternate-M4-Arm"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.13987836663770634,
       "y": 0.881516587677725,
@@ -825,7 +1005,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "fuse-fuse-extrude-fuse-rotate-move-rectangle-4-20--66--5-0-0-0--10-rotate-move-rectangle-4-20-66--5-0-0-0-190-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-fuse-fuse-fuse-fuse-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--66--25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--66-25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--77-25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--77--25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--95-0-0-loft-move-circle-12.5--71.3-0-0-move-circle-10.1--71.3-0-0-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,9],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+                "geometry": "fuse-fuse-extrude-fuse-rotate-move-rectangle-4-20--66--5-0-0-0--10-rotate-move-rectangle-4-20-66--5-0-0-0-190-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-fuse-fuse-fuse-fuse-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--66--25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--66-25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--77-25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--77--25-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3--95-0-0-loft-move-circle-12.5--71.3-0-0-move-circle-10.1--71.3-0-0-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -1347,11 +1527,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 9
+                  "ioValue": 10
                 }
               ]
             },
@@ -1538,7 +1719,7 @@
                 {
                   "name": "Shape 14",
                   "ioValue": {
-                    "geometry": "loft-move-circle-12.5--71.3-0-0-move-circle-10.1--71.3-0-0-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,9],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+                    "geometry": "loft-move-circle-12.5--71.3-0-0-move-circle-10.1--71.3-0-0-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,10],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1887,7 +2068,7 @@
                       "origin": [
                         0,
                         0,
-                        9
+                        10
                       ],
                       "xDir": [
                         1,
@@ -2063,8 +2244,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.0880056777856636,
-          "y": 0.6353711790393013,
+          "x": 0.07577092511013216,
+          "y": 0.6266375545851528,
           "uniqueID": "75452bd6-67f4-4f8f-baaa-377870346ef8",
           "name": "PostHoles",
           "ioValues": [
@@ -2277,8 +2458,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.31981132075471697,
-              "y": 0.35841584158415846,
+              "x": 0.31718061674008813,
+              "y": 0.3624454148471616,
               "uniqueID": "648192b7-7017-456e-b676-5657a7192870",
               "ioValues": [
                 {
@@ -19293,186 +19474,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.5097001763668431,
-      "y": 0.1593886462882096,
-      "uniqueID": "id-39364",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Base",
-          "currentEquation": "Base"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Base"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.6296296296296297,
-      "y": 0.148471615720524,
-      "uniqueID": "id-39369",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Motor Cap",
-          "currentEquation": "Motor Cap"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Motor Cap"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7072310405643739,
-      "y": 0.1703056768558952,
-      "uniqueID": "id-39374",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Sensor Cap",
-          "currentEquation": "Sensor Cap"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Sensor Cap"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7971781305114639,
-      "y": 0.15065502183406113,
-      "uniqueID": "id-39379",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Spool Cap",
-          "currentEquation": "Spool Cap"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Spool Cap"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.9003527336860669,
-      "y": 0.15065502183406113,
-      "uniqueID": "id-39384",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Motor/Sensor Washer",
-          "currentEquation": "Motor/Sensor Washer"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Motor/Sensor Washer"
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8236331569664903,
-      "y": 0.7183406113537119,
-      "uniqueID": "id-39389",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
     }
   ],
   "allConnectors": [
