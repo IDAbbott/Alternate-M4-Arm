@@ -19315,14 +19315,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
+          "ioValue": "Base",
+          "currentEquation": "Base"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
+      "partName": "Base"
     },
     {
       "atomType": "Export",
@@ -19345,14 +19345,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
+          "ioValue": "Motor Cap",
+          "currentEquation": "Motor Cap"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
+      "partName": "Motor Cap"
     },
     {
       "atomType": "Export",
@@ -19375,19 +19375,19 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
+          "ioValue": "Sensor Cap",
+          "currentEquation": "Sensor Cap"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
+      "partName": "Sensor Cap"
     },
     {
       "atomType": "Export",
-      "x": 0.7954144620811286,
-      "y": 0.1834061135371179,
+      "x": 0.7971781305114639,
+      "y": 0.15065502183406113,
       "uniqueID": "id-39379",
       "ioValues": [
         {
@@ -19405,20 +19405,50 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Alternate-M4-Arm",
-          "currentEquation": "Alternate-M4-Arm"
+          "ioValue": "Spool Cap",
+          "currentEquation": "Spool Cap"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Alternate-M4-Arm"
+      "partName": "Spool Cap"
     },
     {
       "atomType": "Export",
       "x": 0.9003527336860669,
       "y": 0.15065502183406113,
       "uniqueID": "id-39384",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Motor/Sensor Washer",
+          "currentEquation": "Motor/Sensor Washer"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Motor/Sensor Washer"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8236331569664903,
+      "y": 0.7183406113537119,
+      "uniqueID": "id-39389",
       "ioValues": [
         {
           "name": "geometry",
@@ -19450,6 +19480,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1665",
       "ap2ID": 1748908987871
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1665",
+      "ap2ID": "id-39389"
     },
     {
       "ap2Name": "Shape 1",
