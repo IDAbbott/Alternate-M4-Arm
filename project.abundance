@@ -10878,6 +10878,26 @@
           "unionType": "Fusion"
         },
         {
+          "atomType": "Assembly",
+          "x": 0.4019873532068654,
+          "y": 0.6804878048780487,
+          "uniqueID": "id-54870",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
           "atomType": "Molecule",
           "x": 0.16982836495031617,
           "y": 0.16341463414634144,
@@ -18468,26 +18488,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.4019873532068654,
-          "y": 0.6804878048780487,
-          "uniqueID": "id-54870",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -18509,6 +18509,11 @@
         {
           "ap2Name": "geometry1",
           "ap1ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93",
+          "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-54870",
           "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
         },
         {
@@ -18560,11 +18565,6 @@
           "ap2Name": "Shape 7",
           "ap1ID": "id-13115",
           "ap2ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-54870",
-          "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
         }
       ],
       "fileTypeVersion": 1
